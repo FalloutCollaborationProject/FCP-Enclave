@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Enclave ___-->
+
+    <!--__ Adults __-->
+
+    <!-- Enclave Politician -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Politician</defName>
+        <identifier>FCP_Enclave_Politician</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Politician</title>
+        <titleShort>Enclave Politician</titleShort>
+        <description>As most people within the Enclave, [PAWN_nameDef] was raised to believe that all beings that dwelt in the wasteland were mutated and genetically inferior. [PAWN_pronoun] however, took these lessons more to heart than others and so [PAWN_pronoun] became a politician in the enclave, to advocate for the “cleansing” of the wasteland so that, one day, the last unmutated humans could reclaim the land that is rightfully theirs and finally rebuild the nation that once was.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artsitic>5</Artsitic>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Leader</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Foot Soldier -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Foot_Soldier</defName>
+        <identifier>FCP_Enclave_Foot_Soldier</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Foot Soldier</title>
+        <titleShort>Enclave Foot Soldier</titleShort>
+        <description>[PAWN_nameDef] was a rank-and-file soldier within the Enclave. Of course, rank-and-file in this case meant [PAWN_pronoun] was an excellently trained fighter, equipped with some of the finest equipment of post-war America and instilled with nothing but scorn and disdain for the average wastelander and all other inhabitants of the wasteland, mutated or not.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>1</Melee>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Indentured Labourer -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Indentured_Labourer</defName>
+        <identifier>FCP_Enclave_Indentured_Labourer</identifier>
+        <slot>Adulthood</slot>
+        <title>Indentured Labourer</title>
+        <titleShort>Indentured Labourer</titleShort>
+        <description>Once an ordinary wastelander [PAWN_nameDef], wandered around until that fateful day when [PAWN_pronoun] walked right into an Enclave patrol. The heavily armed soldiers clad in pitch-black power armour told [PAWN_objective] that the country needed [PAWN_possessive] service. [PAWN_nameDef] had no idea what that meant, but before [PAWN_pronoun] could react, [PAWN_pronoun] was knocked unconscious and dragged away, to serve as a labourer for the Enclave, fulfilling all kinds of menial work for [PAWN_possessive] new masters.</description>
+        <skillGains>
+            <Construction>5</Construction>
+            <Mining>1</Mining>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>Artistic, Caring, Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Worker</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Bureaucrat -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Bureaucrat</defName>
+        <identifier>FCP_Enclave_Bureaucrat</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Bureaucrat</title>
+        <titleShort>Enclave Bureaucrat</titleShort>
+        <description>While the Enclave’s bureaucracy was considerably smaller compared to the one of her old-world pendant, it still needed numerous bureaucrats to tend to the copious amounts of paperwork that accumulated over the years. [PAWN_nameDef] was one of those faceless paper pushers and spent most of [PAWN_possessive] life in cramped offices and dusty conference rooms. While [PAWN_nameDef], was an efficient and competent clerk, [PAWN_pronoun] was rather solitary.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring, Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Secret Service Agent -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Secret_Service_Agent</defName>
+        <identifier>FCP_Enclave_Secret_Service_Agent</identifier>
+        <slot>Adulthood</slot>
+        <title>Secret Service Agent</title>
+        <titleShort>Secret Service Agent</titleShort>
+        <description>Nominally, the secret service is still tasked with the protection of the president of the United States. However, most Enclave presidents used them as elite troops, charged with the most pressing matters of national security. [PAWN_nameDef] was part of this elite troop. [PAWN_pronoun] was a perfectly trained killing machine, with a total lack of empathy only concerned with the fulfilment of the president’s orders. Even other Enclave members shuddered at [PAWN_possessive] cold, calculating personality.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>Social, Cleaning</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Secret_Service</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Biologist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Biologist</defName>
+        <identifier>FCP_Enclave_Biologist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Biologist</title>
+        <titleShort>Enclave Biologist</titleShort>
+        <description>The Enclave was very concerned with the exposure of their members to the almost omnipresent radiation of the wasteland. As such, they were careful what their members consumed. [PAWN_nameDef] was tasked with growing the necessary foodstuffs for the Enclave. While people in the wasteland couldn’t be too picky about what they ate, [PAWN_pronoun] generally preferred to grow corn and other non-mutated crops of the pre-war world, instead of their mutated successors, like tatos.</description>
+        <skillGains>
+            <Construction>4</Construction>
+            <Plants>6</Plants>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Propagandist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Propagandist</defName>
+        <identifier>FCP_Enclave_Propagandist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Propagandist</title>
+        <titleShort>Enclave Propagandist</titleShort>
+        <description>While the Enclave generally didn’t look favourably upon the other inhabitants of the Wasteland, they had to grudgingly accept that they were useful at times. To keep the wastelanders (mis-)informed about the Enclave’s intents, [PAWN_nameDef] was instructed to write Propaganda material and distribute it in settlements surrounding the Enclave’s outpost.</description>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Indentured Farmer -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Indentured_Farmer</defName>
+        <identifier>FCP_Enclave_Indentured_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>Indentured Farmer</title>
+        <titleShort>Indentured Farmer</titleShort>
+        <description>[PAWN_nameDef] once was a regular farmer, but [PAWN_possessive] life changed the day [PAWN_possessive] humble farmstead was visited by a man in a trench coat and his entourage of armoured brutes. It did not take much intimidation to “persuade” [PAWN_nameDef] to serve [PAWN_possessive] country and deliver the produce of the farmstead to a nearby Enclave outpost.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Cooking>2</Cooking>
+            <Plants>4</Plants>
+            <Animals>4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Worker</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Indentured Servant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Indentured Servant</defName>
+        <identifier>FCP_Enclave_Indentured Servant</identifier>
+        <slot>Adulthood</slot>
+        <title>Indentured Servant</title>
+        <titleShort>Indentured Servant</titleShort>
+        <description>Many tasks were just beneath the higher-ranking members of the Enclave. [PAWN_nameDef] was abducted by an Enclave patrol to handle some of these tasks. [PAWN_pronoun] was not only put to work as a custodian but was also responsible for negotiations with wastelanders in those rare cases, where the Enclave did not resort to violence to achieve her goals as well as supervising the indentured labourers and similar tasks the officers didn’t want to besmirch themselves with.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Cooking>2</Cooking>
+            <Social>5</Social>
+        </skillGains>
+        <workDisables>Crafting</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Worker</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Zoologist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Zoologist</defName>
+        <identifier>FCP_Enclave_Zoologist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Zoologist</title>
+        <titleShort>Enclave Zoologist</titleShort>
+        <description>The Enclave was always interested in the mutated wildlife that dwelled in the wasteland. However, their intentions were less based on scientific curiosity and more on the desire to weaponize the horrific beasts roaming the irradiated landscape. [PAWN_nameDef] was a zoologist with the Enclave and conducted cruel experiments on many different beasts to test their suitability for combat, as well as methods to control them. While [PAWN_pronoun] was a respected scientist, [PAWN_pronoun] also showed sadistic tendencies and was avoided by most other Enclave members.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>4</Melee>
+            <Animals>6</Animals>
+            <Social>-5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Tesla Soldier -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Tesla Soldier</defName>
+        <identifier>FCP_Enclave_Tesla Soldier</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Tesla Soldier</title>
+        <titleShort>Enclave Tesla Soldier</titleShort>
+        <description>[PAWN_nameDef] was a tesla soldier with the Enclave. As the name suggests, these elite troopers are known and feared for their advanced tesla power armour and their prowess with heavy plasma weaponry. Lucky for the inhabitants of the wasteland, [PAWN_nameDef] and the tesla soldiers [PAWN_pronoun] belonged to were a rather rare sight, deployed only against the Enclave’s most stubborn and dangerous enemies.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Crafting>3</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+            <li>FCP_Enclave_Tesla_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Hellfire Trooper -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Hellfire_Trooper</defName>
+        <identifier>FCP_Enclave_Hellfire_Trooper</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Hellfire Trooper</title>
+        <titleShort>Enclave Hellfire Trooper</titleShort>
+        <description>[PAWN_nameDef] was with the Enclave hellfire troopers, an elite group of Enclave soldiers equipped with experimental hellfire power armour and heavy napalm throwers called incinerators. Due to [PAWN_possessive] yearlong service with the hellfire troopers [PAWN_nameDef] developed a rather… unwholesome fascination with fire, especially when it was brought in contact with living beings.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+            <Crafting>1</Crafting>
+            <Social>-4</Social>
+        </skillGains>
+        <workDisables>Firefighting</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+            <li>FCP_Enclave_Hellfire_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Physician -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Physician</defName>
+        <identifier>FCP_Enclave_Physician</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Physician</title>
+        <titleShort>Enclave Physician</titleShort>
+        <description>The Enclave had a number of highly-trained physicians, whose primary task was to tend to important personnel like officers or high-ranking politicians. [PAWN_nameDef] was one of those physicians. [PAWN_pronoun] lacked the distinctive contempt most other Enclave members felt for the inhabitants of the wasteland, a character trait that often put [PAWN_objective] at odds with [PAWN_possessive] superiors.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Medicine>7</Medicine>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Warden -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Warden</defName>
+        <identifier>FCP_Enclave_Warden</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Warden</title>
+        <titleShort>Enclave Warden</titleShort>
+        <description>While most wastelanders were more of a nuisance to the Enclave than an actual threat, there were some culprits that caused more trouble. [PAWN_nameDef] was a warden with the Enclave and [PAWN_possessive] job was to look after the unfortunate prisoners of the Enclave, as well as to extract all important information from them, even if they weren’t in possession of such knowledge. As soon as [PAWN_possessive] superiors thought they gained all useful information from a prisoner, it was up to [PAWN_nameDef] execute them, which [PAWN_pronoun] often did in a grisly manner.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>7</Melee>
+            <Crafting>1</Crafting>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Officer -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Officer</defName>
+        <identifier>FCP_Enclave_Officer</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Officer</title>
+        <titleShort>Enclave Officer</titleShort>
+        <description>[PAWN_nameDef] was an officer of the Enclave department of the army. [PAWN_pronoun] truly believed in the Enclave’s mission to rebuild the USA and was eager to do [PAWN_possessive] part to implement this vision. While [PAWN_pronoun] was a skilled soldier, [PAWN_possessive] true talent lay in motivating [PAWN_possessive] subordinates.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>-4</Melee>
+            <Artistic>2</Artistic>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Cooking, Animals</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Leader</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Arsenal Specialist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Arsenal Specialist</defName>
+        <identifier>FCP_Enclave_Arsenal_Specialist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Arsenal Specialist</title>
+        <titleShort>Enclave Arsenal Specialist</titleShort>
+        <description>The Enclave’s high-tech gear needed a lot of maintenance to remain in pristine condition. [PAWN_nameDef] was an Enclave arsenal specialist. [PAWN_possessive] job was to repair the advanced power armour of the Enclave’s Troopers, as well as their high-tech plasma and laser weapons. There were very few communities in the wasteland that were capable of crafting such marvels of technology and the [PAWN_nameDef] zealously guarded these secrets.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Crafting>8</Crafting>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+            <li>FCP_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--__ Children __-->
+
+    <!-- Conscripted Adjutant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Conscripted_Adjutant</defName>
+        <identifier>FCP_Enclave_Conscripted_Adjutant</identifier>
+        <slot>Childhood</slot>
+        <title>Conscripted Adjutant</title>
+        <titleShort>Conscripted Adjutant</titleShort>
+        <description>The Enclave never was a particularly numerous group and was, consequentially often short on staff. [PAWN_nameDef] grew up within the lower ranks of the Enclave and was conscripted into service at a young age. [PAWN_pronoun] worked as an adjutant for an Enclave officer. [PAWN_possessive] supervisor wasn’t a particularly friendly person, but [PAWN_nameDef] learned a lot about the day-to-day duties of a military officer and remembered these lessons well.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Crafting>1</Crafting>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Lab Assistant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Lab_Assistant</defName>
+        <identifier>FCP_Enclave_Lab_Assistant</identifier>
+        <slot>Childhood</slot>
+        <title>Lab Assistant</title>
+        <titleShort>Lab Assistant</titleShort>
+        <description>[PAWN_nameDef] showed great promise while being educated within the Enclave and was subsequently made a lab assistant. There [PAWN_pronoun] learned much about many scientific fields such as chemistry, physics, and biology from some of the brightest, albeit not very ethical minds of the Wasteland.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>Mining</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Kidnapped Servant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Kidnapped_Servant</defName>
+        <identifier>FCP_Enclave_Kidnapped_Servant</identifier>
+        <slot>Childhood</slot>
+        <title>Kidnapped Servant</title>
+        <titleShort>Kidnapped Servant</titleShort>
+        <description>Every once in a while, the Enclave would scour the Wasteland in search of new “workers”. While the patrols preferred to abduct adults, they weren’t opposed to capturing children. [PAWN_nameDef] was one of those unfortunate kids. While [PAWN_pronoun] was generally looked down upon most other members of the Enclave, it was possible, although unlikely for [PAWN_objective] to rise up to higher ranks within the organisation.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>1</Mining>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Entitled Scion -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Entitled_Scion</defName>
+        <identifier>FCP_Enclave_Entitled_Scion</identifier>
+        <slot>Childhood</slot>
+        <title>Entitled Scion</title>
+        <titleShort>Entitled Scion</titleShort>
+        <description>[PAWN_nameDef] was born into the highest echelons of Enclave society. [PAWN_pronoun] was used to underlings taking care of [PAWN_possessive] every need and whim, while [PAWN_pronoun] trained and studied for a career in the leading positions of the Enclave.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Cooking</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Levied Recruit -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Levied_Recruit</defName>
+        <identifier>FCP_Enclave_Levied_Recruit</identifier>
+        <slot>Childhood</slot>
+        <title>Levied Recruit</title>
+        <titleShort>Levied Recruit</titleShort>
+        <description>The skills of the Enclave’s soldiers was the result of years of strenuous training under the supervision of remorseless drill sergeants. Due to a shortage of able recruits, [PAWN_nameDef] was levied into service as a child and spent most of [PAWN_possessive] youth in barracks and on training fields. This made [PAWN_objective] a great warrior indeed, but left little time for anything else, since the Enclave did not exactly promote creative thinking within the rank and file.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>Intellectual, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Junior Civil Servant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Junior_Civil_Servant</defName>
+        <identifier>FCP_Enclave_Junior_Civil_Servant</identifier>
+        <slot>Childhood</slot>
+        <title>Junior Civil Servant</title>
+        <titleShort>Junior Civil Servant</titleShort>
+        <description>After finishing basic education [PAWN_nameDef] was assigned to serve within the byzantine bureaucracy of the Enclave, which ensured the functionality of the organisation. The institution’s focus on ruthless efficiency made [PAWN_objective] cold and unkind.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>1</Artistic>
+            <Social>-4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Peacekeeper in Training -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Peacekeeper_in_Training</defName>
+        <identifier>FCP_Enclave_Peacekeeper_in_Training</identifier>
+        <slot>Childhood</slot>
+        <title>Peacekeeper in Training</title>
+        <titleShort>Peacekeeper in Training</titleShort>
+        <description>The highly stratified society of the Enclave demanded absolute obedience from its citizenry. As an especially loyal child [PAWN_nameDef] was accepted into the ranks of the Enclave Peacekeeping Force, where [PAWN_pronoun] quickly learned how to ensure peace and order, especially within the conscripted masses of forced labourers, usually by means of a cattle prod.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>4</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>PlantWork</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Engineer Trainee -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Engineer_Trainee</defName>
+        <identifier>FCP_Enclave_Engineer_Trainee</identifier>
+        <slot>Childhood</slot>
+        <title>Engineer Trainee</title>
+        <titleShort>Engineer Trainee</titleShort>
+        <description>The complex machinery the Enclave depended upon needed near constant supervision and maintenance. This meant that skilled engineers were always needed and children with a knack for machinery, such as [PAWN_nameDef] were put into training in their early youth.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>3</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Cleaning</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Compassionate Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Compassionate_Child</defName>
+        <identifier>FCP_Enclave_Compassionate_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Compassionate Child</title>
+        <titleShort>Compassionate Child</titleShort>
+        <description>Unusual for a child raised in the Enclave, [PAWN_nameDef] showed compassion and mercy on other creatures, even those deemed lower by fellow Enclave members. These character traits made life within the organisation difficult for [PAWN_objective] and [PAWN_pronoun] distanced [PAWN_objective]self from most others.</description>
+        <skillGains>
+            <Animals>3</Animals>
+            <Artistic>4</Artistic>
+            <Medicine>2</Medicine>
+            <Social>-4</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Peacekeeper in Training -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Peacekeeper_in_Training</defName>
+        <identifier>FCP_Enclave_Peacekeeper_in_Training</identifier>
+        <slot>Childhood</slot>
+        <title>Peacekeeper in Training</title>
+        <titleShort>Peacekeeper in Training</titleShort>
+        <description>The highly stratified society of the Enclave demanded absolute obedience from its citizenry. As an especially loyal child [PAWN_nameDef] was accepted into the ranks of the Enclave Peacekeeping Force, where [PAWN_pronoun] quickly learned how to ensure peace and order, especially within the conscripted masses of forced labourers, usually by means of a cattle prod.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+            <Mining>8</Mining>
+            <Cooking>-4</Cooking>
+            <Crafting>8</Crafting>
+            <Animals>3</Animals>
+            <Plants>3</Plants>
+            <Artistic>3</Artistic>
+            <Medicine>-4</Medicine>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Peacekeeper in Training -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Peacekeeper_in_Training</defName>
+        <identifier>FCP_Enclave_Peacekeeper_in_Training</identifier>
+        <slot>Childhood</slot>
+        <title>Peacekeeper in Training</title>
+        <titleShort>Peacekeeper in Training</titleShort>
+        <description>The highly stratified society of the Enclave demanded absolute obedience from its citizenry. As an especially loyal child [PAWN_nameDef] was accepted into the ranks of the Enclave Peacekeeping Force, where [PAWN_pronoun] quickly learned how to ensure peace and order, especially within the conscripted masses of forced labourers, usually by means of a cattle prod.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+            <Mining>8</Mining>
+            <Cooking>-4</Cooking>
+            <Crafting>8</Crafting>
+            <Animals>3</Animals>
+            <Plants>3</Plants>
+            <Artistic>3</Artistic>
+            <Medicine>-4</Medicine>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+</Defs>

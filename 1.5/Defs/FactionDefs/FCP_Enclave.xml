@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Factions __________-->
+
+    <!-- Reilly's Rangers -->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_Enclave</defName>
+        <label>Old World Government</label>
+        <description>.</description>
+        <colorSpectrum>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <pawnSingular>Constituent</pawnSingular>
+        <pawnsPlural>Constituents</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.2</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>President</leaderTitle>
+        <factionIconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <fixedName>The Enclave</fixedName>
+        <settlementNameMaker>FCP_Namer_Settlement_Enclave</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_Culture_Enclave</li>
+        </allowedCultures>
+
+        <!--__________ Ideology __________-->
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Manifest Destiny</ideoName>
+        <ideoDescription>.</ideoDescription>
+        <styles>
+            <li>FCP_Style_Enclave</li>
+        </styles>
+        <forcedMemes>
+            <!-- Structure -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_EnclaveManifestDestiny</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <!--__________ Biotech __________-->
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Enclave</li>
+                    <li>FCP_Enclave_Child</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <!--__________ Kinds __________-->
+
+        <!-- Base Trader Kinds -->
+
+        <!-- Trader Kind Arrival Options -->
+
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>FCP_EnclaveRaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Group Makers __________-->
+
+        <pawnGroupMakers>
+
+            <!-- Enclave Trooper Squad -->
+
+            <li>
+                <!-- Normal fights, Encalve Troopers non power armor -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Enclave_Trooper>10</FCP_Enclave_Trooper>
+                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
+                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                </options>
+            </li>
+
+            <!-- Enclave X-01/APA Squad -->
+
+            <li>
+                <!-- Normal fights, Encalve Troopers X-01/APA power armor -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Enclave_X01_APA_Trooper>10</FCP_Enclave_X01_APA_Trooper>
+                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                </options>
+            </li>
+
+            <!-- Enclave X-02, Tesla, Hellfire Squad -->
+
+            <li>
+                <!-- Normal fights, Encalve Troopers X-02, tesla, hellfire power armor -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Enclave_X02_Trooper>10</FCP_Enclave_X02_Trooper>
+                    <FCP_Enclave_X02_Tesla_Trooper>5</FCP_Enclave_X02_Tesla_Trooper>
+                    <FCP_Enclave_X02_Hellfire_Trooper>3</FCP_Enclave_X02_Hellfire_Trooper>
+                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
+                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                </options>
+            </li>
+
+            <!-- Enclave Peaceful -->
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <FCP_Enclave_Trooper>14</FCP_Enclave_Trooper>
+                    <FCP_Enclave_X01_APA_Trooper>10</FCP_Enclave_X01_APA_Trooper>
+                    <FCP_Enclave_X02_Trooper>5</FCP_Enclave_X02_Trooper>
+                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
+                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                </options>
+            </li>
+
+            <!--__________ Enclave Traders __________-->
+            
+            <!-- Pre-War Goods Trader -->
+
+            <!-- <li Class="FCP.Core.GroupMakerWithTraderKind">
+                <kindDef>Trader</kindDef>
+                <traderKinds>
+                    <li>FCP_Caravan_Pre_War_Goods_Trader</li>
+                </traderKinds>
+                <traders>
+                    <FCP_Enclave_Crimson_Caravan_Trader>1</FCP_Enclave_Crimson_Caravan_Trader>
+                </traders>
+                <carriers>
+                    <FCP_Animal_Brahmin>2</FCP_Animal_Brahmin>
+                </carriers>
+                <guards>
+                    <FCP_Armored_Wastelander_Combat_Armor>5</FCP_Armored_Wastelander_Combat_Armor>
+                </guards>
+            </li> -->
+
+            <!-- Enclave Settlement -->
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <FCP_Enclave_Scientist>10</FCP_Enclave_Scientist>
+                    <FCP_Enclave_Trooper>14</FCP_Enclave_Trooper>
+                    <FCP_Enclave_X01_APA_Trooper>10</FCP_Enclave_X01_APA_Trooper>
+                    <FCP_Enclave_X02_Trooper>5</FCP_Enclave_X02_Trooper>
+                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
+                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <modExtensions Inherit="False">
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_Enclave</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Constituent</memberName>
+                <adjective>Manifest Destiny</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                </roleOverrides>
+            </li>
+            <!-- Enlistment stuff -->
+            <li Class="FCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>FCP_Enlistment_Enclave</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+    <ThingSetMakerDef>
+        <defName>FCP_EnclaveRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                        <li>MedicineIndustrial</li>
+                        <li>ComponentIndustrial</li>
+                        <li>MealSurvivalPack</li>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>
