@@ -65,7 +65,7 @@
 
     <StyleCategoryDef>
         <defName>FCP_Style_Enclave</defName>
-        <label>Commonwealth Enclave</label>
+        <label>Enclave</label>
         <iconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</iconPath>
         <!-- <soundOngoingRitual></soundOngoingRitual> -->
         <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
