@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Enclave ___-->
+
+    <!--__ Characters __-->
+
+    <!-- President Richardson Sr -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_President_Richardson_Sr</defName>
+        <identifier>FCP_Enclave_President_Richardson_Sr</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave President</title>
+        <titleShort>President</titleShort>
+        <description>President Dick Richardson was the authoritative leader of the Enclave during its most ambitious and ruthless era. A man of unwavering conviction, Richardson believed it was his destiny to restore America to its former glory, no matter the cost. Under his rule, the Enclave pursued radical plans to "purify" the wasteland, showing little mercy to those deemed impure. Richardson's charisma, political cunning, and iron will made him both a visionary and a tyrant, feared and respected by all within the Enclave.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>7</Intellectual>
+            <Shooting>1</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <workDisables>ManualDumb, Violent</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_President_Richardson_Sr</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- President Dick Richardson -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_President_Richardson_Jr</defName>
+        <identifier>FCP_Enclave_President_Richardson_Jr</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave President</title>
+        <titleShort>President</titleShort>
+        <description>President Dick Richardson Jr. inherited the mantle of leadership from his father, determined to continue the Enclave’s mission of restoring America. Charismatic and fiercely intelligent, Richardson Jr. was both a skilled politician and a shrewd strategist. He sought to modernize the Enclave’s approach, blending his father’s uncompromising vision with a more pragmatic outlook. Under his rule, the Enclave remained a formidable force, feared by its enemies and respected by its followers.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>1</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <workDisables>ManualDumb, Violent</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_President_Richardson_Jr</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Vice President Bird -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Vice_President_Bird</defName>
+        <identifier>FCP_Enclave_Vice_President_Bird</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Vice President</title>
+        <titleShort>Vice President</titleShort>
+        <description>Vice President Daniel Bird served as the Enclave’s second-in-command, overseeing the organization’s internal affairs and maintaining strict order among its ranks. Known for his bureaucratic efficiency and unwavering loyalty to the Enclave’s cause, Bird was a master of political maneuvering and administration. Though less charismatic than the President, his meticulous attention to detail and ability to enforce discipline made him indispensable to the Enclave’s leadership.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>7</Intellectual>
+            <Crafting>2</Crafting>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>ManualDumb, Violent</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Vice_President_Bird</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Arcade Ganon Sr -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Arcade_Gannon_Sr</defName>
+        <identifier>FCP_Enclave_Arcade_Gannon_Sr</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Scientist</title>
+        <titleShort>Scientist</titleShort>
+        <description>Arcade Gannon Sr. was a brilliant scientist within the Enclave, renowned for his expertise in medicine and advanced technology. Dedicated to the pursuit of knowledge, he contributed to many of the Enclave’s most ambitious research projects. Though loyal to the organization, Gannon Sr. was known for his ethical convictions, often questioning the morality of the Enclave’s more ruthless policies. His legacy would later influence his son, Arcade Gannon, to seek a different path.</description>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Intellectual>7</Intellectual>
+            <Crafting>3</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Violent, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Arcade_Gannon_Sr</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Dr. Schreber -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Dr_Schreber</defName>
+        <identifier>FCP_Enclave_Dr_Schreber</identifier>
+        <slot>Adulthood</slot>
+        <title>Head Physician</title>
+        <titleShort>Physician</titleShort>
+        <description>Dr. Schreber was the Enclave’s head physician and chief geneticist at the Navarro outpost, overseeing advanced medical research and experimental genetic projects. Renowned for his expertise in medicine and genetics, Schreber led the organization’s most ambitious efforts to improve and preserve human purity. His analytical mind and willingness to push ethical boundaries made him both respected and controversial among his peers.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Medicine>8</Medicine>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Violent, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Dr_Schreber</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Dr. Henry -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Dr_Henry</defName>
+        <identifier>FCP_Enclave_Dr_Henry</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Scientist</title>
+        <titleShort>Scientist</titleShort>
+        <description>Dr. Henry was a talented scientist within the Enclave, specializing in genetics and biological research. Known for his intelligence and curiosity, Henry contributed to several key projects before eventually leaving the organization due to ethical concerns. His work left a lasting impact on the Enclave’s scientific community, and his expertise in advanced biology was highly respected among his peers.</description>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Medicine>6</Medicine>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Violent, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Dr_Henry</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Dr. Charles Curling -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Dr_Charles_Curling</defName>
+        <identifier>FCP_Enclave_Dr_Charles_Curling</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Scientist</title>
+        <titleShort>Scientist</titleShort>
+        <description>Dr. Charles Curling was a leading scientist within the Enclave, specializing in advanced biological and chemical research. Known for his intellect and methodical approach, Curling contributed to several high-profile projects aimed at furthering the Enclave’s goals. His expertise in genetics and biochemistry made him a key figure in the organization’s scientific community, though his work often raised ethical questions even among his peers.</description>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Medicine>5</Medicine>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Violent, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Dr_Charles_Curling</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Anna Holt -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Anna_Holt</defName>
+        <identifier>FCP_Enclave_Anna_Holt</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Botanist</title>
+        <titleShort>Botanist</titleShort>
+        <description>Anna Holt was a botanist working under Dr. Li within the Enclave, assisting with the cultivation and study of pre-war plant strains. Diligent and knowledgeable, Holt contributed to the team’s research efforts, helping to ensure a steady supply of uncontaminated crops for the outpost. Though not a leading scientist, her work was valued by her colleagues and vital to the Enclave’s agricultural projects.</description>
+        <skillGains>
+            <Plants>6</Plants>
+            <Intellectual>4</Intellectual>
+            <Medicine>2</Medicine>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>Violent, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Anna_Holt</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Tom Murray -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Tom_Murray</defName>
+        <identifier>FCP_Enclave_Tom_Murray</identifier>
+        <slot>Adulthood</slot>
+        <title>Atomic Energy Commissioner</title>
+        <titleShort>Commissioner</titleShort>
+        <description>Tom Murray served as the head of the Enclave’s Atomic Energy Commission, overseeing all nuclear research and power generation for the organization. Renowned for his expertise in atomic science and his meticulous attention to safety, Murray was responsible for maintaining the Enclave’s reactors and advancing their nuclear technology. His leadership was crucial to the Enclave’s ambitions for energy independence and technological superiority.</description>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Crafting>4</Crafting>
+            <Medicine>2</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Violent, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Tom_Murray</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Vertibird Mechanic Raul -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Raul</defName>
+        <identifier>FCP_Enclave_Raul</identifier>
+        <slot>Adulthood</slot>
+        <title>Vertibird Mechanic</title>
+        <titleShort>Mechanic</titleShort>
+        <description>Raul was renowned as Navarro outpost’s premier Vertibird mechanic, responsible for keeping the Enclave’s fleet of advanced aircraft in top condition. His deep knowledge of pre-war technology and tireless work ethic ensured that Vertibirds were always ready for critical missions. Raul’s expertise and dedication made him an invaluable asset to the Enclave’s operations at Navarro.</description>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Construction>5</Construction>
+            <Intellectual>3</Intellectual>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Raul</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Mechanic Quincy -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Mechanic_Quincy</defName>
+        <identifier>FCP_Enclave_Mechanic_Quincy</identifier>
+        <slot>Adulthood</slot>
+        <title>Chief Mechanic</title>
+        <titleShort>Mechanic</titleShort>
+        <description>Quincy was the head of the Navarro outpost’s technical crew, responsible for maintaining the Enclave’s advanced vehicles, power armor, and vital machinery. Renowned for technical expertise and quick problem-solving, Quincy kept the outpost running smoothly even under pressure. His leadership and hands-on skill made him indispensable to the Enclave’s operations at Navarro.</description>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Construction>5</Construction>
+            <Intellectual>3</Intellectual>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Mechanic_Quincy</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Daisy Whitman -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Daisy_Whitman</defName>
+        <identifier>FCP_Enclave_Daisy_Whitman</identifier>
+        <slot>Adulthood</slot>
+        <title>Vertibird Pilot</title>
+        <titleShort>Pilot</titleShort>
+        <description>Daisy Whitman was a skilled Vertibird pilot for the Enclave, renowned for her steady nerves and expert flying. Responsible for transporting personnel and executing critical missions, Daisy’s calm demeanor and technical prowess made her a trusted member of the Navarro outpost. Her experience with advanced aircraft and dedication to her crew earned her respect among both pilots and soldiers alike.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Intellectual>4</Intellectual>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Daisy_Whitman</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Stiggs -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Stiggs</defName>
+        <identifier>FCP_Enclave_Stiggs</identifier>
+        <slot>Adulthood</slot>
+        <title>Robotics Repairman</title>
+        <titleShort>Repairman</titleShort>
+        <description>Stiggs was a skilled repairman stationed at Adams Air Force Base, specializing in the maintenance and repair of the Enclave’s advanced robotics. His expertise kept vital machines and security bots operational, ensuring the Enclave’s technological superiority on the battlefield. Known for his resourcefulness and technical acumen, Stiggs was indispensable to the smooth operation of the Enclave’s automated forces.</description>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Intellectual>5</Intellectual>
+            <Construction>4</Construction>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Stiggs</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Cookie -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Cookie</defName>
+        <identifier>FCP_Enclave_Cookie</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Cook</title>
+        <titleShort>Cook</titleShort>
+        <description>Cookie was the Enclave’s dedicated cook, responsible for preparing meals for the personnel at the outpost. Known for resourcefulness and the ability to make even the most basic rations palatable, Cookie’s presence was a welcome comfort in the otherwise harsh and disciplined environment. Though not a combatant, Cookie’s skills kept morale high and stomachs full.</description>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Plants>3</Plants>
+            <Social>2</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>Violent, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Cookie</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Guard Snookie -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Guard_Snookie</defName>
+        <identifier>FCP_Enclave_Guard_Snookie</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Guard</title>
+        <titleShort>Guard</titleShort>
+        <description>Guard Snookie served as a vigilant protector within the Enclave, known for unwavering attention to duty and a no-nonsense attitude. Tasked with securing sensitive areas and enforcing strict protocols, Snookie was respected for reliability and a calm presence even during tense situations. Though not one to seek the spotlight, Snookie’s steadfastness made them a trusted member of the Enclave’s security forces.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Construction>2</Construction>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Guard_Snookie</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- J. Smith -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_J_Smith</defName>
+        <identifier>FCP_Enclave_J_Smith</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Technician</title>
+        <titleShort>Technician</titleShort>
+        <description>J. Smith was a skilled technician within the Enclave, responsible for maintaining and repairing the advanced technology that powered the organization’s operations. Known for a methodical approach and quiet efficiency, Smith ensured that vital systems remained operational even under the harshest conditions. Though not often in the spotlight, Smith’s expertise was indispensable to the Enclave’s continued survival and technological superiority.</description>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>4</Intellectual>
+            <Construction>3</Construction>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_J_Smith</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Special Agent Frank Horrigan -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Frank_Horrigan</defName>
+        <identifier>FCP_Enclave_Frank_Horrigan</identifier>
+        <slot>Adulthood</slot>
+        <title>Special Agent</title>
+        <titleShort>Agent</titleShort>
+        <description>Frank Horrigan was the Enclave’s most feared special agent, a towering figure enhanced by advanced genetic engineering and power armor. Tasked with eliminating the Enclave’s greatest threats, Horrigan was relentless, brutal, and utterly loyal to his superiors. His reputation for violence and his near-invulnerability made him a living weapon, deployed only for the most critical and dangerous missions.</description>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>10</Melee>
+            <Social>-6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Caring, Artistic</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Frank_Horrigan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Sergeant Granite -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Sergeant_Granite</defName>
+        <identifier>FCP_Enclave_Sergeant_Granite</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Sergeant</title>
+        <titleShort>Sergeant</titleShort>
+        <description>Sergeant Granite was the steadfast leader of the Enclave's elite assault team. Known for his courage and tactical sense, Granite led his squad through some of the most dangerous missions faced by the Enclave. His unwavering loyalty, calm under fire, and willingness to question questionable orders earned him the respect of his men and a reputation for integrity even among his superiors.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Sergeant_Granite</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Sergeant Bracks -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Sergeant_Bracks</defName>
+        <identifier>FCP_Enclave_Sergeant_Bracks</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Sergeant</title>
+        <titleShort>Sergeant</titleShort>
+        <description>Sergeant Bracks was a loyal non-commissioned officer in the Enclave, known for his reliability and steady leadership on the battlefield. Tasked with maintaining discipline and morale among the troops, Bracks led by example, earning the respect of both his superiors and subordinates. Though not as outspoken as some of his peers, his dedication to the Enclave’s cause and his unwavering sense of duty made him a dependable presence during even the most dangerous operations.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>3</Melee>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Sergeant_Bracks</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Sergeant Dornan -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Sergeant_Dornan</defName>
+        <identifier>FCP_Enclave_Sergeant_Dornan</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Drill Sergeant</title>
+        <titleShort>Drill Sergeant</titleShort>
+        <description>Sergeant Arch Dornan was the Enclave's infamous drill instructor, feared and respected by all who served under him. Known for his booming voice, relentless discipline, and absolute intolerance for insubordination, Dornan forged raw recruits into hardened soldiers through sheer force of will. His loyalty to the Enclave was matched only by his contempt for "mutants" and his unyielding enforcement of military protocol. Dornan's presence alone was enough to keep even the most unruly troopers in line.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Sergeant_Dornan</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Officer Orion Moreno -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Orion_Moreno</defName>
+        <identifier>FCP_Enclave_Orion_Moreno</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Officer</title>
+        <titleShort>Officer</titleShort>
+        <description>Orion Moreno was a fiercely loyal Enclave officer, renowned for his unwavering dedication to the organization’s ideals and his uncompromising approach to command. Moreno’s strict discipline and belief in the Enclave’s mission made him both respected and feared among his peers. He played a key role in enforcing the Enclave’s authority, never hesitating to carry out orders, no matter how difficult or controversial.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Orion_Moreno</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Lieutenant Williams -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Lieutenant_Williams</defName>
+        <identifier>FCP_Enclave_Lieutenant_Williams</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Lieutenant</title>
+        <titleShort>Lieutenant</titleShort>
+        <description>Lieutenant Williams was a dedicated officer in the Enclave, known for his professionalism and commitment to duty. Tasked with overseeing squads and coordinating operations, Williams balanced strict discipline with a pragmatic approach to leadership. His reliability and tactical sense earned him the respect of both his superiors and the soldiers under his command.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Lieutenant_Williams</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Lieutenant Brian Richter -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Lieutenant_Richter</defName>
+        <identifier>FCP_Enclave_Lieutenant_Richter</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Lieutenant</title>
+        <titleShort>Lieutenant</titleShort>
+        <description>Lieutenant Brian Richter was a field officer in the Enclave, recognized for his unwavering loyalty and tactical skill in combat. Unlike Williams, Richter specialized in leading squads on high-risk missions, often at the front lines. His courage under fire and ability to adapt quickly to changing battlefield conditions made him a respected leader among his troops, especially during critical operations where quick thinking was essential.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Lieutenant_Richter</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Captain A. Ron Myers -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Captain_Myers</defName>
+        <identifier>FCP_Enclave_Captain_Myers</identifier>
+        <slot>Adulthood</slot>
+        <title>Valdez Captain</title>
+        <titleShort>Captain</titleShort>
+        <description>Captain A. Ron Myers commanded the Poseidon Marine Vessel Valdez, the Enclave’s formidable oil tanker and mobile base. A seasoned naval officer, Myers was known for his steady leadership and deep loyalty to the Enclave’s mission. He oversaw the Valdez’s operations with discipline and precision, ensuring the vessel remained a secure and efficient hub for Enclave activity on the West Coast.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Social>5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Captain_Myers</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Captain Kreger -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Captain_Kreger</defName>
+        <identifier>FCP_Enclave_Captain_Kreger</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Captain</title>
+        <titleShort>Captain</titleShort>
+        <description>Captain Judah Kreger was a respected officer within the Enclave, known for his unwavering sense of duty and tactical acumen. Tasked with leading critical missions, Kreger balanced strict adherence to Enclave doctrine with a pragmatic approach to command. His leadership inspired loyalty among his troops, and his reputation for fairness set him apart from many of his peers. Kreger’s commitment to the Enclave’s cause was matched only by his determination to see his men through the harshest of battles.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+            <Social>5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Captain_Kreger</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Captain Pickard -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Captain_Pickard</defName>
+        <identifier>FCP_Enclave_Captain_Pickard</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Captain</title>
+        <titleShort>Captain</titleShort>
+        <description>Captain Pickard was a dedicated officer of the Enclave, known for his professionalism and unwavering loyalty to the chain of command. Tasked with overseeing critical operations, Pickard balanced strict discipline with a sense of duty to his men. Though not as ruthless as some of his superiors, he was committed to the Enclave’s mission and carried out his orders with precision and resolve, earning the respect of both his peers and subordinates.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+            <Social>5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Captain_Pickard</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Colonel Autumn Sr -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Colonel_Autumn_Senior</defName>
+        <identifier>FCP_Enclave_Colonel_Autumn_Senior</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Colonel</title>
+        <titleShort>Colonel</titleShort>
+        <description>Colonel Autumn Senior was a high-ranking officer of the Enclave and the father of Augustus Autumn. Known for his unwavering loyalty to the Enclave and its vision of restoring America, Autumn Sr. was instrumental in shaping the organization’s ruthless doctrine and policies. His strict discipline, strategic mind, and intolerance for failure set the standard for future generations of Enclave officers. Autumn Sr. raised his son to embody the ideals of the old world, instilling in him a sense of duty, ambition, and the belief that the Enclave alone could reclaim civilization from the ashes of the wasteland.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>3</Melee>
+            <Social>5</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Colonel_Autumn_Sr</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Colonel Autumn -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Colonel_Autumn</defName>
+        <identifier>FCP_Enclave_Colonel_Autumn</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Colonel</title>
+        <titleShort>Colonel</titleShort>
+        <description>Augustus Autumn rose through the ranks of the Enclave to become a legendary officer, renowned for his unwavering discipline, tactical brilliance, and ruthless efficiency. As a key architect of the Enclave’s military operations in the Capital Wasteland, Autumn balanced loyalty to the old world’s ideals with a pragmatic approach to leadership, earning both fear and respect from subordinates and adversaries alike.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>2</Melee>
+            <Social>6</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Colonel_Autumn</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--__ Adults __-->
+
+    <!-- Enclave Politician -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Politician</defName>
+        <identifier>FCP_Enclave_Politician</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Politician</title>
+        <titleShort>Enclave Politician</titleShort>
+        <description>As most people within the Enclave, [PAWN_nameDef] was raised to believe that all beings that dwelt in the wasteland were mutated and genetically inferior. [PAWN_pronoun] however, took these lessons more to heart than others and so [PAWN_pronoun] became a politician in the enclave, to advocate for the “cleansing” of the wasteland so that, one day, the last unmutated humans could reclaim the land that is rightfully theirs and finally rebuild the nation that once was.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artsitic>5</Artsitic>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Leader</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Foot Soldier -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Foot_Soldier</defName>
+        <identifier>FCP_Enclave_Foot_Soldier</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Foot Soldier</title>
+        <titleShort>Enclave Foot Soldier</titleShort>
+        <description>[PAWN_nameDef] was a rank-and-file soldier within the Enclave. Of course, rank-and-file in this case meant [PAWN_pronoun] was an excellently trained fighter, equipped with some of the finest equipment of post-war America and instilled with nothing but scorn and disdain for the average wastelander and all other inhabitants of the wasteland, mutated or not.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>1</Melee>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Indentured Labourer -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Indentured_Labourer</defName>
+        <identifier>FCP_Enclave_Indentured_Labourer</identifier>
+        <slot>Adulthood</slot>
+        <title>Indentured Labourer</title>
+        <titleShort>Indentured Labourer</titleShort>
+        <description>Once an ordinary wastelander [PAWN_nameDef], wandered around until that fateful day when [PAWN_pronoun] walked right into an Enclave patrol. The heavily armed soldiers clad in pitch-black power armour told [PAWN_objective] that the country needed [PAWN_possessive] service. [PAWN_nameDef] had no idea what that meant, but before [PAWN_pronoun] could react, [PAWN_pronoun] was knocked unconscious and dragged away, to serve as a labourer for the Enclave, fulfilling all kinds of menial work for [PAWN_possessive] new masters.</description>
+        <skillGains>
+            <Construction>5</Construction>
+            <Mining>1</Mining>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>Artistic, Caring, Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Worker</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Bureaucrat -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Bureaucrat</defName>
+        <identifier>FCP_Enclave_Bureaucrat</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Bureaucrat</title>
+        <titleShort>Enclave Bureaucrat</titleShort>
+        <description>While the Enclave’s bureaucracy was considerably smaller compared to the one of her old-world pendant, it still needed numerous bureaucrats to tend to the copious amounts of paperwork that accumulated over the years. [PAWN_nameDef] was one of those faceless paper pushers and spent most of [PAWN_possessive] life in cramped offices and dusty conference rooms. While [PAWN_nameDef], was an efficient and competent clerk, [PAWN_pronoun] was rather solitary.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>Artistic, Caring, Intellectual</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Secret Service Agent -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Secret_Service_Agent</defName>
+        <identifier>FCP_Enclave_Secret_Service_Agent</identifier>
+        <slot>Adulthood</slot>
+        <title>Secret Service Agent</title>
+        <titleShort>Secret Service Agent</titleShort>
+        <description>Nominally, the secret service is still tasked with the protection of the president of the United States. However, most Enclave presidents used them as elite troops, charged with the most pressing matters of national security. [PAWN_nameDef] was part of this elite troop. [PAWN_pronoun] was a perfectly trained killing machine, with a total lack of empathy only concerned with the fulfilment of the president’s orders. Even other Enclave members shuddered at [PAWN_possessive] cold, calculating personality.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>Social, Cleaning</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Secret_Service</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Biologist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Biologist</defName>
+        <identifier>FCP_Enclave_Biologist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Biologist</title>
+        <titleShort>Enclave Biologist</titleShort>
+        <description>The Enclave was very concerned with the exposure of their members to the almost omnipresent radiation of the wasteland. As such, they were careful what their members consumed. [PAWN_nameDef] was tasked with growing the necessary foodstuffs for the Enclave. While people in the wasteland couldn’t be too picky about what they ate, [PAWN_pronoun] generally preferred to grow corn and other non-mutated crops of the pre-war world, instead of their mutated successors, like tatos.</description>
+        <skillGains>
+            <Construction>4</Construction>
+            <Plants>6</Plants>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Propagandist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Propagandist</defName>
+        <identifier>FCP_Enclave_Propagandist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Propagandist</title>
+        <titleShort>Enclave Propagandist</titleShort>
+        <description>While the Enclave generally didn’t look favourably upon the other inhabitants of the Wasteland, they had to grudgingly accept that they were useful at times. To keep the wastelanders (mis-)informed about the Enclave’s intents, [PAWN_nameDef] was instructed to write Propaganda material and distribute it in settlements surrounding the Enclave’s outpost.</description>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+        </spawnCategories>
+        <bodyTypeFemale>Male</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Indentured Farmer -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Indentured_Farmer</defName>
+        <identifier>FCP_Enclave_Indentured_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>Indentured Farmer</title>
+        <titleShort>Indentured Farmer</titleShort>
+        <description>[PAWN_nameDef] once was a regular farmer, but [PAWN_possessive] life changed the day [PAWN_possessive] humble farmstead was visited by a man in a trench coat and his entourage of armoured brutes. It did not take much intimidation to “persuade” [PAWN_nameDef] to serve [PAWN_possessive] country and deliver the produce of the farmstead to a nearby Enclave outpost.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Cooking>2</Cooking>
+            <Plants>4</Plants>
+            <Animals>4</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Worker</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Indentured Servant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Indentured Servant</defName>
+        <identifier>FCP_Enclave_Indentured Servant</identifier>
+        <slot>Adulthood</slot>
+        <title>Indentured Servant</title>
+        <titleShort>Indentured Servant</titleShort>
+        <description>Many tasks were just beneath the higher-ranking members of the Enclave. [PAWN_nameDef] was abducted by an Enclave patrol to handle some of these tasks. [PAWN_pronoun] was not only put to work as a custodian but was also responsible for negotiations with wastelanders in those rare cases, where the Enclave did not resort to violence to achieve her goals as well as supervising the indentured labourers and similar tasks the officers didn’t want to besmirch themselves with.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Cooking>2</Cooking>
+            <Social>5</Social>
+        </skillGains>
+        <workDisables>Crafting</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Worker</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Zoologist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Zoologist</defName>
+        <identifier>FCP_Enclave_Zoologist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Zoologist</title>
+        <titleShort>Enclave Zoologist</titleShort>
+        <description>The Enclave was always interested in the mutated wildlife that dwelled in the wasteland. However, their intentions were less based on scientific curiosity and more on the desire to weaponize the horrific beasts roaming the irradiated landscape. [PAWN_nameDef] was a zoologist with the Enclave and conducted cruel experiments on many different beasts to test their suitability for combat, as well as methods to control them. While [PAWN_pronoun] was a respected scientist, [PAWN_pronoun] also showed sadistic tendencies and was avoided by most other Enclave members.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>4</Melee>
+            <Animals>6</Animals>
+            <Social>-5</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Tesla Soldier -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Tesla Soldier</defName>
+        <identifier>FCP_Enclave_Tesla Soldier</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Tesla Soldier</title>
+        <titleShort>Enclave Tesla Soldier</titleShort>
+        <description>[PAWN_nameDef] was a tesla soldier with the Enclave. As the name suggests, these elite troopers are known and feared for their advanced tesla power armour and their prowess with heavy plasma weaponry. Lucky for the inhabitants of the wasteland, [PAWN_nameDef] and the tesla soldiers [PAWN_pronoun] belonged to were a rather rare sight, deployed only against the Enclave’s most stubborn and dangerous enemies.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Crafting>3</Crafting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+            <li>FCP_Enclave_Tesla_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Hellfire Trooper -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Hellfire_Trooper</defName>
+        <identifier>FCP_Enclave_Hellfire_Trooper</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Hellfire Trooper</title>
+        <titleShort>Enclave Hellfire Trooper</titleShort>
+        <description>[PAWN_nameDef] was with the Enclave hellfire troopers, an elite group of Enclave soldiers equipped with experimental hellfire power armour and heavy napalm throwers called incinerators. Due to [PAWN_possessive] yearlong service with the hellfire troopers [PAWN_nameDef] developed a rather… unwholesome fascination with fire, especially when it was brought in contact with living beings.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+            <Crafting>1</Crafting>
+            <Social>-4</Social>
+        </skillGains>
+        <workDisables>Firefighting</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+            <li>FCP_Enclave_Hellfire_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Physician -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Physician</defName>
+        <identifier>FCP_Enclave_Physician</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Physician</title>
+        <titleShort>Enclave Physician</titleShort>
+        <description>The Enclave had a number of highly-trained physicians, whose primary task was to tend to important personnel like officers or high-ranking politicians. [PAWN_nameDef] was one of those physicians. [PAWN_pronoun] lacked the distinctive contempt most other Enclave members felt for the inhabitants of the wasteland, a character trait that often put [PAWN_objective] at odds with [PAWN_possessive] superiors.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Medicine>7</Medicine>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+        </spawnCategories>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Warden -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Warden</defName>
+        <identifier>FCP_Enclave_Warden</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Warden</title>
+        <titleShort>Enclave Warden</titleShort>
+        <description>While most wastelanders were more of a nuisance to the Enclave than an actual threat, there were some culprits that caused more trouble. [PAWN_nameDef] was a warden with the Enclave and [PAWN_possessive] job was to look after the unfortunate prisoners of the Enclave, as well as to extract all important information from them, even if they weren’t in possession of such knowledge. As soon as [PAWN_possessive] superiors thought they gained all useful information from a prisoner, it was up to [PAWN_nameDef] execute them, which [PAWN_pronoun] often did in a grisly manner.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>7</Melee>
+            <Crafting>1</Crafting>
+            <Social>4</Social>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Officer -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Officer</defName>
+        <identifier>FCP_Enclave_Officer</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Officer</title>
+        <titleShort>Enclave Officer</titleShort>
+        <description>[PAWN_nameDef] was an officer of the Enclave department of the army. [PAWN_pronoun] truly believed in the Enclave’s mission to rebuild the USA and was eager to do [PAWN_possessive] part to implement this vision. While [PAWN_pronoun] was a skilled soldier, [PAWN_possessive] true talent lay in motivating [PAWN_possessive] subordinates.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>-4</Melee>
+            <Artistic>2</Artistic>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Cooking, Animals</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Leader</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Arsenal Specialist -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Arsenal Specialist</defName>
+        <identifier>FCP_Enclave_Arsenal_Specialist</identifier>
+        <slot>Adulthood</slot>
+        <title>Enclave Arsenal Specialist</title>
+        <titleShort>Enclave Arsenal Specialist</titleShort>
+        <description>The Enclave’s high-tech gear needed a lot of maintenance to remain in pristine condition. [PAWN_nameDef] was an Enclave arsenal specialist. [PAWN_possessive] job was to repair the advanced power armour of the Enclave’s Troopers, as well as their high-tech plasma and laser weapons. There were very few communities in the wasteland that were capable of crafting such marvels of technology and the [PAWN_nameDef] zealously guarded these secrets.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Crafting>8</Crafting>
+            <Social>-4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Enclave_Scientist</li>
+            <li>FCP_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--__ Children __-->
+
+    <!-- Conscripted Adjutant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Conscripted_Adjutant</defName>
+        <identifier>FCP_Enclave_Conscripted_Adjutant</identifier>
+        <slot>Childhood</slot>
+        <title>Conscripted Adjutant</title>
+        <titleShort>Conscripted Adjutant</titleShort>
+        <description>The Enclave never was a particularly numerous group and was, consequentially often short on staff. [PAWN_nameDef] grew up within the lower ranks of the Enclave and was conscripted into service at a young age. [PAWN_pronoun] worked as an adjutant for an Enclave officer. [PAWN_possessive] supervisor wasn’t a particularly friendly person, but [PAWN_nameDef] learned a lot about the day-to-day duties of a military officer and remembered these lessons well.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Crafting>1</Crafting>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Lab Assistant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Lab_Assistant</defName>
+        <identifier>FCP_Enclave_Lab_Assistant</identifier>
+        <slot>Childhood</slot>
+        <title>Lab Assistant</title>
+        <titleShort>Lab Assistant</titleShort>
+        <description>[PAWN_nameDef] showed great promise while being educated within the Enclave and was subsequently made a lab assistant. There [PAWN_pronoun] learned much about many scientific fields such as chemistry, physics, and biology from some of the brightest, albeit not very ethical minds of the Wasteland.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>Mining</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Kidnapped Servant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Kidnapped_Servant</defName>
+        <identifier>FCP_Enclave_Kidnapped_Servant</identifier>
+        <slot>Childhood</slot>
+        <title>Kidnapped Servant</title>
+        <titleShort>Kidnapped Servant</titleShort>
+        <description>Every once in a while, the Enclave would scour the Wasteland in search of new “workers”. While the patrols preferred to abduct adults, they weren’t opposed to capturing children. [PAWN_nameDef] was one of those unfortunate kids. While [PAWN_pronoun] was generally looked down upon most other members of the Enclave, it was possible, although unlikely for [PAWN_objective] to rise up to higher ranks within the organisation.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>1</Mining>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Entitled Scion -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Entitled_Scion</defName>
+        <identifier>FCP_Enclave_Entitled_Scion</identifier>
+        <slot>Childhood</slot>
+        <title>Entitled Scion</title>
+        <titleShort>Entitled Scion</titleShort>
+        <description>[PAWN_nameDef] was born into the highest echelons of Enclave society. [PAWN_pronoun] was used to underlings taking care of [PAWN_possessive] every need and whim, while [PAWN_pronoun] trained and studied for a career in the leading positions of the Enclave.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb, Cooking</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Levied Recruit -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Levied_Recruit</defName>
+        <identifier>FCP_Enclave_Levied_Recruit</identifier>
+        <slot>Childhood</slot>
+        <title>Levied Recruit</title>
+        <titleShort>Levied Recruit</titleShort>
+        <description>The skills of the Enclave’s soldiers was the result of years of strenuous training under the supervision of remorseless drill sergeants. Due to a shortage of able recruits, [PAWN_nameDef] was levied into service as a child and spent most of [PAWN_possessive] youth in barracks and on training fields. This made [PAWN_objective] a great warrior indeed, but left little time for anything else, since the Enclave did not exactly promote creative thinking within the rank and file.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>Intellectual, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Junior Civil Servant -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Junior_Civil_Servant</defName>
+        <identifier>FCP_Enclave_Junior_Civil_Servant</identifier>
+        <slot>Childhood</slot>
+        <title>Junior Civil Servant</title>
+        <titleShort>Junior Civil Servant</titleShort>
+        <description>After finishing basic education [PAWN_nameDef] was assigned to serve within the byzantine bureaucracy of the Enclave, which ensured the functionality of the organisation. The institution’s focus on ruthless efficiency made [PAWN_objective] cold and unkind.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>1</Artistic>
+            <Social>-4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Peacekeeper in Training -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Peacekeeper_in_Training</defName>
+        <identifier>FCP_Enclave_Peacekeeper_in_Training</identifier>
+        <slot>Childhood</slot>
+        <title>Peacekeeper in Training</title>
+        <titleShort>Peacekeeper in Training</titleShort>
+        <description>The highly stratified society of the Enclave demanded absolute obedience from its citizenry. As an especially loyal child [PAWN_nameDef] was accepted into the ranks of the Enclave Peacekeeping Force, where [PAWN_pronoun] quickly learned how to ensure peace and order, especially within the conscripted masses of forced labourers, usually by means of a cattle prod.</description>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Melee>4</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>PlantWork</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Engineer Trainee -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Engineer_Trainee</defName>
+        <identifier>FCP_Enclave_Engineer_Trainee</identifier>
+        <slot>Childhood</slot>
+        <title>Engineer Trainee</title>
+        <titleShort>Engineer Trainee</titleShort>
+        <description>The complex machinery the Enclave depended upon needed near constant supervision and maintenance. This meant that skilled engineers were always needed and children with a knack for machinery, such as [PAWN_nameDef] were put into training in their early youth.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>3</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Cleaning</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Compassionate Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Enclave_Compassionate_Child</defName>
+        <identifier>FCP_Enclave_Compassionate_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Compassionate Child</title>
+        <titleShort>Compassionate Child</titleShort>
+        <description>Unusual for a child raised in the Enclave, [PAWN_nameDef] showed compassion and mercy on other creatures, even those deemed lower by fellow Enclave members. These character traits made life within the organisation difficult for [PAWN_objective] and [PAWN_pronoun] distanced [PAWN_objective]self from most others.</description>
+        <skillGains>
+            <Animals>3</Animals>
+            <Artistic>4</Artistic>
+            <Medicine>2</Medicine>
+            <Social>-4</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+</Defs>

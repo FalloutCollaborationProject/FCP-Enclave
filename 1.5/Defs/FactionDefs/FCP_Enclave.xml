@@ -8,7 +8,9 @@
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Faction_Enclave</defName>
         <label>Old World Government</label>
-        <description>.</description>
+        <description>
+            Ruthless remnants of the old world government, the Enclave believe themselves to be humanity’s rightful rulers. Isolated, technologically advanced, and fiercely nationalistic, they seek to restore civilization under their iron-fisted vision—no matter the cost to outsiders.
+        </description>
         <colorSpectrum>
             <li>(1, 1, 1)</li>
         </colorSpectrum>
@@ -153,7 +155,7 @@
             </li>
 
             <!--__________ Enclave Traders __________-->
-            
+
             <!-- Pre-War Goods Trader -->
 
             <!-- <li Class="FCP.Core.GroupMakerWithTraderKind">

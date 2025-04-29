@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Pawnkinds __________-->
+
+    <!--_____ Enclave Pawnkinds _____-->
+
+    <!--___ Characters ___-->
+
+    <!-- President Richardson Sr -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_President_Richardson_Sr</defName>
+        <label>President Richardson Sr</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>100</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_President_Suit</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_President_Richardson_Sr</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- President Richardson Jr -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_President_Richardson_Jr</defName>
+        <label>President Richardson Jr</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>95</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_President_Suit</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>17~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_President_Richardson_Jr</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Vice President Bird -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Vice_President_Bird</defName>
+        <label>Vice President Bird</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>90</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Vice_President_Suit</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>17~28</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Vice_President_Bird</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Arcade Ganon Sr -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Arcade_Gannon_Sr</defName>
+        <label>Arcade Gannon Sr</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>80</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Scientist</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Arcade_Gannon_Sr</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Dr. Schreber -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Dr_Schreber</defName>
+        <label>Dr. Schreber</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>80</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Scientist</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Dr_Schreber</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Dr. Henry -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Dr_Henry</defName>
+        <label>Dr. Henry</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>80</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Scientist</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Dr_Henry</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Dr. Charles Curling -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Dr_Charles_Curling</defName>
+        <label>Dr. Charles Curling</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>80</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Scientist</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Dr_Charles_Curling</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Anna Holt -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Anna_Holt</defName>
+        <label>Anna Holt</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>70</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Scientist</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Anna_Holt</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Stiggs -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Stiggs</defName>
+        <label>Stiggs</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>75</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Technician</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Stiggs</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Tom Murray -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Tom_Murray</defName>
+        <label>Tom Murray</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>75</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Scientist</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Tom_Murray</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Raul -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Raul</defName>
+        <label>Raul</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>75</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Technician</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Raul</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Quincy -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Mechanic_Quincy</defName>
+        <label>Quincy</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>75</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Technician</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Mechanic_Quincy</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Daisy Whitman -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Daisy_Whitman</defName>
+        <label>Daisy Whitman</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>70</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Pilot</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Daisy_Whitman</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Cookie -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Cookie</defName>
+        <label>Cookie</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>60</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Cook</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Cookie</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Guard Snookie -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Guard_Snookie</defName>
+        <label>Guard Snookie</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>70</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Guard</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Guard_Snookie</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- J. Smith -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_J_Smith</defName>
+        <label>J. Smith</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>65</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Technician</li>
+        </apparelRequired>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>13~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_J_Smith</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Frank Horrigan -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Frank_Horrigan</defName>
+        <label>Frank Horrigan</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>300</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_PowerArmor</li>
+        </apparelRequired>
+        <initialWillRange>5~8</initialWillRange>
+        <initialResistanceRange>30~50</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Frank_Horrigan</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Sergeant Granite -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Sergeant_Granite</defName>
+        <label>Sergeant Granite</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>90</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Sergeant</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Sergeant_Granite</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Sergeant Bracks -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Sergeant_Bracks</defName>
+        <label>Sergeant Bracks</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>85</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Sergeant</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Sergeant_Bracks</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Sergeant Dornan -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Sergeant_Dornan</defName>
+        <label>Sergeant Dornan</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>95</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Sergeant</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Sergeant_Dornan</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Orion Moreno -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Orion_Moreno</defName>
+        <label>Orion Moreno</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>85</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Officer</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Orion_Moreno</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Lieutenant Williams -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Lieutenant_Williams</defName>
+        <label>Lieutenant Williams</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>80</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Officer</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Lieutenant_Williams</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Lieutenant Brian Richter -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Lieutenant_Richter</defName>
+        <label>Lieutenant Brian Richter</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>80</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Officer</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Lieutenant_Richter</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Captain A. Ron Myers -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Captain_Myers</defName>
+        <label>Captain Myers</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>90</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Captain</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>16~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Captain_Myers</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Captain Kreger -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Captain_Kreger</defName>
+        <label>Captain Kreger</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>90</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Captain</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>16~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Captain_Kreger</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Captain Pickard -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Captain_Pickard</defName>
+        <label>Captain Pickard</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>90</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Captain</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>16~26</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Captain_Pickard</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Colonel Autumn Sr -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Colonel_Autumn_Sr</defName>
+        <label>Colonel Autumn Sr</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>100</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Colonel</li>
+        </apparelRequired>
+        <initialWillRange>4~6</initialWillRange>
+        <initialResistanceRange>20~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Colonel_Autumn_Sr</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Colonel Autumn -->
+    
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Colonel_Autumn</defName>
+        <label>Colonel Autumn</label>
+        <factionLeader>false</factionLeader>
+        <combatPower>100</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Colonel</li>
+        </apparelRequired>
+        <initialWillRange>4~6</initialWillRange>
+        <initialResistanceRange>20~32</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Colonel_Autumn</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!--___ Civilians ___-->
+
+
+
+    <!--___ Traders ___-->
+
+
+
+    <!--___ Politicians ___-->
+
+
+
+    <!--___ Military ___-->
+
+    <!-- Enclave Trooper -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Trooper</defName>
+        <label>Enclave Trooper</label>
+        <combatPower>90</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_Enclave_Plasma_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Enclave Power Armor Trooper -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Power_Armor_Trooper</defName>
+        <label>Enclave Power Armor Trooper</label>
+        <combatPower>120</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Power_Armor_Frame</li>
+            <li>FCP_Apparel_Enclave_Advanced_Power_Armor</li>
+            <li>FCP_Apparel_Enclave_Advanced_Power_Armor_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_Enclave_Plasma_Rifle</li>
+        </weaponTags>
+        <forcedTraits>
+            <li>FCP_Trait_Power_Armor_Trained</li>
+        </forcedTraits>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Enclave Mk II Power Armor Trooper -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_MKII_Power_Armor_Trooper</defName>
+        <label>Enclave Mk II Power Armor Trooper</label>
+        <combatPower>120</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Enclave_X02_Power_Armor</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_Enclave_Plasma_Rifle</li>
+        </weaponTags>
+        <forcedTraits>
+            <li>FCP_Trait_Power_Armor_Trained</li>
+        </forcedTraits>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Enclave Mk II Tesla Power Armor Trooper -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_MKII_Tesla_Power_Armor_Trooper</defName>
+        <label>Enclave Tesla Trooper</label>
+        <combatPower>120</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Enclave_X02_Tesla_Power_Armor</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_Enclave_Plasma_Rifle</li>
+        </weaponTags>
+        <forcedTraits>
+            <li>FCP_Trait_Power_Armor_Trained</li>
+        </forcedTraits>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Tesla_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- Enclave Hellfire Power Armor Trooper -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Enclave_Hellfire_Power_Armor_Trooper</defName>
+        <label>Enclave Hellfire Trooper</label>
+        <combatPower>120</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_Enclave_X02_Hellfire_Power_Armor</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_Enclave_Plasma_Rifle</li>
+        </weaponTags>
+        <forcedTraits>
+            <li>FCP_Trait_Power_Armor_Trained</li>
+        </forcedTraits>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Enclave_Hellfire_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+</Defs>
