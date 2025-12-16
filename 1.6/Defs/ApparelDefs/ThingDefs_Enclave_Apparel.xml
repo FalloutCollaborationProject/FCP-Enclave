@@ -208,7 +208,7 @@
 
     <ThingDef ParentName="FCP_Apparel_Base">
         <defName>FCP_Apparel_Enclave_Combat_Armor</defName>
-        <label>Enclave Trooper Uniform</label>
+        <label>Enclave Combat Armor</label>
         <description>Advanced combat armor issued to Enclave troopers. Constructed from reinforced composites, it offers substantial protection against ballistic and melee threats while allowing for mobility in hostile environments.</description>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Armor/Enclave_Combat_Armor/FCP_Enclave_Combat_Armor</texPath>
@@ -220,8 +220,8 @@
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <WorkToMake>6000</WorkToMake>
-            <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
             <Mass>2</Mass>
             <Insulation_Cold>3.0</Insulation_Cold>
             <Insulation_Heat>2.3</Insulation_Heat>
@@ -235,6 +235,46 @@
                 <li>Legs</li>
             </bodyPartGroups>
             <wornGraphicPath>Things/Apparel/Enclave_Armor/Enclave_Combat_Armor/FCP_Enclave_Combat_Armor</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>FCP_Enclave_Apparel</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+<!-- Enclave Sturdy Combat Armor-->
+
+    <ThingDef ParentName="FCP_Apparel_Base">
+        <defName>FCP_Apparel_Enclave_Sturdy_Combat_Armor</defName>
+        <label>Enclave Sturdy Combat Armor</label>
+        <description>Advanced combat armor issued to Enclave troopers. Constructed from reinforced composites, it offers substantial protection against ballistic and melee threats while allowing for mobility in hostile environments.</description>
+        <graphicData>
+            <texPath>Things/Apparel/Enclave_Apparel/Enclave_Sturdy_Combat_Armor/Enclave_Sturdy_Combat_Armor/FCP_Enclave_Sturdy_Combat_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>0.90</drawSize>
+        </graphicData>
+        <smeltable>false</smeltable>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <Mass>2</Mass>
+            <Insulation_Cold>3.0</Insulation_Cold>
+            <Insulation_Heat>2.3</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/Enclave_Apparel/Enclave_Sturdy_Combat_Armor/Enclave_Sturdy_Combat_Armor/FCP_Enclave_Sturdy_Combat_Armor</wornGraphicPath>
             <layers>
                 <li>Shell</li>
             </layers>

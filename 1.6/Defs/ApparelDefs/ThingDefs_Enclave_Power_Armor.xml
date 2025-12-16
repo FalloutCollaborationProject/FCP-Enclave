@@ -3,7 +3,7 @@
 
     <!-- Enclave Advanced Power Armor -->
 
-    <ThingDef ParentName="ApparelBase">
+  <!--  <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_Advanced_Power_Armor</defName>
         <label>Enclave Advanced Power Armor</label>
         <description>A suit of advanced power armor developed by the Enclave. Offers exceptional protection against all forms of damage, enhanced mobility, and complete environmental sealing. Wearing this armor marks its user as a force to be reckoned with on the battlefield.</description>
@@ -69,24 +69,17 @@
         </tradeTags>
         <building />
         <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_PowerArmor">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-                <workDisables>
-                    <li>Construction</li>
-                </workDisables>
-                <canSleep>False</canSleep>
-                <ignoresLegs />
-                <requiredTrait />
-                <hediffOnEmptyFuel />
-            </li>
-        </comps>
-    </ThingDef>
+			<li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+				<requiredApparels>
+					<li>FCP_Apparel_Power_Armor_Frame</li>
+				</requiredApparels>
+			</li>
+		</comps>
+    </ThingDef>-->
 
     <!-- Enclave X-02 Power Armor -->
 
-    <ThingDef ParentName="ApparelBase">
+  <!--  <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_X02_Power_Armor</defName>
         <label>Enclave X-02 Power Armor</label>
         <description>A suit of next-generation Enclave power armor, the X-02 offers formidable protection and advanced environmental sealing. While not as advanced as the APA, it is lighter and more intimidating than earlier models.</description>
@@ -153,24 +146,17 @@
         </tradeTags>
         <building />
         <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_PowerArmor">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-                <workDisables>
-                    <li>Construction</li>
-                </workDisables>
-                <canSleep>False</canSleep>
-                <ignoresLegs />
-                <requiredTrait />
-                <hediffOnEmptyFuel />
-            </li>
-        </comps>
-    </ThingDef>
+			<li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+				<requiredApparels>
+					<li>FCP_Apparel_Power_Armor_Frame</li>
+				</requiredApparels>
+			</li>
+		</comps>
+    </ThingDef>-->
 
     <!-- Enclave X-02 Tesla Power Armor -->
 
-    <ThingDef ParentName="ApparelBase">
+   <!-- <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_X02_Tesla_Power_Armor</defName>
         <label>Enclave X-02 Tesla Power Armor</label>
         <description>A rare variant of the X-02, the Tesla Power Armor is fitted with electromagnetic shielding and energy-dispersing coils. It offers superior protection against heat and electrical attacks, making its wearer a terrifying sight on the battlefield.</description>
@@ -237,24 +223,17 @@
         </tradeTags>
         <building />
         <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_PowerArmor">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-                <workDisables>
-                    <li>Construction</li>
-                </workDisables>
-                <canSleep>False</canSleep>
-                <ignoresLegs />
-                <requiredTrait />
-                <hediffOnEmptyFuel />
-            </li>
-        </comps>
-    </ThingDef>
+			<li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+				<requiredApparels>
+					<li>FCP_Apparel_Power_Armor_Frame</li>
+				</requiredApparels>
+			</li>
+		</comps>
+    </ThingDef>-->
 
     <!-- Enclave Hellfire Power Armor -->
 
-    <ThingDef ParentName="ApparelBase">
+ <!--   <ThingDef ParentName="ApparelBase" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_Hellfire_Power_Armor</defName>
         <label>Enclave Hellfire Power Armor</label>
         <description>The Hellfire Power Armor is an advanced Enclave suit designed for extreme environments and frontline assault. Its reinforced plating and advanced heat dispersal systems provide unmatched protection against fire and explosions, making its wearer a walking fortress in the most hazardous conditions.</description>
@@ -321,19 +300,12 @@
         </tradeTags>
         <building />
         <comps>
-            <li Class="RangerRick_PowerArmor.CompProperties_PowerArmor">
-                <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-                <workDisables>
-                    <li>Construction</li>
-                </workDisables>
-                <canSleep>False</canSleep>
-                <ignoresLegs />
-                <requiredTrait />
-                <hediffOnEmptyFuel />
-            </li>
-        </comps>
-    </ThingDef>
+			<li Class="RangerRick_PowerArmor.CompProperties_ApparelRequirement">
+				<requiredApparels>
+					<li>FCP_Apparel_Power_Armor_Frame</li>
+				</requiredApparels>
+			</li>
+		</comps>
+    </ThingDef>-->
 
 </Defs>

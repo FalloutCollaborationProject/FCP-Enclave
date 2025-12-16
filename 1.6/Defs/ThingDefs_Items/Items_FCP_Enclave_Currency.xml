@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+<!--__________ Currencies __________-->
+
+    <!-- Enclave Pre War Dollar -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Currency_Pre_War_Dollar</defName>
+        <label>Brotherhood Scrip</label>
+        <description>DESCRIPTION</description>
+        <graphicData> 
+            <texPath>Things/Items/Currencies/FCP_BoS_Scrip_Currency</texPath> <!-- Missing the actual pre war texture (unless rick has it or it is in another mod) -->
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Silver_Drop</soundInteract>
+        <soundDrop>Silver_Drop</soundDrop>
+        <useHitPoints>false</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+        <statBases>
+            <RoyalFavorValue>0.004</RoyalFavorValue>
+            <MarketValue>1.25</MarketValue>
+            <Mass>0.008</Mass>
+        </statBases>
+        <thingCategories>
+            <li>FCP_Currencies</li>
+        </thingCategories>
+        <stackLimit>500</stackLimit>
+        <smallVolume>true</smallVolume>
+        <allowedArchonexusCount>1000</allowedArchonexusCount>
+        <possessionCount>40</possessionCount>
+    </ThingDef>
+
+</Defs>

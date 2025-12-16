@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+    <!--__________ Enclave Crates __________-->
+
+    <!--_____ Crates _____-->
+
+    <!-- Standard Weapon Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Item_Enclave_Standard_Weapon_Crate</defName>
+        <label>Dirty Vault-Tec Collectors Edition Lunchbox</label>
+        <description>A Vault-Tec collectors edition lunchbox. It's a little dirty, but still opens and may have something useful inside!</description>
+        <graphicData>
+            <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>.75</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>5</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>2</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li MayRequire="Rick.FCP.BallisticWeapons">
+                        <thingDef>FCP_Gun_556_Pistol</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li MayRequire="Rick.FCP.BallisticWeapons">
+                        <thingDef>FCP_Gun_127mm_Pistol</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li MayRequire="Rick.FCP.BallisticWeapons">
+                        <thingDef>FCP_Gun_R91_Rifle</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Standard Tech Resource Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Item_Enclave_Tech_Crate</defName>
+        <label>Standard Tech Resource Crate</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>.75</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>5</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>2</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <countRange>4</countRange>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Standard Uniform Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Item_Enclave_Standard_Uniform_Crate</defName>
+        <label>Standard Uniform Crate</label>
+        <description>PLACEHOLDER</description>
+        <graphicData>
+            <texPath>Things/Items/LootBox/Vault_Tec_Lunch_Box/FCP_Vault_Tec_Lunch_Box_Dirty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>.75</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>5</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>2</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_Enclave_Scientist_Outfit</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_Enclave_Officer_Coat</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_Enclave_Trooper_Uniform</thingDef>
+                        <countRange>1</countRange>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+</Defs>

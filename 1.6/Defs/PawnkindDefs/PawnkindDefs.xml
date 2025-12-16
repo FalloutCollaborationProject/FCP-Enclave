@@ -7,6 +7,32 @@
 
     <!--___ Characters ___-->
 
+    <!-- Enclave Pawnkind base -->
+
+    <PawnKindDef Name="FCP_EnclavekindBase" Abstract="True">
+		<race>Human</race>
+		<defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
+		<maxGenerationAge>60</maxGenerationAge>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<invNutrition>2.7</invNutrition>
+		<invFoodDef>MealSurvivalPack</invFoodDef>
+		<disallowedTraits>
+			<li>Nudist</li>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>FCP_Backstory_Enclave_Child</li>
+				</categoriesChildhood>
+			</li>
+		</backstoryFiltersOverride>
+		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+	</PawnKindDef>
+
     <!-- President Richardson Sr -->
 
     <PawnKindDef ParentName="FCP_EnclavekindBase">
@@ -15,15 +41,12 @@
         <factionLeader>true</factionLeader>
         <combatPower>100</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_President_Suit</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>19~30</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_President_Richardson_Sr</li>
                 </categoriesAdulthood>
@@ -40,15 +63,12 @@
         <factionLeader>false</factionLeader>
         <combatPower>95</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_President_Suit</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>17~28</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_President_Richardson_Jr</li>
                 </categoriesAdulthood>
@@ -65,15 +85,12 @@
         <factionLeader>false</factionLeader>
         <combatPower>90</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Vice_President_Suit</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>17~28</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Vice_President_Bird</li>
                 </categoriesAdulthood>
@@ -90,15 +107,14 @@
         <factionLeader>false</factionLeader>
         <combatPower>80</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Scientist</li>
+            <li>FCP_Apparel_Enclave_Scientist_Outfit</li>
+            <li>FCP_Apparel_Enclave_Scientist_Boots</li>
+            <li>FCP_Apparel_Enclave_Scientist_Glove</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Arcade_Gannon_Sr</li>
                 </categoriesAdulthood>
@@ -115,15 +131,14 @@
         <factionLeader>false</factionLeader>
         <combatPower>80</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Scientist</li>
+            <li>FCP_Apparel_Enclave_Scientist_Outfit</li>
+            <li>FCP_Apparel_Enclave_Scientist_Boots</li>
+            <li>FCP_Apparel_Enclave_Scientist_Glove</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Dr_Schreber</li>
                 </categoriesAdulthood>
@@ -140,15 +155,14 @@
         <factionLeader>false</factionLeader>
         <combatPower>80</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Scientist</li>
+            <li>FCP_Apparel_Enclave_Scientist_Outfit</li>
+            <li>FCP_Apparel_Enclave_Scientist_Boots</li>
+            <li>FCP_Apparel_Enclave_Scientist_Glove</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Dr_Henry</li>
                 </categoriesAdulthood>
@@ -165,15 +179,14 @@
         <factionLeader>false</factionLeader>
         <combatPower>80</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Scientist</li>
+            <li>FCP_Apparel_Enclave_Scientist_Outfit</li>
+            <li>FCP_Apparel_Enclave_Scientist_Boots</li>
+            <li>FCP_Apparel_Enclave_Scientist_Glove</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Dr_Charles_Curling</li>
                 </categoriesAdulthood>
@@ -190,15 +203,14 @@
         <factionLeader>false</factionLeader>
         <combatPower>70</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Scientist</li>
+            <li>FCP_Apparel_Enclave_Scientist_Outfit</li>
+            <li>FCP_Apparel_Enclave_Scientist_Boots</li>
+            <li>FCP_Apparel_Enclave_Scientist_Glove</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Anna_Holt</li>
                 </categoriesAdulthood>
@@ -215,15 +227,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>75</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Technician</li>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Stiggs</li>
                 </categoriesAdulthood>
@@ -240,15 +250,15 @@
         <factionLeader>false</factionLeader>
         <combatPower>75</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Scientist</li>
+            <li>FCP_Apparel_Enclave_Scientist_Outfit</li>
+            <li>FCP_Apparel_Enclave_Scientist_Boots</li>
+            <li>FCP_Apparel_Enclave_Scientist_Glove</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Tom_Murray</li>
                 </categoriesAdulthood>
@@ -265,15 +275,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>75</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Technician</li>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Raul</li>
                 </categoriesAdulthood>
@@ -290,15 +298,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>75</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Technician</li>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Mechanic_Quincy</li>
                 </categoriesAdulthood>
@@ -315,15 +321,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>70</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Pilot</li>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Daisy_Whitman</li>
                 </categoriesAdulthood>
@@ -340,15 +344,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>60</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Cook</li>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Cookie</li>
                 </categoriesAdulthood>
@@ -365,15 +367,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>70</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Guard</li>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Guard_Snookie</li>
                 </categoriesAdulthood>
@@ -390,15 +390,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>65</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Technician</li>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <initialWillRange>2~4</initialWillRange>
         <initialResistanceRange>13~22</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_J_Smith</li>
                 </categoriesAdulthood>
@@ -415,15 +413,12 @@
         <factionLeader>false</factionLeader>
         <combatPower>300</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_PowerArmor</li>
+            <li>FCP_Apparel_Enclave_Combat_Armor</li>
         </apparelRequired>
         <initialWillRange>5~8</initialWillRange>
         <initialResistanceRange>30~50</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Frank_Horrigan</li>
                 </categoriesAdulthood>
@@ -440,15 +435,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>90</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Sergeant</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Sergeant_Granite</li>
                 </categoriesAdulthood>
@@ -465,15 +458,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>85</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Sergeant</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Sergeant_Bracks</li>
                 </categoriesAdulthood>
@@ -490,15 +481,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>95</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Sergeant</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Sergeant_Dornan</li>
                 </categoriesAdulthood>
@@ -515,15 +504,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>85</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Officer</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Orion_Moreno</li>
                 </categoriesAdulthood>
@@ -540,15 +527,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>80</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Officer</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Lieutenant_Williams</li>
                 </categoriesAdulthood>
@@ -565,15 +550,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>80</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Officer</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Lieutenant_Richter</li>
                 </categoriesAdulthood>
@@ -590,15 +573,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>90</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Captain</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>16~26</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Captain_Myers</li>
                 </categoriesAdulthood>
@@ -615,15 +596,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>90</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Captain</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>16~26</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Captain_Kreger</li>
                 </categoriesAdulthood>
@@ -640,15 +619,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>90</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Captain</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>16~26</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Captain_Pickard</li>
                 </categoriesAdulthood>
@@ -665,15 +642,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>100</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Colonel</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>4~6</initialWillRange>
         <initialResistanceRange>20~32</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Colonel_Autumn_Sr</li>
                 </categoriesAdulthood>
@@ -690,15 +665,13 @@
         <factionLeader>false</factionLeader>
         <combatPower>100</combatPower>
         <apparelRequired>
-            <li>FCP_Apparel_Enclave_Colonel</li>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <initialWillRange>4~6</initialWillRange>
         <initialResistanceRange>20~32</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Colonel_Autumn</li>
                 </categoriesAdulthood>
@@ -754,9 +727,6 @@
         <initialResistanceRange>15~24</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Trooper</li>
                 </categoriesAdulthood>
@@ -777,9 +747,7 @@
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelRequired>
             <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
-            <li>FCP_Apparel_Power_Armor_Frame</li>
-            <li>FCP_Apparel_Enclave_Advanced_Power_Armor</li>
-            <li>FCP_Apparel_Enclave_Advanced_Power_Armor_Helmet</li>
+            <li>FCP_Apparel_Enclave_Sturdy_Combat_Armor</li>
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
@@ -800,9 +768,6 @@
         <initialResistanceRange>15~24</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Trooper</li>
                 </categoriesAdulthood>
@@ -822,7 +787,7 @@
         <apparelMoney>9999</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Enclave_X02_Power_Armor</li>
+            <li>FCP_Apparel_Enclave_Sturdy_Combat_Armor</li>
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
@@ -843,9 +808,6 @@
         <initialResistanceRange>15~24</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Trooper</li>
                 </categoriesAdulthood>
@@ -865,7 +827,7 @@
         <apparelMoney>9999</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Enclave_X02_Tesla_Power_Armor</li>
+            <li>FCP_Apparel_Enclave_Sturdy_Combat_Armor</li>
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
@@ -886,9 +848,6 @@
         <initialResistanceRange>15~24</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Tesla_Trooper</li>
                 </categoriesAdulthood>
@@ -908,7 +867,7 @@
         <apparelMoney>9999</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>FCP_Enclave_X02_Hellfire_Power_Armor</li>
+            <li>FCP_Apparel_Enclave_Sturdy_Combat_Armor</li>
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
@@ -929,9 +888,6 @@
         <initialResistanceRange>15~24</initialResistanceRange>
         <backstoryFiltersOverride>
             <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_Enclave_Child</li>
-                </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_Enclave_Hellfire_Trooper</li>
                 </categoriesAdulthood>

@@ -8,9 +8,7 @@
     <FactionDef ParentName="FactionBase">
         <defName>FCP_Faction_Enclave</defName>
         <label>Old World Government</label>
-        <description>
-            Ruthless remnants of the old world government, the Enclave believe themselves to be humanity’s rightful rulers. Isolated, technologically advanced, and fiercely nationalistic, they seek to restore civilization under their iron-fisted vision—no matter the cost to outsiders.
-        </description>
+        <description>Ruthless remnants of the old world government, the Enclave believe themselves to be humanity’s rightful rulers. Isolated, technologically advanced, and fiercely nationalistic, they seek to restore civilization under their iron-fisted vision—no matter the cost to outsiders.</description>
         <colorSpectrum>
             <li>(1, 1, 1)</li>
         </colorSpectrum>
@@ -104,9 +102,9 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Enclave_Trooper>10</FCP_Enclave_Trooper>
-                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
-                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                    <FCP_Pawnkind_Enclave_Trooper>10</FCP_Pawnkind_Enclave_Trooper>
+                    <FCP_Pawnkind_Enclave_Orion_Moreno>2</FCP_Pawnkind_Enclave_Orion_Moreno>
+                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
                 </options>
             </li>
 
@@ -119,8 +117,8 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Enclave_X01_APA_Trooper>10</FCP_Enclave_X01_APA_Trooper>
-                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                    <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
                 </options>
             </li>
 
@@ -133,11 +131,11 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-                    <FCP_Enclave_X02_Trooper>10</FCP_Enclave_X02_Trooper>
-                    <FCP_Enclave_X02_Tesla_Trooper>5</FCP_Enclave_X02_Tesla_Trooper>
-                    <FCP_Enclave_X02_Hellfire_Trooper>3</FCP_Enclave_X02_Hellfire_Trooper>
-                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
-                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                    <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>3</FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_Orion_Moreno>2</FCP_Pawnkind_Enclave_Orion_Moreno>
+                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
                 </options>
             </li>
 
@@ -146,11 +144,11 @@
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
-                    <FCP_Enclave_Trooper>14</FCP_Enclave_Trooper>
-                    <FCP_Enclave_X01_APA_Trooper>10</FCP_Enclave_X01_APA_Trooper>
-                    <FCP_Enclave_X02_Trooper>5</FCP_Enclave_X02_Trooper>
-                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
-                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                    <FCP_Pawnkind_Enclave_Trooper>14</FCP_Pawnkind_Enclave_Trooper>
+                    <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_Orion_Moreno>2</FCP_Pawnkind_Enclave_Orion_Moreno>
+                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
                 </options>
             </li>
 
@@ -179,12 +177,12 @@
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
-                    <FCP_Enclave_Scientist>10</FCP_Enclave_Scientist>
-                    <FCP_Enclave_Trooper>14</FCP_Enclave_Trooper>
-                    <FCP_Enclave_X01_APA_Trooper>10</FCP_Enclave_X01_APA_Trooper>
-                    <FCP_Enclave_X02_Trooper>5</FCP_Enclave_X02_Trooper>
-                    <FCP_Enclave_Officer>2</FCP_Enclave_Officer>
-                    <FCP_Enclave_President>1</FCP_Enclave_President>
+                    <FCP_Pawnkind_Enclave_Dr_Schreber>10</FCP_Pawnkind_Enclave_Dr_Schreber>
+                    <FCP_Pawnkind_Enclave_Trooper>14</FCP_Pawnkind_Enclave_Trooper>
+                    <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Enclave_Orion_Moreno>2</FCP_Pawnkind_Enclave_Orion_Moreno>
+                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
                 </options>
             </li>
         </pawnGroupMakers>

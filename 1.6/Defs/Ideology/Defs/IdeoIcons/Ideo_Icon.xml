@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<Defs>
+
+<IdeoIconDef>
+        <defName>FCP_Icon_Enclave</defName>
+        <iconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</iconPath>
+        <cultures>
+            <li>FCP_Culture_Enclave</li>
+        </cultures>
+    </IdeoIconDef>
+
+</Defs>

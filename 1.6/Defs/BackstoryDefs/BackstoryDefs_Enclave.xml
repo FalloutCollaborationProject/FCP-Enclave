@@ -24,7 +24,7 @@
             <Shooting>1</Shooting>
             <Melee>1</Melee>
         </skillGains>
-        <workDisables>ManualDumb, Violent</workDisables>
+        <workDisables>ManualDumb</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Backstory_Enclave_President_Richardson_Sr</li>
@@ -49,7 +49,7 @@
             <Shooting>1</Shooting>
             <Melee>1</Melee>
         </skillGains>
-        <workDisables>ManualDumb, Violent</workDisables>
+        <workDisables>ManualDumb</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Backstory_Enclave_President_Richardson_Jr</li>
@@ -74,7 +74,7 @@
             <Crafting>2</Crafting>
             <Shooting>1</Shooting>
         </skillGains>
-        <workDisables>ManualDumb, Violent</workDisables>
+        <workDisables>ManualDumb</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Backstory_Enclave_Vice_President_Bird</li>
@@ -722,7 +722,7 @@
         <description>As most people within the Enclave, [PAWN_nameDef] was raised to believe that all beings that dwelt in the wasteland were mutated and genetically inferior. [PAWN_pronoun] however, took these lessons more to heart than others and so [PAWN_pronoun] became a politician in the enclave, to advocate for the “cleansing” of the wasteland so that, one day, the last unmutated humans could reclaim the land that is rightfully theirs and finally rebuild the nation that once was.</description>
         <skillGains>
             <Crafting>3</Crafting>
-            <Artsitic>5</Artsitic>
+            <Artistic>5</Artistic>
             <Social>6</Social>
             <Intellectual>2</Intellectual>
         </skillGains>
@@ -804,7 +804,7 @@
             <Social>-4</Social>
             <Intellectual>4</Intellectual>
         </skillGains>
-        <workDisables>Artistic, Caring, Intellectual</workDisables>
+        <workDisables>Caring</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
             <li>FCP_Backstory_Enclave</li>
@@ -919,7 +919,7 @@
     <!-- Indentured Servant -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_Enclave_Indentured Servant</defName>
+        <defName>FCP_Backstory_Enclave_Indentured_Servant</defName>
         <identifier>FCP_Backstory_Enclave_Indentured Servant</identifier>
         <slot>Adulthood</slot>
         <title>Indentured Servant</title>
@@ -973,7 +973,7 @@
     <!-- Enclave Tesla Soldier -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_Enclave_Tesla Soldier</defName>
+        <defName>FCP_Backstory_Enclave_Tesla_Soldier</defName>
         <identifier>FCP_Backstory_Enclave_Tesla Soldier</identifier>
         <slot>Adulthood</slot>
         <title>Enclave Tesla Soldier</title>
@@ -1106,7 +1106,7 @@
     <!-- Enclave Arsenal Specialist -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_Enclave_Arsenal Specialist</defName>
+        <defName>FCP_Backstory_Enclave_Arsenal_Specialist</defName>
         <identifier>FCP_Backstory_Enclave_Arsenal_Specialist</identifier>
         <slot>Adulthood</slot>
         <title>Enclave Arsenal Specialist</title>
