@@ -39,11 +39,11 @@
         <!-- Salary Options -->
 
         <salaryIsEnabled>true</salaryIsEnabled>
-        <salaryDef>FCP_Currency_Pre_War_Dollar</salaryDef>
+        <salaryDef>FCP_Currency_Enclave_Platinum_Bullion</salaryDef>
         <salaryLabelKey>FCP_Enclave_Salary_Label</salaryLabelKey>
         <salaryDescKey>FCP_Enclave_Salary_Desc</salaryDescKey>
-        <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_Enclave_Salary</salaryButtonIconTexPath>
-        <salaryRange>1200~2500</salaryRange>
+        <salaryButtonIconTexPath>Things/Items/Currencies/FCP_Enclave_Currency/FCP_Enclave_Bullion_a</salaryButtonIconTexPath>
+        <salaryRange>500~700</salaryRange>
         <salaryPeriodDays>14</salaryPeriodDays>
 
         <!-- Provision Options -->
@@ -52,7 +52,7 @@
             <li>
                 <provisionsLabelKey>FCP_Enclave_Provisions_Label</provisionsLabelKey>
                 <provisionsDescKey>FCP_Enclave_Provisions_Desc</provisionsDescKey>
-                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_Enclave_Provisions</provisionsButtonIconTexPath>
+                <provisionsButtonIconTexPath>Things/Items/Enclave_Crates/FCP_Enclave_Crate</provisionsButtonIconTexPath>
                 <provisions>
                     <li>
                         <thing>FCP_Item_Enclave_Tech_Crate</thing>
