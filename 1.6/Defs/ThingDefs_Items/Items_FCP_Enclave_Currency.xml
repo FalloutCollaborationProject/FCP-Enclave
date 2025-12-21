@@ -4,14 +4,14 @@
 
 <!--__________ Currencies __________-->
 
-    <!-- Enclave Pre War Dollar -->
+    <!-- Enclave Platinum Bullion -->
 
     <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Currency_Pre_War_Dollar</defName>
-        <label>Brotherhood Scrip</label>
-        <description>DESCRIPTION</description>
+        <defName>FCP_Currency_Enclave_Platinum_Bullion</defName>
+        <label>Enclave platinum bullion</label>
+        <description>High-purity platinum coins minted by the Enclave as a reserve currency for high-value transactions. Each bullion coin bears the distinctive Enclave eagle emblem and represents the technological supremacy and economic power of America's shadow government. These precious metal coins are highly valued both for their platinum content and as symbols of Enclave authority.</description>
         <graphicData> 
-            <texPath>Things/Items/Currencies/FCP_BoS_Scrip_Currency</texPath> <!-- Missing the actual pre war texture (unless rick has it or it is in another mod) -->
+            <texPath>Things/Items/Currencies/FCP_Enclave_Bullion</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -21,14 +21,14 @@
         <healthAffectsPrice>false</healthAffectsPrice>
         <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
         <statBases>
-            <RoyalFavorValue>0.004</RoyalFavorValue>
-            <MarketValue>1.25</MarketValue>
-            <Mass>0.008</Mass>
+            <RoyalFavorValue>0.008</RoyalFavorValue>
+            <MarketValue>3.50</MarketValue>
+            <Mass>0.012</Mass>
         </statBases>
         <thingCategories>
             <li>FCP_Currencies</li>
         </thingCategories>
-        <stackLimit>500</stackLimit>
+        <stackLimit>250</stackLimit>
         <smallVolume>true</smallVolume>
         <allowedArchonexusCount>1000</allowedArchonexusCount>
         <possessionCount>40</possessionCount>
