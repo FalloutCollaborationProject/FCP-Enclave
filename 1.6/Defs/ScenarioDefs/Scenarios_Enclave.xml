@@ -108,6 +108,16 @@
                     <project>Batteries</project>
                 </li>
                 
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>FCP_Research_Enclave_Basic_Equipment</project>
+                </li>
+                
+                <li Class="ScenPart_StartingResearch">
+                    <def>StartingResearch</def>
+                    <project>FCP_Research_Enclave_Advanced_Equipment</project>
+                </li>
+                
                 <!-- Game conditions -->
                 <li Class="ScenPart_GameStartDialog">
                     <def>GameStartDialog</def>
