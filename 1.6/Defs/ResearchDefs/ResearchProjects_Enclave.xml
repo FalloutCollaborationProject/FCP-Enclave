@@ -18,8 +18,9 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>7.00</researchViewX>
-        <researchViewY>1.50</researchViewY>
+        <researchViewX>10.50</researchViewX>
+        <researchViewY>0.50</researchViewY>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
     <!-- Enclave Advanced Equipment Research -->
@@ -38,8 +39,9 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>8.50</researchViewX>
-        <researchViewY>1.50</researchViewY>
+        <researchViewX>12.00</researchViewX>
+        <researchViewY>0.50</researchViewY>
+        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
 </Defs>
