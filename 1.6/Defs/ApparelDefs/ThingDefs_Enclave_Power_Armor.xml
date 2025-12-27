@@ -7,10 +7,9 @@
         <defName>FCP_Apparel_Enclave_Advanced_Power_Armor</defName>
         <label>Enclave Advanced Power Armor</label>
         <description>A suit of advanced power armor developed by the Enclave. Offers exceptional protection against all forms of damage, enhanced mobility, and complete environmental sealing. Wearing this armor marks its user as a force to be reckoned with on the battlefield.</description>
+        <generateCommonality>0.001</generateCommonality>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <possessionCount>1</possessionCount>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Power_Armor/Enclave_Power_Armor/FCP_Advanced_Power_Armor</texPath>
@@ -25,9 +24,10 @@
             <MaxHitPoints>280</MaxHitPoints>
             <WorkToMake>12000</WorkToMake>
             <Mass>6.5</Mass>
-            <ArmorRating_Sharp>2</ArmorRating_Sharp>
-            <ArmorRating_Blunt>2</ArmorRating_Blunt>
-            <ArmorRating_Heat>2</ArmorRating_Heat>
+            <MarketValue>4000</MarketValue>
+            <ArmorRating_Sharp>1.90</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.90</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.90</ArmorRating_Heat>
             <Insulation_Cold>6</Insulation_Cold>
             <Insulation_Heat>6</Insulation_Heat>
             <EquipDelay>1.1</EquipDelay>
@@ -75,6 +75,12 @@
 				</requiredApparels>
 			</li>
 		</comps>
+        <modExtensions>
+            <li Class="FalloutCore.ApparelExtension">
+                <shouldHideBody>True</shouldHideBody>
+                <displayBodyType>Hulk</displayBodyType>
+            </li>
+        </modExtensions>
     </ThingDef>
 
     <!-- Enclave Advanced Power Armor MkII -->
@@ -83,10 +89,9 @@
         <defName>FCP_Apparel_Enclave_Advanced_Power_Armor_MkII</defName>
         <label>Enclave Advanced Power Armor MkII</label>
         <description>The MkII variant of the Enclave Advanced Power Armor, featuring improved environmental sealing and enhanced durability for prolonged combat scenarios.</description>
+        <generateCommonality>0.001</generateCommonality>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <possessionCount>1</possessionCount>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Power_Armor/Enclave_Power_Armor/FCP_Advanced_Power_Armor_mkII</texPath>
@@ -98,15 +103,16 @@
         </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
-            <MaxHitPoints>280</MaxHitPoints>
-            <WorkToMake>12000</WorkToMake>
-            <Mass>6.5</Mass>
-            <ArmorRating_Sharp>2</ArmorRating_Sharp>
-            <ArmorRating_Blunt>2</ArmorRating_Blunt>
-            <ArmorRating_Heat>2</ArmorRating_Heat>
-            <Insulation_Cold>6</Insulation_Cold>
-            <Insulation_Heat>6</Insulation_Heat>
-            <EquipDelay>1.1</EquipDelay>
+            <MaxHitPoints>285</MaxHitPoints>
+            <WorkToMake>13000</WorkToMake>
+            <Mass>6.4</Mass>
+            <MarketValue>4400</MarketValue>
+            <ArmorRating_Sharp>1.92</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.92</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.95</ArmorRating_Heat>
+            <Insulation_Cold>7</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.05</EquipDelay>
         </statBases>
         <equippedStatOffsets>
             <MoveSpeed>0.13</MoveSpeed>
@@ -151,6 +157,12 @@
 				</requiredApparels>
 			</li>
 		</comps>
+        <modExtensions>
+            <li Class="FalloutCore.ApparelExtension">
+                <shouldHideBody>True</shouldHideBody>
+                <displayBodyType>Hulk</displayBodyType>
+            </li>
+        </modExtensions>
     </ThingDef>
 
     <!-- Enclave X-02 Power Armor -->
@@ -159,10 +171,9 @@
         <defName>FCP_Apparel_Enclave_X02_Power_Armor</defName>
         <label>Enclave X-02 Power Armor</label>
         <description>A next-generation Enclave power armor, the X-02 offers formidable protection and advanced environmental sealing. It is lighter and more intimidating than earlier models.</description>
+        <generateCommonality>0.001</generateCommonality>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <possessionCount>1</possessionCount>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Power_Armor/Enclave_Power_Armor/FCP_X02_Power_Armor</texPath>
@@ -174,15 +185,16 @@
         </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
-            <MaxHitPoints>260</MaxHitPoints>
-            <WorkToMake>11000</WorkToMake>
+            <MaxHitPoints>290</MaxHitPoints>
+            <WorkToMake>14000</WorkToMake>
             <Mass>6.2</Mass>
-            <ArmorRating_Sharp>2.0</ArmorRating_Sharp>
-            <ArmorRating_Blunt>2.0</ArmorRating_Blunt>
-            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+            <MarketValue>5000</MarketValue>
+            <ArmorRating_Sharp>1.95</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.95</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.97</ArmorRating_Heat>
             <Insulation_Cold>7</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
-            <EquipDelay>1.05</EquipDelay>
+            <EquipDelay>1.0</EquipDelay>
         </statBases>
         <equippedStatOffsets>
             <MoveSpeed>0.135</MoveSpeed>
@@ -228,6 +240,12 @@
 				</requiredApparels>
 			</li>
 		</comps>
+        <modExtensions>
+            <li Class="FalloutCore.ApparelExtension">
+                <shouldHideBody>True</shouldHideBody>
+                <displayBodyType>Hulk</displayBodyType>
+            </li>
+        </modExtensions>
     </ThingDef>
 
     <!-- Enclave X-02 Tesla Power Armor -->
@@ -236,10 +254,9 @@
         <defName>FCP_Apparel_Enclave_X02_Tesla_Power_Armor</defName>
         <label>Enclave X-02 Tesla Power Armor</label>
         <description>A rare variant of the X-02, the Tesla Power Armor is fitted with electromagnetic shielding and energy-dispersing coils. It offers superior protection against heat and electrical attacks, making its wearer a terrifying sight on the battlefield.</description>
+        <generateCommonality>0.001</generateCommonality>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <possessionCount>1</possessionCount>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Power_Armor/Enclave_Power_Armor/FCP_X02_Tesla_Power_Armor</texPath>
@@ -251,15 +268,16 @@
         </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
-            <MaxHitPoints>265</MaxHitPoints>
-            <WorkToMake>11500</WorkToMake>
+            <MaxHitPoints>295</MaxHitPoints>
+            <WorkToMake>15000</WorkToMake>
             <Mass>6.3</Mass>
-            <ArmorRating_Sharp>2.0</ArmorRating_Sharp>
-            <ArmorRating_Blunt>2.0</ArmorRating_Blunt>
-            <ArmorRating_Heat>2.1</ArmorRating_Heat>
-            <Insulation_Cold>7</Insulation_Cold>
-            <Insulation_Heat>9</Insulation_Heat>
-            <EquipDelay>1.07</EquipDelay>
+            <MarketValue>5800</MarketValue>
+            <ArmorRating_Sharp>1.97</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.97</ArmorRating_Blunt>
+            <ArmorRating_Heat>2.0</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.0</EquipDelay>
         </statBases>
         <equippedStatOffsets>
             <MoveSpeed>0.132</MoveSpeed>
@@ -305,6 +323,12 @@
 				</requiredApparels>
 			</li>
 		</comps>
+        <modExtensions>
+            <li Class="FalloutCore.ApparelExtension">
+                <shouldHideBody>True</shouldHideBody>
+                <displayBodyType>Hulk</displayBodyType>
+            </li>
+        </modExtensions>
     </ThingDef>
 
     <!-- Enclave Hellfire Power Armor -->
@@ -313,10 +337,9 @@
         <defName>FCP_Apparel_Enclave_Hellfire_Power_Armor</defName>
         <label>Enclave Hellfire Power Armor</label>
         <description>The Hellfire Power Armor is an advanced Enclave suit designed for extreme environments and frontline assault. Its reinforced plating and advanced heat dispersal systems provide unmatched protection against fire and explosions, making its wearer a walking fortress in the most hazardous conditions.</description>
+        <generateCommonality>0.001</generateCommonality>
         <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardMidFreq</li>
-        </thingSetMakerTags>
+        <thingSetMakerTags Inherit="False" />
         <possessionCount>1</possessionCount>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Power_Armor/Enclave_Power_Armor/FCP_Hellfire_Power_Armor</texPath>
@@ -328,15 +351,16 @@
         </thingCategories>
         <tickerType>Normal</tickerType>
         <statBases>
-            <MaxHitPoints>275</MaxHitPoints>
-            <WorkToMake>12500</WorkToMake>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>16000</WorkToMake>
             <Mass>6.7</Mass>
+            <MarketValue>6500</MarketValue>
             <ArmorRating_Sharp>2.0</ArmorRating_Sharp>
             <ArmorRating_Blunt>2.0</ArmorRating_Blunt>
             <ArmorRating_Heat>2.0</ArmorRating_Heat>
-            <Insulation_Cold>8</Insulation_Cold>
-            <Insulation_Heat>12</Insulation_Heat>
-            <EquipDelay>1.12</EquipDelay>
+            <Insulation_Cold>9</Insulation_Cold>
+            <Insulation_Heat>14</Insulation_Heat>
+            <EquipDelay>1.0</EquipDelay>
         </statBases>
         <equippedStatOffsets>
             <MoveSpeed>0.128</MoveSpeed>
@@ -382,6 +406,12 @@
 				</requiredApparels>
 			</li>
 		</comps>
+        <modExtensions>
+            <li Class="FalloutCore.ApparelExtension">
+                <shouldHideBody>True</shouldHideBody>
+                <displayBodyType>Hulk</displayBodyType>
+            </li>
+        </modExtensions>
     </ThingDef>
 
 </Defs>

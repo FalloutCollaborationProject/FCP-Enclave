@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>  
+<?xml version="1.0" encoding="UTF-8"?>
 
 <Defs>
 
-<!--__________ Power Armor Helmets __________-->
+    <!--__________ Power Armor Helmets __________-->
 
     <ThingDef ParentName="HatBase" Name="FCP_Apparel_Power_Armor_Helmet_Base" Abstract="true">
         <generateCommonality>0.001</generateCommonality>
-		<apparel>
-			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-			<canBeGeneratedToSatisfyVacuumResistance>false</canBeGeneratedToSatisfyVacuumResistance>
-			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
-			<tags>
-				<li>FCP_Power_Armor_Helmet</li>
-			</tags>
-		</apparel>
-	</ThingDef>
+        <apparel>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyVacuumResistance>false</canBeGeneratedToSatisfyVacuumResistance>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+            <tags>
+                <li>FCP_Power_Armor_Helmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
 
     <!-- Advanced Power Armor Helmet -->
-	
+
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_Advanced_Power_Armor_Helmet</defName>
         <label>Enclave Advanced Power Armor Helmet</label>
@@ -30,19 +30,20 @@
         </graphicData>
         <smeltable>false</smeltable>
         <statBases>
-            <MaxHitPoints>80</MaxHitPoints>
+            <MaxHitPoints>85</MaxHitPoints>
             <Mass>0.8</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.80</ArmorRating_Heat>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
+            <MarketValue>1200</MarketValue>
+            <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.40</ArmorRating_Heat>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>2.5</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>            <!-- Good, but not perfect -->
-            <MoveSpeed>-0.5</MoveSpeed>            <!-- Bulky -->
-            <AimingDelayFactor>-0.01</AimingDelayFactor>
-            <SocialImpact>-0.05</SocialImpact>
+            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
+            <MoveSpeed>-0.3</MoveSpeed>
+            <AimingDelayFactor>-0.02</AimingDelayFactor>
+            <SocialImpact>0.00</SocialImpact>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -72,8 +73,8 @@
         </comps>
     </ThingDef>
 
- <!-- Advanced Power Armor Mk II Helmet -->
-	
+    <!-- Advanced Power Armor Mk II Helmet -->
+
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_Advanced_Power_Armor_MkII_Helmet</defName>
         <label>Enclave Advanced Power Armor Mk II Helmet</label>
@@ -86,19 +87,20 @@
         </graphicData>
         <smeltable>false</smeltable>
         <statBases>
-            <MaxHitPoints>80</MaxHitPoints>
+            <MaxHitPoints>88</MaxHitPoints>
             <Mass>0.8</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.80</ArmorRating_Heat>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
+            <MarketValue>1350</MarketValue>
+            <ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.50</ArmorRating_Heat>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>2.5</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>            <!-- Good, but not perfect -->
-            <MoveSpeed>-0.5</MoveSpeed>            <!-- Bulky -->
-            <AimingDelayFactor>-0.01</AimingDelayFactor>
-            <SocialImpact>-0.05</SocialImpact>
+            <ToxicEnvironmentResistance>0.92</ToxicEnvironmentResistance>
+            <MoveSpeed>-0.25</MoveSpeed>
+            <AimingDelayFactor>-0.025</AimingDelayFactor>
+            <SocialImpact>0.02</SocialImpact>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -128,8 +130,8 @@
         </comps>
     </ThingDef>
 
-<!-- X02 Tesla Power Armor Helmet -->
-	
+    <!-- X02 Tesla Power Armor Helmet -->
+
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_X02_Tesla_Power_Armor_Helmet</defName>
         <label>Enclave X02 Tesla Power Armor Helmet</label>
@@ -142,19 +144,20 @@
         </graphicData>
         <smeltable>false</smeltable>
         <statBases>
-            <MaxHitPoints>80</MaxHitPoints>
+            <MaxHitPoints>92</MaxHitPoints>
             <Mass>0.8</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.80</ArmorRating_Heat>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
+            <MarketValue>1700</MarketValue>
+            <ArmorRating_Sharp>1.55</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.55</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.70</ArmorRating_Heat>
+            <Insulation_Heat>4</Insulation_Heat>
+            <EquipDelay>2</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>            <!-- Good, but not perfect -->
-            <MoveSpeed>-0.5</MoveSpeed>            <!-- Bulky -->
-            <AimingDelayFactor>-0.01</AimingDelayFactor>
-            <SocialImpact>-0.05</SocialImpact>
+            <ToxicEnvironmentResistance>0.98</ToxicEnvironmentResistance>
+            <MoveSpeed>-0.15</MoveSpeed>
+            <AimingDelayFactor>-0.035</AimingDelayFactor>
+            <SocialImpact>0.06</SocialImpact>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -184,8 +187,8 @@
         </comps>
     </ThingDef>
 
-<!-- X02 Power Armor Helmet -->
-	
+    <!-- X02 Power Armor Helmet -->
+
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_X02_Power_Armor_Helmet</defName>
         <label>Enclave X02 Power Armor Helmet</label>
@@ -198,19 +201,20 @@
         </graphicData>
         <smeltable>false</smeltable>
         <statBases>
-            <MaxHitPoints>80</MaxHitPoints>
+            <MaxHitPoints>90</MaxHitPoints>
             <Mass>0.8</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.80</ArmorRating_Heat>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
+            <MarketValue>1500</MarketValue>
+            <ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.50</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.60</ArmorRating_Heat>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>2</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>            <!-- Good, but not perfect -->
-            <MoveSpeed>-0.5</MoveSpeed>            <!-- Bulky -->
-            <AimingDelayFactor>-0.01</AimingDelayFactor>
-            <SocialImpact>-0.05</SocialImpact>
+            <ToxicEnvironmentResistance>0.95</ToxicEnvironmentResistance>
+            <MoveSpeed>-0.2</MoveSpeed>
+            <AimingDelayFactor>-0.03</AimingDelayFactor>
+            <SocialImpact>0.04</SocialImpact>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -240,8 +244,8 @@
         </comps>
     </ThingDef>
 
-<!-- Hellfire Power Armor Helmet -->
-	
+    <!-- Hellfire Power Armor Helmet -->
+
     <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
         <defName>FCP_Apparel_Enclave_Hellfire_Power_Armor_Helmet</defName>
         <label>Enclave Hellfire Power Armor Helmet</label>
@@ -254,19 +258,20 @@
         </graphicData>
         <smeltable>false</smeltable>
         <statBases>
-            <MaxHitPoints>80</MaxHitPoints>
-            <Mass>0.8</Mass>
-            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.80</ArmorRating_Heat>
-            <Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>3</EquipDelay>
+            <MaxHitPoints>95</MaxHitPoints>
+            <Mass>0.85</Mass>
+            <MarketValue>1900</MarketValue>
+            <ArmorRating_Sharp>1.70</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.70</ArmorRating_Blunt>
+            <ArmorRating_Heat>2.25</ArmorRating_Heat>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>2</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>            <!-- Good, but not perfect -->
-            <MoveSpeed>-0.5</MoveSpeed>            <!-- Bulky -->
-            <AimingDelayFactor>-0.01</AimingDelayFactor>
-            <SocialImpact>-0.05</SocialImpact>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <MoveSpeed>-0.1</MoveSpeed>
+            <AimingDelayFactor>-0.04</AimingDelayFactor>
+            <SocialImpact>0.08</SocialImpact>
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
