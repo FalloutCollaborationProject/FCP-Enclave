@@ -11,6 +11,7 @@
         <description>You are operatives of the Enclave, the shadow government that considers itself the rightful heir to the United States of America. Armed with advanced pre-war technology and an unwavering belief in your genetic and technological superiority, you seek to restore America to its former glory - by any means necessary. The wasteland is filled with mutants and degenerates who have no place in the new America you will build.</description>
         <isPlayer>true</isPlayer>
         <techLevel>Industrial</techLevel>
+        <basicMemberKind>Colonist</basicMemberKind>
         <pawnSingular>Agent</pawnSingular>
         <pawnsPlural>Agents</pawnsPlural>
         <leaderTitle>Colonel</leaderTitle>
