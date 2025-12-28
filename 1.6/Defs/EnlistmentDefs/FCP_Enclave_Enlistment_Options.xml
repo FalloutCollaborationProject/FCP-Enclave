@@ -42,7 +42,7 @@
         <salaryLabelKey>FCP_Enclave_Salary_Label</salaryLabelKey>
         <salaryDescKey>FCP_Enclave_Salary_Desc</salaryDescKey>
         <salaryButtonIconTexPath>Things/Items/Currencies/FCP_Enclave_Currency/FCP_Enclave_Bullion</salaryButtonIconTexPath>
-        <salaryRange>500~700</salaryRange>
+        <salaryRange>320~420</salaryRange>
         <salaryPeriodDays>14</salaryPeriodDays>
 
         <!-- Provision Options -->
