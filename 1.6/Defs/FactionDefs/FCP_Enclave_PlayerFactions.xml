@@ -16,8 +16,9 @@
         <pawnsPlural>Agents</pawnsPlural>
         <leaderTitle>Colonel</leaderTitle>
         <factionIconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</factionIconPath>
+        <settlementNameMaker>FCP_Namer_Settlement_Enclave</settlementNameMaker>
         <colorSpectrum>
-            <li>(0.2, 0.2, 0.2)</li>
+            <li>(1, 1, 1)</li>
         </colorSpectrum>
         <allowedCultures>
             <li>FCP_Culture_Enclave</li>

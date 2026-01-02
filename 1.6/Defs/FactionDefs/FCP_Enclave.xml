@@ -16,7 +16,7 @@
         <pawnSingular>Constituent</pawnSingular>
         <pawnsPlural>Constituents</pawnsPlural>
         <categoryTag>Outlander</categoryTag>
-        <settlementGenerationWeight>0.2</settlementGenerationWeight>
+        <settlementGenerationWeight>0.05</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
@@ -33,7 +33,7 @@
 
         <fixedIdeo>true</fixedIdeo>
         <ideoName>Manifest Destiny</ideoName>
-        <ideoDescription>.</ideoDescription>
+        <ideoDescription>The Enclave represents the continuation of the United States government, destined to reclaim and restore America. Only pure, untainted humans have the right to rebuild civilization. All others are aberrations to be removed or subjugated.</ideoDescription>
         <styles>
             <li>FCP_Style_Enclave</li>
         </styles>

@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>  
-
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+    <!--__________ Enclave Memes __________-->
 
-
-<MemeDef>
+    <MemeDef>
         <defName>FCP_Meme_EnclaveManifestDestiny</defName>
         <label>Enclave Manifest Destiny</label>
         <description>The Enclave represents the continuation of the United States government, destined to reclaim and restore America. Only pure, untainted humans have the right to rebuild civilization. All others are aberrations to be removed or subjugated.</description>
-        <iconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</iconPath>
+        <iconPath>Things/UI/Ideology/FCP_Enclave_Manifest Destiny</iconPath>
         <groupDef>Misc</groupDef>
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
