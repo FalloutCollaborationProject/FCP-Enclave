@@ -229,6 +229,15 @@
                 </enlistOptionsDefs>
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
         </modExtensions>
     </FactionDef>
 
