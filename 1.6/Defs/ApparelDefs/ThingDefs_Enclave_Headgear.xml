@@ -14,6 +14,19 @@
             <texPath>Things/Apparel/Enclave_Headgear/Officers/FCP_Enclave_Officer_Cap</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_Research_Enclave_Basic_Equipment</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -46,6 +59,19 @@
             <texPath>Things/Apparel/Enclave_Headgear/Scientists/FCP_Scientist_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_Research_Enclave_Basic_Equipment</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -76,6 +102,19 @@
             <texPath>Things/Apparel/Enclave_Headgear/Troopers/FCP_Enclave_Trooper_Cap</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <costList>
+            <Cloth>15</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_Research_Enclave_Basic_Equipment</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <statBases>
             <WorkToMake>3000</WorkToMake>
@@ -108,6 +147,20 @@
             <texPath>Things/Apparel/Enclave_Armor/Enclave_Combat_Armor/FCP_Enclave_Combat_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>FCP_Research_Enclave_Advanced_Equipment</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <statBases>
             <WorkToMake>3000</WorkToMake>

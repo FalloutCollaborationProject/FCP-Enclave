@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Enclave Power Armor Recipes __________-->
+
+    <!-- Enclave Advanced Power Armor -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Make_Enclave_Advanced_Power_Armor</defName>
+        <label>make Enclave Advanced Power Armor</label>
+        <description>Craft a suit of Enclave Advanced Power Armor using military-grade schematics.</description>
+        <jobString>Making Enclave Advanced Power Armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>45000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>120</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Enclave_Advanced_Power_Armor>1</FCP_Apparel_Enclave_Advanced_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>12</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_Enclave_Advanced_Power_Armor</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_Enclave</requireFaction>
+                <minimumGoodwill>70</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!-- Enclave Advanced Power Armor MkII -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Make_Enclave_Advanced_Power_Armor_MkII</defName>
+        <label>make Enclave Advanced Power Armor MkII</label>
+        <description>Craft a suit of Enclave Advanced Power Armor MkII using military-grade schematics.</description>
+        <jobString>Making Enclave Advanced Power Armor MkII.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>50000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>130</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>90</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Enclave_Advanced_Power_Armor_MkII>1</FCP_Apparel_Enclave_Advanced_Power_Armor_MkII>
+        </products>
+        <skillRequirements>
+            <Crafting>13</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_Enclave_Advanced_Power_Armor_MkII</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_Enclave</requireFaction>
+                <minimumGoodwill>85</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+</Defs>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Enclave Traders __________-->
+
+    <!--_____ Quartermaster Trader _____-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Enclave_Quartermaster</defName>
+        <label>Enclave Quartermaster</label>
+        <stockGenerators>
+
+            <!--__ Enclave Uniforms __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Enclave_Officer_Coat</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Enclave_Trooper_Uniform</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Enclave_Scientist_Outfit</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Enclave_Scientist_Boots</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Enclave_Scientist_Glove</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!--__ Crafting Materials for Uniforms __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Cloth</thingDef>
+                <countRange>100~300</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Synthread</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Leather_Plain</thingDef>
+                <countRange>50~100</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>2000~6000</countRange>
+            </li>
+
+            <!--__ Buying - Weapons __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>FCP_Ballistic_Weapon</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>FCP_Energy_Weapon</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>FCP_Industrial_Weapon</tag>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!--_____ Armorer Trader _____-->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_Enclave_Armorer</defName>
+        <label>Enclave Armorer</label>
+        <stockGenerators>
+
+            <!--__ Power Armor Frames (Rare) __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
+                <thingDef>FCP_Apparel_Power_Armor_Frame</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+
+            <!--__ Enclave Power Armor (Rare) __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
+                <thingDef>FCP_Apparel_Enclave_Advanced_Power_Armor</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
+                <thingDef>FCP_Apparel_Enclave_Advanced_Power_Armor_Helmet</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
+                <thingDef>FCP_Apparel_Enclave_Advanced_Power_Armor_MkII</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
+                <thingDef>FCP_Apparel_Enclave_Advanced_Power_Armor_MkII_Helmet</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Plasma Weapons __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Plasma_Pistol</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Plasma_Rifle</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Plasma_Defender</thingDef>
+                <countRange>0~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.EnergyWeapons">
+                <thingDef>FCP_Gun_Plasma_Caster</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ Fusion Cores __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
+                <thingDef>FCP_Item_Fusion_Core</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+                <countRange>4000~10000</countRange>
+            </li>
+
+            <!--__ Buying - Power Armor __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>FCP_PowerArmor</tag>
+            </li>
+
+            <!--__ Buying - Energy Weapons __-->
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>FCP_Energy_Weapon</tag>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Enclave Trader PawnKinds __________-->
+
+    <!--_____ Quartermaster _____-->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Pawnkind_Enclave_Quartermaster</defName>
+        <label>Enclave Quartermaster</label>
+        <trader>true</trader>
+        <combatPower>70</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~2.0</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+            <li>FCP_Apparel_Enclave_Officer_Cap</li>
+        </apparelRequired>
+        <apparelTags>
+            <li>FCP_Enclave_Apparel</li>
+        </apparelTags>
+        <weaponMoney>200~400</weaponMoney>
+        <weaponTags MayRequire="Rick.FCP.BallisticWeapons">
+            <li>FCP_Ballistic_Weapon</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Enclave_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!--_____ Armorer _____-->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Pawnkind_Enclave_Armorer</defName>
+        <label>Enclave Armorer</label>
+        <trader>true</trader>
+        <combatPower>85</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~2.0</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Trooper_Uniform</li>
+            <li>FCP_Apparel_Enclave_Combat_Armor</li>
+            <li>FCP_Apparel_Enclave_Combat_Armor_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>500~1000</weaponMoney>
+        <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
+            <li>FCP_Plasma_Weapon</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <techHediffsMoney>0</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Enclave_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_Enclave_Trooper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+</Defs>

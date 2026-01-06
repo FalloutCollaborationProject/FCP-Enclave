@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Enclave Power Armor Helmet Recipes __________-->
+
+    <!-- Enclave Advanced Power Armor Helmet -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Make_Enclave_Advanced_Power_Armor_Helmet</defName>
+        <label>make Enclave Advanced Power Armor Helmet</label>
+        <description>Craft an Enclave Advanced Power Armor Helmet using military-grade schematics.</description>
+        <jobString>Making Enclave Advanced Power Armor Helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>25000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Enclave_Advanced_Power_Armor_Helmet>1</FCP_Apparel_Enclave_Advanced_Power_Armor_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>12</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_Enclave_Advanced_Power_Armor</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_Enclave</requireFaction>
+                <minimumGoodwill>70</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!-- Enclave Advanced Power Armor MkII Helmet -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Make_Enclave_Advanced_Power_Armor_MkII_Helmet</defName>
+        <label>make Enclave Advanced Power Armor MkII Helmet</label>
+        <description>Craft an Enclave Advanced Power Armor MkII Helmet using military-grade schematics.</description>
+        <jobString>Making Enclave Advanced Power Armor MkII Helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>28000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>65</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>45</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Enclave_Advanced_Power_Armor_MkII_Helmet>1</FCP_Apparel_Enclave_Advanced_Power_Armor_MkII_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>13</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_Enclave_Advanced_Power_Armor_MkII</researchPrerequisite>
+        <modExtensions>
+            <li Class="RecipeGoodwillLimiter.RecipeExtension_GoodwillCheck">
+                <requireFaction>FCP_Faction_Enclave</requireFaction>
+                <minimumGoodwill>85</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+</Defs>

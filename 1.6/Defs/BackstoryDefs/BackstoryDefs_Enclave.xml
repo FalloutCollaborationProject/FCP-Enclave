@@ -1353,4 +1353,60 @@
         <possessions />
     </BackstoryDef>
 
+    <!--__ Traders __-->
+
+    <!-- Enclave Quartermaster -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Enclave_Quartermaster</defName>
+        <identifier>FCP_Backstory_Enclave_Quartermaster</identifier>
+        <slot>Adulthood</slot>
+        <shuffleable>true</shuffleable>
+        <title>Enclave Quartermaster</title>
+        <titleShort>Quartermaster</titleShort>
+        <description>[PAWN_nameDef] served as a quartermaster for the Enclave, responsible for managing and distributing uniforms, supplies, and essential equipment to soldiers and personnel. Known for [PAWN_possessive] meticulous record-keeping and efficient logistics, [PAWN_pronoun] ensured that every unit was properly outfitted for duty. With an eye for detail and a talent for negotiation, [PAWN_nameDef] became an invaluable asset to the Enclave's supply chain, maintaining the organization's operational readiness even in the harshest conditions.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>4</Intellectual>
+            <Crafting>3</Crafting>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Backstory_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Enclave Armorer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_Enclave_Armorer</defName>
+        <identifier>FCP_Backstory_Enclave_Armorer</identifier>
+        <slot>Adulthood</slot>
+        <shuffleable>true</shuffleable>
+        <title>Enclave Armorer</title>
+        <titleShort>Armorer</titleShort>
+        <description>[PAWN_nameDef] worked as an armorer for the Enclave, specializing in the maintenance, repair, and distribution of advanced power armor and energy weapons. With extensive knowledge of pre-war military technology, [PAWN_pronoun] was trusted to outfit elite soldiers with the finest equipment available. [PAWN_nameDef] took pride in [PAWN_possessive] work, ensuring every suit of armor and weapon functioned flawlessly. [PAWN_possessive] expertise and dedication made [PAWN_objective] a cornerstone of the Enclave's military strength.</description>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Social>5</Social>
+            <Intellectual>4</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Enclave</li>
+            <li>FCP_Backstory_Enclave_Trooper</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
 </Defs>

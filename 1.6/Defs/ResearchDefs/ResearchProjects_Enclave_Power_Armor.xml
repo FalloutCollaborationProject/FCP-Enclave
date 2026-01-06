@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Enclave Power Armor Research __________-->
+
+    <!-- Enclave Advanced Power Armor -->
+
+    <ResearchProjectDef ParentName="FCP_Pre_War_Military_Research_Base">
+        <defName>FCP_Research_Enclave_Advanced_Power_Armor</defName>
+        <label>Holotape File: Enclave Advanced Power Armor</label>
+        <description>Military holotape containing the schematics and manufacturing processes for the Enclave Advanced Power Armor. This cutting-edge armor represents the pinnacle of pre-war engineering, offering exceptional protection and mobility.</description>
+        <baseCost>3500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <researchViewX>16.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+        <tab>FCP_Pre_War_Research</tab>
+    </ResearchProjectDef>
+
+    <!-- Enclave Advanced Power Armor MkII -->
+
+    <ResearchProjectDef ParentName="FCP_Pre_War_Military_Research_Base">
+        <defName>FCP_Research_Enclave_Advanced_Power_Armor_MkII</defName>
+        <label>Holotape File: Enclave Advanced Power Armor MkII</label>
+        <description>Military holotape containing the schematics and manufacturing processes for the Enclave Advanced Power Armor MkII. This improved variant features enhanced environmental sealing and durability for prolonged combat scenarios.</description>
+        <baseCost>4000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <prerequisites>
+            <li>FCP_Research_Enclave_Advanced_Power_Armor</li>
+        </prerequisites>
+        <researchViewX>17.50</researchViewX>
+        <researchViewY>0.00</researchViewY>
+        <tab>FCP_Pre_War_Research</tab>
+    </ResearchProjectDef>
+
+</Defs>

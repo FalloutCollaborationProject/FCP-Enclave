@@ -18,8 +18,8 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>10.50</researchViewX>
-        <researchViewY>0.50</researchViewY>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -39,8 +39,8 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>12.00</researchViewX>
-        <researchViewY>0.50</researchViewY>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>5.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
