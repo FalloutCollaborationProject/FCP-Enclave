@@ -31,6 +31,14 @@
                 </categories>
             </li>
         </backstoryFilters>
+        <modExtensions>
+            <!-- Shuttles -->
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_Enclave_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+        </modExtensions>
     </FactionDef>
 
 </Defs>

@@ -146,6 +146,8 @@
         <graphicData>
             <texPath>Things/Apparel/Enclave_Armor/Enclave_Combat_Armor/FCP_Enclave_Combat_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(63, 63, 63)</color>
         </graphicData>
         <costList>
             <Steel>40</Steel>

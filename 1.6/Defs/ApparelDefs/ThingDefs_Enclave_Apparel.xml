@@ -358,7 +358,6 @@
         <graphicData>
             <texPath>Things/Apparel/Enclave_Armor/Enclave_Combat_Armor/FCP_Enclave_Combat_Armor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
             <drawSize>0.90</drawSize>
             <color>(63, 63, 63)</color>
         </graphicData>
