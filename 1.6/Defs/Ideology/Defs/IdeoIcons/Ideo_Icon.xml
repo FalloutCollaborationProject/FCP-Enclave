@@ -2,7 +2,7 @@
 
 <Defs>
 
-<IdeoIconDef>
+    <IdeoIconDef>
         <defName>FCP_Icon_Enclave</defName>
         <iconPath>Things/UI/Ideology/FCP_Enclave_Manifest Destiny</iconPath>
         <cultures>

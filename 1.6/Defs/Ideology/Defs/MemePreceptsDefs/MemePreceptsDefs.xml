@@ -44,6 +44,7 @@
     </PreceptDef>
 
     <!-- IdeoRoleRequirementDef is not a valid def type in RimWorld 1.6 - commented out -->
+
     <!--
     <IdeoRoleRequirementDef>
         <defName>FCP_Role_Requirement_EnclaveOfficer</defName>
