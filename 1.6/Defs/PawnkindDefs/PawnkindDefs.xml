@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 
     <!--__________ Pawnkinds __________-->
 
     <!--_____ Enclave Pawnkinds _____-->
 
     <!--___ Characters ___-->
-
     <!-- Enclave Pawnkind base -->
-
-    <PawnKindDef Name="FCP_EnclavekindBase" Abstract="True">
-		<race>Human</race>
-		<defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
-		<maxGenerationAge>60</maxGenerationAge>
-		<chemicalAddictionChance>0</chemicalAddictionChance>
-		<invNutrition>2.7</invNutrition>
-		<invFoodDef>MealSurvivalPack</invFoodDef>
-		<disallowedTraits>
-			<li>Nudist</li>
-			<li>Brawler</li>
-		</disallowedTraits>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<apparelDisallowTags>
-			<li>FCP_Power_Armor</li>
-			<li>FCP_Power_Armor_Midwest</li>
-			<li>FCP_Power_Armor_BoS</li>
-			<li>FCP_Power_Armor_NCR</li>
-			<li>FCP_Power_Armor_Legion</li>
-			<li>IndustrialBasic</li>
-			<li>IndustrialAdvanced</li>
-			<li>IndustrialMilitary</li>
-			<li>SpacerMilitary</li>
-		</apparelDisallowTags>
-		<apparelTags>
-			<li>FCP_Enclave_Apparel</li>
-		</apparelTags>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesChildhood>
-					<li>FCP_Backstory_Enclave_Child</li>
-				</categoriesChildhood>
-			</li>
-		</backstoryFiltersOverride>
-		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-	</PawnKindDef>
+    
+<PawnKindDef Name="FCP_EnclavekindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
+        <maxGenerationAge>60</maxGenerationAge>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <apparelDisallowTags>
+            <li>FCP_Power_Armor</li>
+            <li>FCP_Power_Armor_Midwest</li>
+            <li>FCP_Power_Armor_BoS</li>
+            <li>FCP_Power_Armor_NCR</li>
+            <li>FCP_Power_Armor_Legion</li>
+            <li>IndustrialBasic</li>
+            <li>IndustrialAdvanced</li>
+            <li>IndustrialMilitary</li>
+            <li>SpacerMilitary</li>
+        </apparelDisallowTags>
+        <apparelTags>
+            <li>FCP_Enclave_Apparel</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Enclave_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
 
     <!-- President Richardson Sr -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_President_Richardson_Sr</defName>
         <label>President Richardson Sr</label>
         <factionLeader>true</factionLeader>
@@ -73,8 +73,8 @@
     </PawnKindDef>
 
     <!-- President Richardson Jr -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_President_Richardson_Jr</defName>
         <label>President Richardson Jr</label>
         <factionLeader>false</factionLeader>
@@ -98,8 +98,8 @@
     </PawnKindDef>
 
     <!-- Vice President Bird -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Vice_President_Bird</defName>
         <label>Vice President Bird</label>
         <factionLeader>false</factionLeader>
@@ -123,8 +123,8 @@
     </PawnKindDef>
 
     <!-- Arcade Ganon Sr -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Arcade_Gannon_Sr</defName>
         <label>Arcade Gannon Sr</label>
         <factionLeader>false</factionLeader>
@@ -150,8 +150,8 @@
     </PawnKindDef>
 
     <!-- Dr. Schreber -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Dr_Schreber</defName>
         <label>Dr. Schreber</label>
         <factionLeader>false</factionLeader>
@@ -177,8 +177,8 @@
     </PawnKindDef>
 
     <!-- Dr. Henry -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Dr_Henry</defName>
         <label>Dr. Henry</label>
         <factionLeader>false</factionLeader>
@@ -204,8 +204,8 @@
     </PawnKindDef>
 
     <!-- Dr. Charles Curling -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Dr_Charles_Curling</defName>
         <label>Dr. Charles Curling</label>
         <factionLeader>false</factionLeader>
@@ -231,8 +231,8 @@
     </PawnKindDef>
 
     <!-- Anna Holt -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Anna_Holt</defName>
         <label>Anna Holt</label>
         <factionLeader>false</factionLeader>
@@ -258,8 +258,8 @@
     </PawnKindDef>
 
     <!-- Stiggs -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Stiggs</defName>
         <label>Stiggs</label>
         <factionLeader>false</factionLeader>
@@ -284,8 +284,8 @@
     </PawnKindDef>
 
     <!-- Tom Murray -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Tom_Murray</defName>
         <label>Tom Murray</label>
         <factionLeader>false</factionLeader>
@@ -312,8 +312,8 @@
     </PawnKindDef>
 
     <!-- Raul -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Raul</defName>
         <label>Raul</label>
         <factionLeader>false</factionLeader>
@@ -338,8 +338,8 @@
     </PawnKindDef>
 
     <!-- Quincy -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Mechanic_Quincy</defName>
         <label>Quincy</label>
         <factionLeader>false</factionLeader>
@@ -364,8 +364,8 @@
     </PawnKindDef>
 
     <!-- Daisy Whitman -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Daisy_Whitman</defName>
         <label>Daisy Whitman</label>
         <factionLeader>false</factionLeader>
@@ -390,8 +390,8 @@
     </PawnKindDef>
 
     <!-- Cookie -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Cookie</defName>
         <label>Cookie</label>
         <factionLeader>false</factionLeader>
@@ -416,8 +416,8 @@
     </PawnKindDef>
 
     <!-- Guard Snookie -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Guard_Snookie</defName>
         <label>Guard Snookie</label>
         <factionLeader>false</factionLeader>
@@ -442,8 +442,8 @@
     </PawnKindDef>
 
     <!-- J. Smith -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_J_Smith</defName>
         <label>J. Smith</label>
         <factionLeader>false</factionLeader>
@@ -468,8 +468,8 @@
     </PawnKindDef>
 
     <!-- Frank Horrigan -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Frank_Horrigan</defName>
         <label>Frank Horrigan</label>
         <factionLeader>false</factionLeader>
@@ -493,8 +493,8 @@
     </PawnKindDef>
 
     <!-- Sergeant Granite -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Sergeant_Granite</defName>
         <label>Sergeant Granite</label>
         <factionLeader>false</factionLeader>
@@ -519,8 +519,8 @@
     </PawnKindDef>
 
     <!-- Sergeant Bracks -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Sergeant_Bracks</defName>
         <label>Sergeant Bracks</label>
         <factionLeader>false</factionLeader>
@@ -545,8 +545,8 @@
     </PawnKindDef>
 
     <!-- Sergeant Dornan -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Sergeant_Dornan</defName>
         <label>Sergeant Dornan</label>
         <factionLeader>false</factionLeader>
@@ -571,8 +571,8 @@
     </PawnKindDef>
 
     <!-- Orion Moreno -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Orion_Moreno</defName>
         <label>Orion Moreno</label>
         <factionLeader>false</factionLeader>
@@ -597,8 +597,8 @@
     </PawnKindDef>
 
     <!-- Lieutenant Williams -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Lieutenant_Williams</defName>
         <label>Lieutenant Williams</label>
         <factionLeader>false</factionLeader>
@@ -623,8 +623,8 @@
     </PawnKindDef>
 
     <!-- Lieutenant Brian Richter -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Lieutenant_Richter</defName>
         <label>Lieutenant Brian Richter</label>
         <factionLeader>false</factionLeader>
@@ -649,8 +649,8 @@
     </PawnKindDef>
 
     <!-- Captain A. Ron Myers -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Captain_Myers</defName>
         <label>Captain Myers</label>
         <factionLeader>false</factionLeader>
@@ -675,8 +675,8 @@
     </PawnKindDef>
 
     <!-- Captain Kreger -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Captain_Kreger</defName>
         <label>Captain Kreger</label>
         <factionLeader>false</factionLeader>
@@ -701,8 +701,8 @@
     </PawnKindDef>
 
     <!-- Captain Pickard -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Captain_Pickard</defName>
         <label>Captain Pickard</label>
         <factionLeader>false</factionLeader>
@@ -727,8 +727,8 @@
     </PawnKindDef>
 
     <!-- Colonel Autumn Sr -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Colonel_Autumn_Sr</defName>
         <label>Colonel Autumn Sr</label>
         <factionLeader>false</factionLeader>
@@ -754,7 +754,7 @@
 
     <!-- Colonel Autumn -->
     
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Colonel_Autumn</defName>
         <label>Colonel Autumn</label>
         <factionLeader>false</factionLeader>
@@ -780,21 +780,13 @@
 
     <!--___ Civilians ___-->
 
-
-
     <!--___ Traders ___-->
 
-
-
     <!--___ Politicians ___-->
-
     <!-- Enclave Politician -->
-
-
-
     <!-- Enclave Officer -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Officer</defName>
         <label>Enclave Officer</label>
         <combatPower>110</combatPower>
@@ -838,10 +830,9 @@
     </PawnKindDef>
 
     <!--___ Military ___-->
-
     <!-- Enclave Trooper -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Trooper</defName>
         <label>Enclave Trooper</label>
         <combatPower>90</combatPower>
@@ -884,8 +875,8 @@
     </PawnKindDef>
 
     <!-- Enclave Armored Trooper -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Armored_Trooper</defName>
         <label>Enclave Armored Trooper</label>
         <combatPower>95</combatPower>
@@ -929,8 +920,8 @@
     </PawnKindDef>
 
     <!-- Enclave Power Armor Trooper -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Power_Armor_Trooper</defName>
         <label>Enclave Power Armor Trooper</label>
         <combatPower>120</combatPower>
@@ -978,8 +969,8 @@
     </PawnKindDef>
 
     <!-- Enclave Mk II Power Armor Trooper -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper</defName>
         <label>Enclave Mk II Power Armor Trooper</label>
         <combatPower>120</combatPower>
@@ -1026,8 +1017,8 @@
     </PawnKindDef>
 
     <!-- Enclave Mk II Tesla Power Armor Trooper -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper</defName>
         <label>Enclave Tesla Trooper</label>
         <combatPower>120</combatPower>
@@ -1074,8 +1065,8 @@
     </PawnKindDef>
 
     <!-- Enclave Hellfire Power Armor Trooper -->
-
-    <PawnKindDef ParentName="FCP_EnclavekindBase">
+    
+<PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper</defName>
         <label>Enclave Hellfire Trooper</label>
         <combatPower>120</combatPower>
@@ -1120,5 +1111,4 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
-
 </Defs>

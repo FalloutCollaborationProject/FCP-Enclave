@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 
     <!--__________ Backstories __________-->
 
@@ -8,10 +9,9 @@
     <!--___ Enclave ___-->
 
     <!--__ Characters __-->
-
     <!-- President Richardson Sr -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_President_Richardson_Sr</defName>
         <identifier>FCP_Backstory_Enclave_President_Richardson_Sr</identifier>
         <slot>Adulthood</slot>
@@ -37,8 +37,8 @@
     </BackstoryDef>
 
     <!-- President Dick Richardson -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_President_Richardson_Jr</defName>
         <identifier>FCP_Backstory_Enclave_President_Richardson_Jr</identifier>
         <slot>Adulthood</slot>
@@ -62,8 +62,8 @@
     </BackstoryDef>
 
     <!-- Vice President Bird -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Vice_President_Bird</defName>
         <identifier>FCP_Backstory_Enclave_Vice_President_Bird</identifier>
         <slot>Adulthood</slot>
@@ -87,8 +87,8 @@
     </BackstoryDef>
 
     <!-- Arcade Ganon Sr -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Arcade_Gannon_Sr</defName>
         <identifier>FCP_Backstory_Enclave_Arcade_Gannon_Sr</identifier>
         <slot>Adulthood</slot>
@@ -112,8 +112,8 @@
     </BackstoryDef>
 
     <!-- Dr. Schreber -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Dr_Schreber</defName>
         <identifier>FCP_Backstory_Enclave_Dr_Schreber</identifier>
         <slot>Adulthood</slot>
@@ -137,8 +137,8 @@
     </BackstoryDef>
 
     <!-- Dr. Henry -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Dr_Henry</defName>
         <identifier>FCP_Backstory_Enclave_Dr_Henry</identifier>
         <slot>Adulthood</slot>
@@ -162,8 +162,8 @@
     </BackstoryDef>
 
     <!-- Dr. Charles Curling -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Dr_Charles_Curling</defName>
         <identifier>FCP_Backstory_Enclave_Dr_Charles_Curling</identifier>
         <slot>Adulthood</slot>
@@ -187,8 +187,8 @@
     </BackstoryDef>
 
     <!-- Anna Holt -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Anna_Holt</defName>
         <identifier>FCP_Backstory_Enclave_Anna_Holt</identifier>
         <slot>Adulthood</slot>
@@ -212,8 +212,8 @@
     </BackstoryDef>
 
     <!-- Tom Murray -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Tom_Murray</defName>
         <identifier>FCP_Backstory_Enclave_Tom_Murray</identifier>
         <slot>Adulthood</slot>
@@ -237,8 +237,8 @@
     </BackstoryDef>
 
     <!-- Vertibird Mechanic Raul -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Raul</defName>
         <identifier>FCP_Backstory_Enclave_Raul</identifier>
         <slot>Adulthood</slot>
@@ -262,8 +262,8 @@
     </BackstoryDef>
 
     <!-- Mechanic Quincy -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Mechanic_Quincy</defName>
         <identifier>FCP_Backstory_Enclave_Mechanic_Quincy</identifier>
         <slot>Adulthood</slot>
@@ -287,8 +287,8 @@
     </BackstoryDef>
 
     <!-- Daisy Whitman -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Daisy_Whitman</defName>
         <identifier>FCP_Backstory_Enclave_Daisy_Whitman</identifier>
         <slot>Adulthood</slot>
@@ -309,11 +309,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Female</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Stiggs -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Stiggs</defName>
         <identifier>FCP_Backstory_Enclave_Stiggs</identifier>
         <slot>Adulthood</slot>
@@ -337,8 +340,8 @@
     </BackstoryDef>
 
     <!-- Cookie -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Cookie</defName>
         <identifier>FCP_Backstory_Enclave_Cookie</identifier>
         <slot>Adulthood</slot>
@@ -359,11 +362,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Guard Snookie -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Guard_Snookie</defName>
         <identifier>FCP_Backstory_Enclave_Guard_Snookie</identifier>
         <slot>Adulthood</slot>
@@ -384,11 +390,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Female</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- J. Smith -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_J_Smith</defName>
         <identifier>FCP_Backstory_Enclave_J_Smith</identifier>
         <slot>Adulthood</slot>
@@ -412,8 +421,8 @@
     </BackstoryDef>
 
     <!-- Special Agent Frank Horrigan -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Frank_Horrigan</defName>
         <identifier>FCP_Backstory_Enclave_Frank_Horrigan</identifier>
         <slot>Adulthood</slot>
@@ -434,11 +443,14 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Sergeant Granite -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Sergeant_Granite</defName>
         <identifier>FCP_Backstory_Enclave_Sergeant_Granite</identifier>
         <slot>Adulthood</slot>
@@ -459,11 +471,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Sergeant Bracks -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Sergeant_Bracks</defName>
         <identifier>FCP_Backstory_Enclave_Sergeant_Bracks</identifier>
         <slot>Adulthood</slot>
@@ -484,11 +499,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Sergeant Dornan -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Sergeant_Dornan</defName>
         <identifier>FCP_Backstory_Enclave_Sergeant_Dornan</identifier>
         <slot>Adulthood</slot>
@@ -509,11 +527,14 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Officer Orion Moreno -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Orion_Moreno</defName>
         <identifier>FCP_Backstory_Enclave_Orion_Moreno</identifier>
         <slot>Adulthood</slot>
@@ -534,11 +555,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Lieutenant Williams -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Lieutenant_Williams</defName>
         <identifier>FCP_Backstory_Enclave_Lieutenant_Williams</identifier>
         <slot>Adulthood</slot>
@@ -559,11 +583,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Lieutenant Brian Richter -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Lieutenant_Richter</defName>
         <identifier>FCP_Backstory_Enclave_Lieutenant_Richter</identifier>
         <slot>Adulthood</slot>
@@ -584,11 +611,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Captain A. Ron Myers -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Captain_Myers</defName>
         <identifier>FCP_Backstory_Enclave_Captain_Myers</identifier>
         <slot>Adulthood</slot>
@@ -609,11 +639,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Captain Kreger -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Captain_Kreger</defName>
         <identifier>FCP_Backstory_Enclave_Captain_Kreger</identifier>
         <slot>Adulthood</slot>
@@ -634,11 +667,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Captain Pickard -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Captain_Pickard</defName>
         <identifier>FCP_Backstory_Enclave_Captain_Pickard</identifier>
         <slot>Adulthood</slot>
@@ -659,11 +695,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Colonel Autumn Sr -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Colonel_Autumn_Senior</defName>
         <identifier>FCP_Backstory_Enclave_Colonel_Autumn_Senior</identifier>
         <slot>Adulthood</slot>
@@ -687,8 +726,8 @@
     </BackstoryDef>
 
     <!-- Colonel Autumn -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Colonel_Autumn</defName>
         <identifier>FCP_Backstory_Enclave_Colonel_Autumn</identifier>
         <slot>Adulthood</slot>
@@ -712,10 +751,9 @@
     </BackstoryDef>
 
     <!--__ Adults __-->
-
     <!-- Enclave Politician -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Politician</defName>
         <identifier>FCP_Backstory_Enclave_Politician</identifier>
         <slot>Adulthood</slot>
@@ -740,8 +778,8 @@
     </BackstoryDef>
 
     <!-- Enclave Foot Soldier -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Foot_Soldier</defName>
         <identifier>FCP_Backstory_Enclave_Foot_Soldier</identifier>
         <slot>Adulthood</slot>
@@ -763,11 +801,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Indentured Labourer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Indentured_Labourer</defName>
         <identifier>FCP_Backstory_Enclave_Indentured_Labourer</identifier>
         <slot>Adulthood</slot>
@@ -789,11 +830,14 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Enclave Bureaucrat -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Bureaucrat</defName>
         <identifier>FCP_Backstory_Enclave_Bureaucrat</identifier>
         <slot>Adulthood</slot>
@@ -817,8 +861,8 @@
     </BackstoryDef>
 
     <!-- Secret Service Agent -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Secret_Service_Agent</defName>
         <identifier>FCP_Backstory_Enclave_Secret_Service_Agent</identifier>
         <slot>Adulthood</slot>
@@ -840,11 +884,14 @@
         <bodyTypeFemale>Male</bodyTypeFemale>
         <bodyTypeMale>Female</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Enclave Biologist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Biologist</defName>
         <identifier>FCP_Backstory_Enclave_Biologist</identifier>
         <slot>Adulthood</slot>
@@ -868,8 +915,8 @@
     </BackstoryDef>
 
     <!-- Enclave Propagandist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Propagandist</defName>
         <identifier>FCP_Backstory_Enclave_Propagandist</identifier>
         <slot>Adulthood</slot>
@@ -892,8 +939,8 @@
     </BackstoryDef>
 
     <!-- Indentured Farmer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Indentured_Farmer</defName>
         <identifier>FCP_Backstory_Enclave_Indentured_Farmer</identifier>
         <slot>Adulthood</slot>
@@ -919,8 +966,8 @@
     </BackstoryDef>
 
     <!-- Indentured Servant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Indentured_Servant</defName>
         <identifier>FCP_Backstory_Enclave_Indentured Servant</identifier>
         <slot>Adulthood</slot>
@@ -945,8 +992,8 @@
     </BackstoryDef>
 
     <!-- Enclave Zoologist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Zoologist</defName>
         <identifier>FCP_Backstory_Enclave_Zoologist</identifier>
         <slot>Adulthood</slot>
@@ -970,11 +1017,14 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Enclave Tesla Soldier -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Tesla_Soldier</defName>
         <identifier>FCP_Backstory_Enclave_Tesla Soldier</identifier>
         <slot>Adulthood</slot>
@@ -996,11 +1046,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Enclave Hellfire Trooper -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Hellfire_Trooper</defName>
         <identifier>FCP_Backstory_Enclave_Hellfire_Trooper</identifier>
         <slot>Adulthood</slot>
@@ -1023,11 +1076,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Enclave Physician -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Physician</defName>
         <identifier>FCP_Backstory_Enclave_Physician</identifier>
         <slot>Adulthood</slot>
@@ -1053,8 +1109,8 @@
     </BackstoryDef>
 
     <!-- Enclave Warden -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Warden</defName>
         <identifier>FCP_Backstory_Enclave_Warden</identifier>
         <slot>Adulthood</slot>
@@ -1079,8 +1135,8 @@
     </BackstoryDef>
 
     <!-- Enclave Officer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Officer</defName>
         <identifier>FCP_Backstory_Enclave_Officer</identifier>
         <slot>Adulthood</slot>
@@ -1103,11 +1159,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Enclave Arsenal Specialist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Arsenal_Specialist</defName>
         <identifier>FCP_Backstory_Enclave_Arsenal_Specialist</identifier>
         <slot>Adulthood</slot>
@@ -1134,10 +1193,9 @@
     </BackstoryDef>
 
     <!--__ Children __-->
-
     <!-- Conscripted Adjutant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Conscripted_Adjutant</defName>
         <identifier>FCP_Backstory_Enclave_Conscripted_Adjutant</identifier>
         <slot>Childhood</slot>
@@ -1161,8 +1219,8 @@
     </BackstoryDef>
 
     <!-- Lab Assistant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Lab_Assistant</defName>
         <identifier>FCP_Backstory_Enclave_Lab_Assistant</identifier>
         <slot>Childhood</slot>
@@ -1184,8 +1242,8 @@
     </BackstoryDef>
 
     <!-- Kidnapped Servant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Kidnapped_Servant</defName>
         <identifier>FCP_Backstory_Enclave_Kidnapped_Servant</identifier>
         <slot>Childhood</slot>
@@ -1208,8 +1266,8 @@
     </BackstoryDef>
 
     <!-- Entitled Scion -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Entitled_Scion</defName>
         <identifier>FCP_Backstory_Enclave_Entitled_Scion</identifier>
         <slot>Childhood</slot>
@@ -1232,8 +1290,8 @@
     </BackstoryDef>
 
     <!-- Levied Recruit -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Levied_Recruit</defName>
         <identifier>FCP_Backstory_Enclave_Levied_Recruit</identifier>
         <slot>Childhood</slot>
@@ -1253,11 +1311,14 @@
             <li>FCP_Backstory_Enclave_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Junior Civil Servant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Junior_Civil_Servant</defName>
         <identifier>FCP_Backstory_Enclave_Junior_Civil_Servant</identifier>
         <slot>Childhood</slot>
@@ -1281,8 +1342,8 @@
     </BackstoryDef>
 
     <!-- Peacekeeper in Training -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Peacekeeper_in_Training</defName>
         <identifier>FCP_Backstory_Enclave_Peacekeeper_in_Training</identifier>
         <slot>Childhood</slot>
@@ -1305,8 +1366,8 @@
     </BackstoryDef>
 
     <!-- Engineer Trainee -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Engineer_Trainee</defName>
         <identifier>FCP_Backstory_Enclave_Engineer_Trainee</identifier>
         <slot>Childhood</slot>
@@ -1329,8 +1390,8 @@
     </BackstoryDef>
 
     <!-- Compassionate Child -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Compassionate_Child</defName>
         <identifier>FCP_Backstory_Enclave_Compassionate_Child</identifier>
         <slot>Childhood</slot>
@@ -1354,10 +1415,9 @@
     </BackstoryDef>
 
     <!--__ Traders __-->
-
     <!-- Enclave Quartermaster -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Quartermaster</defName>
         <identifier>FCP_Backstory_Enclave_Quartermaster</identifier>
         <slot>Adulthood</slot>
@@ -1380,11 +1440,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Enclave Armorer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_Enclave_Armorer</defName>
         <identifier>FCP_Backstory_Enclave_Armorer</identifier>
         <slot>Adulthood</slot>
@@ -1407,6 +1470,8 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
-
 </Defs>
