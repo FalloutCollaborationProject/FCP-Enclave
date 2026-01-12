@@ -21,7 +21,7 @@
         <apparelTags>
             <li>FCP_Enclave_Apparel</li>
         </apparelTags>
-        <weaponMoney>200~400</weaponMoney>
+        <weaponMoney>1200~2000</weaponMoney>
         <weaponTags MayRequire="Rick.FCP.BallisticWeapons">
             <li>FCP_Ballistic_Weapon</li>
         </weaponTags>
@@ -64,7 +64,7 @@
             <li>FCP_Apparel_Enclave_Combat_Armor</li>
             <li>FCP_Apparel_Enclave_Combat_Armor_Helmet</li>
         </apparelRequired>
-        <weaponMoney>500~1000</weaponMoney>
+        <weaponMoney>1200~2400</weaponMoney>
         <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
             <li>FCP_Plasma_Weapon</li>
         </weaponTags>

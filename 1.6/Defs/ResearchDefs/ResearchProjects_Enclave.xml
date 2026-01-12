@@ -44,4 +44,63 @@
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
+    <!-- Enclave Advanced Power Armor -->
+
+    <ResearchProjectDef ParentName="FCP_Pre_War_Military_Research_Base">
+        <defName>FCP_Research_Enclave_Advanced_Power_Armor</defName>
+        <label>Holotape File: Enclave Advanced Power Armor</label>
+        <description>Military holotape containing the schematics and manufacturing processes for the Enclave Advanced Power Armor. This cutting-edge armor represents the pinnacle of pre-war engineering, offering exceptional protection and mobility.</description>
+        <baseCost>3500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <heldByFactionCategoryTags>
+            <li>FCP_Faction_Enclave</li>
+        </heldByFactionCategoryTags>
+        <prerequisites>
+            <li>FCP_Research_Power_Armor_Training</li>
+            <li>FCP_Research_Enclave_Advanced_Equipment</li>
+        </prerequisites>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>5.50</researchViewY>
+        <tab>FCP_Faction_Research</tab>
+    </ResearchProjectDef>
+
+    <!-- Enclave Advanced Power Armor MkII -->
+
+    <ResearchProjectDef ParentName="FCP_Pre_War_Military_Research_Base">
+        <defName>FCP_Research_Enclave_Advanced_Power_Armor_MkII</defName>
+        <label>Holotape File: Enclave Advanced Power Armor MkII</label>
+        <description>Military holotape containing the schematics and manufacturing processes for the Enclave Advanced Power Armor MkII. This improved variant features enhanced environmental sealing and durability for prolonged combat scenarios.</description>
+        <baseCost>4000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <heldByFactionCategoryTags>
+            <li>FCP_Faction_Enclave</li>
+        </heldByFactionCategoryTags>
+        <prerequisites>
+            <li>FCP_Research_Enclave_Advanced_Power_Armor</li>
+        </prerequisites>
+        <researchViewX>7.00</researchViewX>
+        <researchViewY>5.50</researchViewY>
+        <tab>FCP_Faction_Research</tab>
+    </ResearchProjectDef>
+
+    <!-- Enclave Advanced Plasma Weapons -->
+
+    <ResearchProjectDef ParentName="FCP_Pre_War_Military_Research_Base">
+        <defName>FCP_Research_Enclave_Advanced_Plasma_Weapons</defName>
+        <label>Holotape File: Enclave Advanced Plasma Weapons</label>
+        <description>Military holotape containing the schematics and manufacturing processes for the Enclave Advanced Plasma Weapons.</description>
+        <baseCost>3500</baseCost>
+        <techLevel>Spacer</techLevel>
+        <heldByFactionCategoryTags>
+            <li>FCP_Faction_Enclave</li>
+        </heldByFactionCategoryTags>
+        <prerequisites>
+            <li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+            <li>FCP_Research_Enclave_Advanced_Equipment</li>
+        </prerequisites>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
+        <tab>FCP_Faction_Research</tab>
+    </ResearchProjectDef>
+
 </Defs>

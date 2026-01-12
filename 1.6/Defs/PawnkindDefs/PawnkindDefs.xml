@@ -7,6 +7,7 @@
     <!--_____ Enclave Pawnkinds _____-->
 
     <!--___ Characters ___-->
+
     <!-- Enclave Pawnkind base -->
     
     <PawnKindDef Name="FCP_EnclavekindBase" Abstract="True">
@@ -16,6 +17,10 @@
         <chemicalAddictionChance>0</chemicalAddictionChance>
         <invNutrition>2.7</invNutrition>
         <invFoodDef>MealSurvivalPack</invFoodDef>
+        <weaponTags>
+			<li>FCP_Enclave_Weapon</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+        </weaponTags>
         <disallowedTraits>
             <li>Nudist</li>
             <li>Brawler</li>
@@ -940,6 +945,7 @@
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
+            <li>FCP_Enclave_Heavy_Weapon</li>
             <li>FCP_Plasma_Weapon</li>
         </weaponTags>
         <forcedTraits>
