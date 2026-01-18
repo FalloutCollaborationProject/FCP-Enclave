@@ -76,7 +76,12 @@
         <backstoryFilters>
             <li>
                 <categories>
-                    <li>FCP_Enclave</li>
+                    <li>FCP_Backstory_Enclave</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+            <li>
+                <categories>
                     <li>FCP_Backstory_Enclave_Child</li>
                 </categories>
                 <commonality>1</commonality>
