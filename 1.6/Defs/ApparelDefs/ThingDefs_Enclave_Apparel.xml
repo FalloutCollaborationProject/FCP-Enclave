@@ -7,7 +7,7 @@
 
     <!-- Scientist Outfit -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Enclave_Scientist_Outfit</defName>
         <label>Enclave Scientist Outfit</label>
         <description>A suit commonly worn by the Enclave's scientists, especially when working in the hazardous wasteland. It's a fully enclosed white suit with special polymers woven into it and a helmet with an orange visor made from plexiglass. It comes with a built-in computer system and various scientific instruments to support all manners of intellectual pursuits.</description>
@@ -16,9 +16,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
         </recipeMaker>
         <graphicData>
@@ -26,14 +23,10 @@
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Cloth>180</Cloth>
             <Synthread>40</Synthread>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
             <WorkToMake>28000</WorkToMake>
@@ -76,7 +69,7 @@
 
     <!-- Scientist Boots -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Enclave_Scientist_Boots</defName>
         <label>Enclave Scientist Boots</label>
         <description>Specialized boots worn by Enclave scientists, designed with reinforced soles and advanced materials to protect against chemical spills, radiation, and hazardous terrain during field research.</description>
@@ -85,24 +78,16 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Apparel/Boots/FCP_Enclave_Scientist_Boots</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Cloth>50</Cloth>
             <Leather_Plain>30</Leather_Plain>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <WorkToMake>6000</WorkToMake>
@@ -136,7 +121,7 @@
 
     <!-- Scientist Gloves -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Enclave_Scientist_Glove</defName>
         <label>Enclave Scientist Gloves</label>
         <description>Protective gloves worn by Enclave scientists, made from advanced polymers to shield hands from chemicals, contaminants, and the harsh elements encountered during fieldwork.</description>
@@ -145,24 +130,16 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Apparel/Gloves/FCP_Enclave_Scientist_Gloves</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Cloth>25</Cloth>
             <Synthread>10</Synthread>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>60</MaxHitPoints>
             <WorkToMake>3500</WorkToMake>
@@ -201,7 +178,7 @@
 
     <!-- Officers Coat -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Enclave_Officer_Coat</defName>
         <label>Enclave Officer Coat</label>
         <description>A formal coat worn by Enclave officers, tailored from high-quality materials and adorned with insignia. It signifies authority and provides moderate protection while maintaining a commanding presence.</description>
@@ -210,24 +187,16 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Apparel/Officers_Coat/FCP_Enclave_Officer_Coat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Cloth>140</Cloth>
             <Synthread>50</Synthread>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>180</MaxHitPoints>
             <WorkToMake>16000</WorkToMake>
@@ -270,7 +239,7 @@
 
     <!-- Trooper Uniform -->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_Enclave_Trooper_Uniform</defName>
         <label>Enclave Trooper Uniform</label>
         <description>A jet-black uniform with a tan jacket and pants that are worn over it. The outer layer is made of a sturdy material designed to withstand the harsh conditions of the wasteland. The uniform comes with a pair of knee-high boots, black gloves, and a utility belt. It does protect well against the elements, less so against bullets.</description>
@@ -279,24 +248,16 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/Enclave_Apparel/Trooper_Uniform/FCP_Enclave_Trooper_Uniform</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Cloth>100</Cloth>
             <Synthread>30</Synthread>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>140</MaxHitPoints>
             <WorkToMake>12000</WorkToMake>
@@ -341,7 +302,7 @@
 
     <!-- Enclave Combat Armor-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_Enclave_Combat_Armor</defName>
         <label>Enclave Combat Armor</label>
         <description>Advanced combat armor issued to Enclave troopers. Constructed from reinforced composites, it offers substantial protection against ballistic and melee threats while allowing for mobility in hostile environments.</description>
@@ -350,9 +311,6 @@
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
         </recipeMaker>
         <graphicData>
@@ -361,15 +319,11 @@
             <drawSize>0.90</drawSize>
             <color>(63, 63, 63)</color>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Steel>120</Steel>
             <Uranium>15</Uranium>
             <ComponentIndustrial>18</ComponentIndustrial>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <WorkToMake>42000</WorkToMake>
@@ -412,7 +366,7 @@
 
     <!-- Enclave Sturdy Combat Armor-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_Enclave_Sturdy_Combat_Armor</defName>
         <label>Enclave Sturdy Combat Armor</label>
         <description>Advanced combat armor issued to Enclave troopers. Constructed from reinforced composites, it offers substantial protection against ballistic and melee threats while allowing for mobility in hostile environments.</description>
@@ -421,9 +375,6 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Armor_Workbench</li>
-            </recipeUsers>
             <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
         </recipeMaker>
         <graphicData>
@@ -433,15 +384,11 @@
             <drawSize>0.90</drawSize>
             <color>(63, 63, 63)</color>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Steel>150</Steel>
             <Uranium>25</Uranium>
             <ComponentIndustrial>25</ComponentIndustrial>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>350</MaxHitPoints>
             <WorkToMake>56000</WorkToMake>

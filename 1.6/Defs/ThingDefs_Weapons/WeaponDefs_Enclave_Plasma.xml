@@ -7,7 +7,7 @@
 
     <!-- Plasma SMG -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Enclave_Plasma_SMG</defName>
         <label>Enclave Plasma SMG</label>
         <description>A compact plasma submachine gun developed by the Enclave for close-quarters operations. This weapon sacrifices range and raw power for a dramatically increased rate of fire, making it ideal for room clearing and urban combat. The miniaturized plasma generation system allows for rapid cycling between shots.</description>
@@ -31,9 +31,6 @@
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>30</Plasteel>
@@ -97,7 +94,7 @@
 
     <!-- Assault Plasma Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Enclave_Assault_Plasma_Rifle</defName>
         <label>Enclave Assault Plasma Rifle</label>
         <description>The pinnacle of Enclave plasma rifle technology. This advanced assault variant features an upgraded plasma generation chamber, enhanced magnetic confinement, and superior targeting systems. Significantly more accurate and reliable than standard plasma rifles, it represents the cutting edge of pre-war American military technology.</description>
@@ -121,9 +118,6 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>45</Plasteel>
@@ -185,7 +179,7 @@
 
     <!-- Advanced Multiplas Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Enclave_Advanced_Multiplas_Rifle</defName>
         <label>Enclave Advanced Multiplas Rifle</label>
         <description>An Enclave refinement of the multiplas design, featuring three independently-controlled plasma generation chambers in a triangular array. Each trigger pull unleashes a devastating barrage of three plasma bolts simultaneously. The advanced targeting computer helps maintain accuracy despite the weapon's aggressive spread pattern, making it a feared close-to-medium range weapon.</description>
@@ -209,9 +203,6 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>50</Plasteel>
@@ -275,7 +266,7 @@
 
     <!-- SMELE Plasma Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Enclave_SMELE_Plasma_Rifle</defName>
         <label>Enclave SMELE Plasma Rifle</label>
         <description>The Self-Modulating Energy Loadout Efficiency (SMELE) plasma rifle represents the Enclave's answer to the need for versatile energy weapons. This sophisticated platform features adaptive power regulation, allowing it to balance between sustained fire and devastating single shots. Its modular design incorporates both offensive and defensive systems, making it the preferred weapon of elite Enclave special operations units.</description>
@@ -302,9 +293,6 @@
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>60</Plasteel>
@@ -367,7 +355,7 @@
 
     <!-- Plasma Cannon -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Enclave_Plasma_Cannon</defName>
         <label>Enclave Plasma Cannon</label>
         <description>A devastating heavy weapon platform developed by the Enclave for anti-armor and siege operations. This massive plasma cannon generates and magnetically accelerates supercharged plasma bolts with enough energy to melt through bunker walls and power armor alike. The weapon's immense power comes at the cost of weight, slow cycling time, and the need for enhanced cooling systems. Typically mounted on vehicles or power armor, it can be wielded by sufficiently strong soldiers in desperate situations.</description>
@@ -392,9 +380,6 @@
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>80</Plasteel>
