@@ -27,6 +27,9 @@
             <li>
                 <categories>
                     <li>FCP_Backstory_Enclave</li>
+                    <li>FCP_Backstory_Enclave_Trooper</li>
+                    <li>FCP_Backstory_Enclave_Worker</li>
+                    <li>FCP_Backstory_Enclave_Leader</li>
                     <li>FCP_Backstory_Enclave_Child</li>
                 </categories>
             </li>

@@ -80,11 +80,9 @@
             <li>
                 <categories>
                     <li>FCP_Backstory_Enclave</li>
-                </categories>
-                <commonality>1</commonality>
-            </li>
-            <li>
-                <categories>
+                    <li>FCP_Backstory_Enclave_Trooper</li>
+                    <li>FCP_Backstory_Enclave_Worker</li>
+                    <li>FCP_Backstory_Enclave_Leader</li>
                     <li>FCP_Backstory_Enclave_Child</li>
                 </categories>
                 <commonality>1</commonality>
@@ -221,6 +219,12 @@
                     <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS_Outcast_Remnants</li>
                     <li MayRequire="Rick.FCP.BOS">FCP_Faction_BoS</li>
                 </hostileFactionDefs>
+            </li>
+            <!-- Shuttles -->
+            <li Class="FCP.Core.Shuttles.FactionModExtension">
+                <transportShipDef>FCP_Enclave_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
             </li>
             <!-- Make them unable to use drop pods -->
             <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
