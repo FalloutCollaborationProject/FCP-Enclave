@@ -478,7 +478,7 @@
         <projectile>
             <damageDef>FCP_Damage_Plasma_Burn</damageDef>
             <damageAmountBase>45</damageAmountBase>
-            <armorPenetrationBase>0.70</armorPenetrationBase>
+            <armorPenetrationBase>2.8</armorPenetrationBase>
             <speed>50</speed>
             <explosionRadius>1.2</explosionRadius>
         </projectile>
