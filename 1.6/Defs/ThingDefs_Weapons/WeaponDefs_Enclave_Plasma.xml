@@ -481,6 +481,8 @@
             <armorPenetrationBase>2.8</armorPenetrationBase>
             <speed>50</speed>
             <explosionRadius>1.2</explosionRadius>
+            <explosionDelay>0</explosionDelay>
+            <explosionDamageFalloff>true</explosionDamageFalloff>
         </projectile>
     </ThingDef>
 
