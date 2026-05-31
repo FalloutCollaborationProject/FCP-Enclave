@@ -22,7 +22,7 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>President</leaderTitle>
         <fixedLeaderKinds>
-            <li>FCP_Pawnkind_Enclave_President_Richardson_Sr</li>
+            <li>FCP_Unique_Pawnkind_President_Richardson</li>
         </fixedLeaderKinds>
         <factionIconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</factionIconPath>
         <techLevel>Industrial</techLevel>
@@ -122,7 +122,7 @@
                 <options>
                     <FCP_Pawnkind_Enclave_Trooper>10</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>8</FCP_Pawnkind_Enclave_Armored_Trooper>
-                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
+                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
             </li>
 
@@ -136,7 +136,7 @@
                 </disallowedStrategies>
                 <options>
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
-                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
+                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
             </li>
 
@@ -153,7 +153,7 @@
                     <FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>3</FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>2</FCP_Pawnkind_Enclave_Armored_Trooper>
-                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
+                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
             </li>
 
@@ -166,7 +166,7 @@
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>2</FCP_Pawnkind_Enclave_Armored_Trooper>
-                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
+                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
             </li>
 
@@ -199,7 +199,7 @@
                     <FCP_Pawnkind_Enclave_Trooper>14</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
-                    <FCP_Pawnkind_Enclave_President_Richardson_Sr>1</FCP_Pawnkind_Enclave_President_Richardson_Sr>
+                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
             </li>
         </pawnGroupMakers>

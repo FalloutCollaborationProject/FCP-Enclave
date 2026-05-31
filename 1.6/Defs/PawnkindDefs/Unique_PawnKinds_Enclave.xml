@@ -49,6 +49,26 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>3~5</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>4~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -95,6 +115,26 @@
                 <li>
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>4~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
@@ -202,6 +242,26 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>2~4</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -250,6 +310,26 @@
                 <li>
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
@@ -300,6 +380,26 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>2~4</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -347,6 +447,26 @@
                 </li>
                 <li>
                     <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>3~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
                     <countRange>2~3</countRange>
                 </li>
             </subOptionsChooseOne>
@@ -401,6 +521,26 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>3~5</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>4~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -453,6 +593,26 @@
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>2~4</countRange>
                 </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>3~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -504,6 +664,26 @@
                 <li>
                     <thingDef>MedicineIndustrial</thingDef>
                     <countRange>2~4</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.WastelandFood">
+                    <thingDef>FCP_Food_Cram</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.PreWarFood">
+                    <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.NukaCola">
+                    <thingDef>FCP_Nuka_Cola</thingDef>
+                    <countRange>2~3</countRange>
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>

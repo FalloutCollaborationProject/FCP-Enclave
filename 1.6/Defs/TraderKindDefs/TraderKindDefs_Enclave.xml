@@ -59,6 +59,58 @@
                 <countRange>10~30</countRange>
             </li>
 
+            <!--__ Medicine __-->
+
+            <!-- Stimpak -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_Stimpak</thingDef>
+                <countRange>25~60</countRange>
+            </li>
+
+            <!-- Med-X -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.Chems">
+                <thingDef>FCP_Chem_MedX</thingDef>
+                <countRange>20~45</countRange>
+            </li>
+
+            <!--__ Food __-->
+
+            <!-- Pre-War Food -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Cram</thingDef>
+                <countRange>20~50</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Sugar_Bombs</thingDef>
+                <countRange>20~45</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PreWarFood">
+                <thingDef>FCP_Food_Fancy_Lad_Snack_Cakes</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!-- Nuka-Cola -->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola</thingDef>
+                <countRange>15~35</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola_Cherry</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.NukaCola">
+                <thingDef>FCP_Nuka_Cola_Quantum</thingDef>
+                <countRange>2~8</countRange>
+            </li>
+
             <!--__ Currency __-->
 
             <li Class="StockGenerator_SingleDef">
@@ -66,7 +118,9 @@
                 <countRange>2000~6000</countRange>
             </li>
 
-            <!--__ Buying - Weapons __-->
+            <!--__ Buying __-->
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
 
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>FCP_Ballistic_Weapon</tag>
