@@ -111,6 +111,53 @@
                 <countRange>2~8</countRange>
             </li>
 
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>4~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Plasma</thingDef>
+                <countRange>3~8</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Pulse</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Pulse</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Flashbang</thingDef>
+                <countRange>4~8</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Cryo</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Bio_Gas</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Hallucinogen_Gas</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_MFC</thingDef>
+                <countRange>3~6</countRange>
+            </li>
+
             <!--__ Currency __-->
 
             <li Class="StockGenerator_SingleDef">
@@ -200,6 +247,23 @@
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.PowerArmor">
                 <thingDef>FCP_Item_Fusion_Core</thingDef>
                 <countRange>3~8</countRange>
+            </li>
+
+            <!--__ Grenades __-->
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Fragmentation</thingDef>
+                <countRange>3~7</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Plasma</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Grenade_Flashbang</thingDef>
+                <countRange>3~6</countRange>
             </li>
 
             <!--__ Currency __-->
