@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Enclave Crashed Vertibird __________-->
+
+    <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+        <defName>FCP_Enclave_Vertibird_Crashed</defName>
+        <label>crashed Enclave vertibird</label>
+        <description>A destroyed Enclave vertibird transport. The eagle-and-flag insignia is still visible on the burnt-out hull. The wreck may still hold usable Enclave equipment.</description>
+        <rotatable>false</rotatable>
+        <graphicData>
+            <texPath>Things/Vehicles/Shuttles/EnclaveVertibird/Enclave_Vertibird</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(9,9)</drawSize>
+            <shadowData>
+                <volume>(0.9, 0.7, 3.8)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(11,9)</size>
+        <fillPercent>0.5</fillPercent>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <statBases>
+            <MaxHitPoints>600</MaxHitPoints>
+        </statBases>
+        <killedLeavings>
+            <ChunkSlagSteel>2</ChunkSlagSteel>
+        </killedLeavings>
+        <comps>
+            <li Class="FCP.Core.CompProperties_UsableOnce">
+                <useJob>UseItem</useJob>
+                <useLabel>Search wreckage</useLabel>
+                <showUseGizmo>true</showUseGizmo>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>4</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <!-- Currency -->
+                    <li>
+                        <thingDef>FCP_Currency_Caps</thingDef>
+                        <countRange>1~80</countRange>
+                    </li>
+                    <!-- Enclave Apparel -->
+                    <li>
+                        <thingDef>FCP_Apparel_Enclave_Combat_Armor</thingDef>
+                        <countRange>0~2</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_Enclave_Advanced_Power_Armor</thingDef>
+                        <countRange>1</countRange>
+                        <weight>0.3</weight>
+                    </li>
+                    <!-- Enclave Weapons -->
+                    <li>
+                        <thingDef>FCP_Gun_Enclave_Plasma_SMG</thingDef>
+                        <countRange>0~2</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Gun_Enclave_Assault_Plasma_Rifle</thingDef>
+                        <countRange>0~1</countRange>
+                        <weight>0.4</weight>
+                    </li>
+                    <!-- Medical Supplies -->
+                    <li>
+                        <thingDef>MedicineIndustrial</thingDef>
+                        <countRange>0~5</countRange>
+                    </li>
+                    <li>
+                        <thingDef>MealSurvivalPack</thingDef>
+                        <countRange>0~5</countRange>
+                    </li>
+                    <li MayRequire="Ludeon.RimWorld.Odyssey">
+                        <thingDef>FCP_Vertibird_Engine</thingDef>
+                        <countRange>0~1</countRange>
+                        <weight>0.15</weight>
+                    </li>
+                    <li>
+                        <thingDef>ComponentIndustrial</thingDef>
+                        <countRange>0~4</countRange>
+                        <weight>0.5</weight>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

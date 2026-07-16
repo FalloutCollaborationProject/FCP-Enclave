@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enclave Broadcast Holotape __________-->
+    <!-- Auto-loaded into any Enclave-owned eyebot on spawn (see FCP.Core.Robotics.CompEyebotMusicPlayer). Sourced directly from Fallout 3 (Bethesda Softworks). -->
+
+    <ThingDef ParentName="ResourceBase" MayRequire="Rick.FCP.Robotics">
+        <defName>FCP_Item_Music_Holotape_FCP_Faction_Enclave_Broadcast</defName>
+        <label>music holotape: Enclave broadcast</label>
+        <description>A holotape carrying a looping Enclave radio broadcast. Eyebots deployed by the Enclave come pre-loaded with this recording.</description>
+        <graphicData>
+            <texPath>Things/Items/Techprints/FCP_Techprint_Holotape_Orange</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.65</drawSize>
+        </graphicData>
+        <size>(1,1)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>10</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>40</MarketValue>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Mass>0.1</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <tradeability>All</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="FCP.Core.Robotics.CompProperties_MusicHolotape">
+                <trackToPlay>FCP_Music_Enclave_Broadcast</trackToPlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

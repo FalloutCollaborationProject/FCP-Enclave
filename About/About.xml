@@ -27,6 +27,7 @@
         <li>Rick.FCP.BallisticWeapons</li>
         <li>Rick.FCP.EnergyWeapons</li>
         <li>Rick.FCP.PowerArmor</li>
+        <li>Rick.FCP.Robotics</li>
     </loadAfter>
 
 </ModMetaData>

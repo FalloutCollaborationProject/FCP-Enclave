@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enclave Radio Broadcast __________-->
+    <!-- Sourced directly from Fallout 3 (Bethesda Softworks), extracted from an owned, legitimate copy of the game. See README. -->
+
+    <SoundDef>
+        <defName>FCP_Music_Enclave_Broadcast</defName>
+        <sustain>True</sustain>
+        <context>MapOnly</context>
+        <priorityMode>PrioritizeNearest</priorityMode>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Music/FCP_Music_Enclave_Broadcast</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>45~45</volumeRange>
+                <distRange>0~60</distRange>
+                <sustainLoop>True</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

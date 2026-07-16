@@ -66,8 +66,10 @@
             <li>FCP_Apparel_Enclave_Officer_Cap</li>
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
-        <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
-            <li>FCP_Plasma_Weapon</li>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -135,8 +137,10 @@
             <li>FCP_Apparel_Enclave_Trooper_Cap</li>
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
-        <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
-            <li>FCP_Plasma_Weapon</li>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -205,8 +209,10 @@
             <li>FCP_Apparel_Enclave_Sturdy_Combat_Armor</li>
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
-        <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
-            <li>FCP_Plasma_Weapon</li>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -353,8 +359,10 @@
             <li>FCP_Enclave_X02_Power_Armor</li>
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
-        <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
-            <li>FCP_Plasma_Weapon</li>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <forcedTraits>
             <li>FCP_Trait_Power_Armor_Trained</li>
@@ -426,8 +434,10 @@
             <li>FCP_Enclave_X02_Tesla_Power_Armor</li>
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
-        <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
-            <li>FCP_Plasma_Weapon</li>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <forcedTraits>
             <li>FCP_Trait_Power_Armor_Trained</li>
@@ -499,8 +509,10 @@
             <li>FCP_Enclave_Hellfire_Power_Armor</li>
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
-        <weaponTags MayRequire="Rick.FCP.EnergyWeapons">
-            <li>FCP_Plasma_Weapon</li>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Gamma_Gun</li>
+            <li MayRequire="Rick.FCP.COA">FCP_Radium_Rifle</li>
         </weaponTags>
         <forcedTraits>
             <li>FCP_Trait_Power_Armor_Trained</li>

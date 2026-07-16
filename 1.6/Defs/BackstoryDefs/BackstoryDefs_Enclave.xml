@@ -456,6 +456,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Conscripted_Adjutant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Conscripted_Adjutant</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -481,6 +483,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Lab_Assistant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Lab_Assistant</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -504,6 +508,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Kidnapped_Servant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Kidnapped_Servant</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -528,6 +534,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Entitled_Scion</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Entitled_Scion</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -552,6 +560,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Levied_Recruit</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Levied_Recruit</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -579,6 +589,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Junior_Civil_Servant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Junior_Civil_Servant</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -604,6 +616,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Peacekeeper_in_Training</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Peacekeeper_in_Training</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -628,6 +642,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Engineer_Trainee</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Engineer_Trainee</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>
@@ -652,6 +668,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Compassionate_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_Enclave_Compassionate_Child</identifier>
         <slot>Childhood</slot>
         <shuffleable>true</shuffleable>

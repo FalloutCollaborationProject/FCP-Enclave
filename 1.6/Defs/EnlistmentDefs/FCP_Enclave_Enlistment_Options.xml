@@ -63,7 +63,7 @@
             <li>
                 <provisionsLabelKey>FCP_Enclave_Provisions_Label_Standard_Issue</provisionsLabelKey>
                 <provisionsDescKey>FCP_Enclave_Provisions_Desc_Standard_Issue</provisionsDescKey>
-                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_Enclave_Standard_Issue</provisionsButtonIconTexPath>
+                <provisionsButtonIconTexPath>Things/Items/Enclave_Crates/FCP_Enclave_Crate</provisionsButtonIconTexPath>
                 <provisions>
                     <li>
                         <thing>FCP_Item_Enclave_Standard_Weapon_Crate</thing>
@@ -83,7 +83,7 @@
         <storageIsEnabled>true</storageIsEnabled>
         <storageLabelKey>FCP_Enclave_Storage_Label</storageLabelKey>
         <storageDescKey>FCP_Enclave_Storage_Desc</storageDescKey>
-        <storageButtonIconTexPath>Things/UI/Enlisted/FCP_Enclave_Storage</storageButtonIconTexPath>
+        <storageButtonIconTexPath>Things/Items/Enclave_Crates/FCP_Enclave_Crate</storageButtonIconTexPath>
 
         <!-- Work Options -->
 
@@ -103,7 +103,7 @@
             <li>
                 <workLabelKey>FCP_Enclave_Intellectual_Training_Label</workLabelKey>
                 <workDescKey>FCP_Enclave_Intellectual_Training_Desc</workDescKey>
-                <workButtonIconTexPath>Things/UI/Enlisted/FCP_Enclave_Training_Intellectual</workButtonIconTexPath>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_Enclave_Training_Care</workButtonIconTexPath>
                 <experienceGainsPerHour>
                     <Intellectual>500</Intellectual>
                 </experienceGainsPerHour>

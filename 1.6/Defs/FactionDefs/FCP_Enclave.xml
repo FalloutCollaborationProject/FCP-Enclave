@@ -123,6 +123,7 @@
                     <FCP_Pawnkind_Enclave_Trooper>10</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>8</FCP_Pawnkind_Enclave_Armored_Trooper>
                     <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
+                    <FCP_Pawnkind_Eyebot_Improved MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Eyebot_Improved>
                 </options>
             </li>
 
@@ -225,6 +226,38 @@
                 <transportShipDef>FCP_Enclave_Vertibird</transportShipDef>
                 <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
                 <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+            <li Class="FCP.Core.RadiantQuests.FactionExtension_Vertibird">
+                <crashedVertibird>FCP_Enclave_Vertibird_Crashed</crashedVertibird>
+                <survivorGroups>
+                    <li>
+                        <leaderKind>FCP_Pawnkind_Enclave_Officer</leaderKind>
+                        <basicKind>FCP_Pawnkind_Enclave_Trooper</basicKind>
+                        <count>8</count>
+                        <difficultyMultiplier>1.0</difficultyMultiplier>
+                    </li>
+                    <li>
+                        <basicKind>FCP_Pawnkind_Enclave_Armored_Trooper</basicKind>
+                        <count>8</count>
+                        <difficultyMultiplier>1.0</difficultyMultiplier>
+                    </li>
+                    <li>
+                        <basicKind>FCP_Pawnkind_Enclave_Power_Armor_Trooper</basicKind>
+                        <count>3</count>
+                        <difficultyMultiplier>1.3</difficultyMultiplier>
+                    </li>
+                    <li>
+                        <leaderKind>FCP_Pawnkind_Enclave_Officer</leaderKind>
+                        <basicKind>FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper</basicKind>
+                        <count>8</count>
+                        <difficultyMultiplier>1.5</difficultyMultiplier>
+                    </li>
+                    <li>
+                        <basicKind>FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper</basicKind>
+                        <count>4</count>
+                        <difficultyMultiplier>2.0</difficultyMultiplier>
+                    </li>
+                </survivorGroups>
             </li>
             <!-- Make them unable to use drop pods -->
             <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Site: Containment Breach -->
+
+    <SitePartDef>
+        <defName>FCP_Site_Enclave_Containment_Breach</defName>
+        <label>hostile camp</label>
+        <description>Hostiles dug in near an Enclave listening post.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Radio_Tower_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_Enclave_Containment_Breach</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Enclave_Containment_Breach_Outpost</defName>
+        <linkWithSite>FCP_Site_Enclave_Containment_Breach</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Enclave_Containment_Breach_Power</defName>
+        <linkWithSite>FCP_Site_Enclave_Containment_Breach</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+    <!-- Site: Wasteland Insurgents -->
+
+    <SitePartDef>
+        <defName>FCP_Site_Enclave_Insurgents</defName>
+        <label>insurgent camp</label>
+        <description>An armed insurgent cell operating near Enclave territory.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_US_Army_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_Enclave_Insurgents</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Enclave_Insurgents_Outpost</defName>
+        <linkWithSite>FCP_Site_Enclave_Insurgents</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_Enclave_Insurgents_Power</defName>
+        <linkWithSite>FCP_Site_Enclave_Insurgents</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+</Defs>

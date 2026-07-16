@@ -5,5 +5,9 @@
 - IcingWithCheesecake, JangoDSoul, RickGrymes / Ranger Rick - Art
 - Penumbra, RickGrymes / Ranger Rick - Writing
 
+## Sound Credit
+The Enclave broadcast eyebot holotape is a loop of President Eden's Enclave Radio lines, sourced directly from Fallout 3 (Bethesda Softworks), extracted from an owned, legitimate copy of the game.
+
 ## Notice
+- Portions of the materials used to create this content/mod are trademarks and/or copyrighted works of Bethesda Softworks LLC. All rights reserved by Bethesda. This content/mod is not official and is not endorsed by Bethesda.
 - Portions of the materials used to create this content/mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This content/mod is not official and is not endorsed by Ludeon.
