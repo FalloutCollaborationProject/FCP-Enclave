@@ -10,4 +10,13 @@
 		</rulePack>
 	</RulePackDef>
 
+	<RulePackDef>
+		<defName>FCP_RoleNameMaker_EnclaveOfficer</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_roleName->Enclave Officer</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
 </Defs>

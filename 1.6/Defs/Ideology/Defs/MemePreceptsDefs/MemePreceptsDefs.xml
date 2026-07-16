@@ -12,49 +12,86 @@
         <impact>2</impact>
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
         <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>FCP_Precept_Role_EnclaveOfficer</li>
+            </li>
+        </requireOne>
     </MemeDef>
 
-    <!--__________ Precepts __________-->
+    <!--__________ Roles __________-->
 
-    <PreceptDef>
+    <PreceptDef ParentName="PreceptRoleSingleBase">
         <defName>FCP_Precept_Role_EnclaveOfficer</defName>
-        <issue>IdeoRole</issue>
         <label>Enclave Officer</label>
         <description>An elite officer of the Enclave, trained in leadership and advanced combat tactics. They excel at research, combat, and maintaining discipline.</description>
+        <iconPath>Things/UI/Roles/FCP_Enclave_Officer</iconPath>
+        <nameMaker>FCP_RoleNameMaker_EnclaveOfficer</nameMaker>
         <impact>High</impact>
         <displayOrderInImpact>100</displayOrderInImpact>
         <conflictingMemes>
             <li>Individualist</li>
         </conflictingMemes>
-        <statFactors>
-            <ResearchSpeed>1.25</ResearchSpeed>
-            <ShootingAccuracyPawn>1.15</ShootingAccuracyPawn>
-            <SocialImpact>1.20</SocialImpact>
-        </statFactors>
-        <associatedMemes>
+        <requiredMemes>
             <li>FCP_Meme_EnclaveManifestDestiny</li>
-        </associatedMemes>
+        </requiredMemes>
         <roleRequiredWorkTags>
             <li>Intellectual</li>
             <li>Social</li>
         </roleRequiredWorkTags>
-        <grantedAbilities>
-            <li>LeaderSpeech</li>
-        </grantedAbilities>
+        <roleEffects>
+            <li Class="RoleEffect_PawnStatFactor">
+                <statDef>ResearchSpeed</statDef>
+                <modifier>1.25</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatFactor">
+                <statDef>ShootingAccuracyPawn</statDef>
+                <modifier>1.15</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatFactor">
+                <statDef>SocialImpact</statDef>
+                <modifier>1.20</modifier>
+            </li>
+        </roleEffects>
+        <roleApparelRequirements>
+            <li>
+                <requirement>
+                    <bodyPartGroupsMatchAny>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </bodyPartGroupsMatchAny>
+                    <requiredDefs>
+                        <li>FCP_Apparel_Enclave_Officer_Cap</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Advanced_Power_Armor_Helmet</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Advanced_Power_Armor_MkII_Helmet</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_X02_Tesla_Power_Armor_Helmet</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_X02_Power_Armor_Helmet</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Hellfire_Power_Armor_Helmet</li>
+                    </requiredDefs>
+                </requirement>
+            </li>
+            <li>
+                <requirement>
+                    <bodyPartGroupsMatchAny>
+                        <li>Torso</li>
+                    </bodyPartGroupsMatchAny>
+                    <requiredDefs>
+                        <li>FCP_Apparel_Enclave_Officer_Coat</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Advanced_Power_Armor</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Advanced_Power_Armor_MkII</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_X02_Tesla_Power_Armor</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_X02_Power_Armor</li>
+                        <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Hellfire_Power_Armor</li>
+                    </requiredDefs>
+                </requirement>
+            </li>
+        </roleApparelRequirements>
+        <roleApparelRequirementCountCurve>
+            <points>
+                <li>(0, 2)</li>
+                <li>(1, 2)</li>
+            </points>
+        </roleApparelRequirementCountCurve>
     </PreceptDef>
-
-    <!-- IdeoRoleRequirementDef is not a valid def type in RimWorld 1.6 - commented out -->
-
-    <!--
-    <IdeoRoleRequirementDef>
-        <defName>FCP_Role_Requirement_EnclaveOfficer</defName>
-        <label>Enclave Officer</label>
-        <description>Officers must wear regulation Enclave uniforms or power armor.</description>
-        <apparelRequired>
-            <li>FCP_Enclave_Apparel</li>
-            <li>FCP_Enclave_Power_Armor</li>
-        </apparelRequired>
-    </IdeoRoleRequirementDef>
-    -->
 
 </Defs>
