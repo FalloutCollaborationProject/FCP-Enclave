@@ -22,7 +22,7 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>President</leaderTitle>
         <fixedLeaderKinds>
-            <li>FCP_Unique_Pawnkind_President_Richardson</li>
+            <li>FCP_Unique_Pawnkind_Colonel_Autumn</li>
         </fixedLeaderKinds>
         <factionIconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</factionIconPath>
         <techLevel>Industrial</techLevel>
@@ -113,8 +113,7 @@
 
             <!-- Enclave Trooper Squad -->
 
-            <li>
-                <!-- Normal fights, Encalve Troopers non power armor -->
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
@@ -122,29 +121,33 @@
                 <options>
                     <FCP_Pawnkind_Enclave_Trooper>10</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>8</FCP_Pawnkind_Enclave_Armored_Trooper>
-                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                     <FCP_Pawnkind_Eyebot_Improved MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Eyebot_Improved>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Enclave_Sergeant_Dornan</li>
+                </characterDefs>
+                <characterChance>0.15</characterChance>
             </li>
 
             <!-- Enclave X-01/APA Squad -->
 
-            <li>
-                <!-- Normal fights, Encalve Troopers X-01/APA power armor -->
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
-                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Enclave_Captain_Moreau</li>
+                </characterDefs>
+                <characterChance>0.15</characterChance>
             </li>
 
             <!-- Enclave X-02, Tesla, Hellfire Squad -->
 
-            <li>
-                <!-- Normal fights, Encalve Troopers X-02, tesla, hellfire power armor -->
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
@@ -154,21 +157,31 @@
                     <FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>3</FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>2</FCP_Pawnkind_Enclave_Armored_Trooper>
-                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Enclave_President_Richardson</li>
+                    <li>FCP_Character_Enclave_Lt_Col_Vickers</li>
+                    <li>FCP_Character_Enclave_Major_Manderly</li>
+                </characterDefs>
+                <characterChance>0.20</characterChance>
             </li>
 
             <!-- Enclave Peaceful -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Peaceful</kindDef>
                 <options>
                     <FCP_Pawnkind_Enclave_Trooper>14</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>2</FCP_Pawnkind_Enclave_Armored_Trooper>
-                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Enclave_Dr_Curling</li>
+                    <li>FCP_Character_Enclave_Dr_Holt</li>
+                    <li>FCP_Character_Enclave_Whitley</li>
+                </characterDefs>
+                <characterChance>0.20</characterChance>
             </li>
 
             <!--__________ Enclave Traders __________-->
@@ -193,15 +206,20 @@
 
             <!-- Enclave Settlement -->
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Settlement</kindDef>
                 <options>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>10</FCP_Pawnkind_Enclave_Armored_Trooper>
                     <FCP_Pawnkind_Enclave_Trooper>14</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
-                    <FCP_Unique_Pawnkind_President_Richardson>1</FCP_Unique_Pawnkind_President_Richardson>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_Enclave_Dr_Curling</li>
+                    <li>FCP_Character_Enclave_Dr_Holt</li>
+                    <li>FCP_Character_Enclave_Whitley</li>
+                </characterDefs>
+                <characterChance>0.20</characterChance>
             </li>
         </pawnGroupMakers>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>

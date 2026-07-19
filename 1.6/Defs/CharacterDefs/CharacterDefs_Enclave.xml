@@ -13,6 +13,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>950</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -43,6 +46,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -103,6 +109,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>750</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -133,6 +142,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>700</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -163,6 +175,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>650</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -193,6 +208,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>600</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -223,6 +241,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>900</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -253,6 +274,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>850</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->
@@ -283,6 +307,9 @@
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>800</seniority>
+            </li>
         </roles>
         <definitions>
             <!-- Bio -->

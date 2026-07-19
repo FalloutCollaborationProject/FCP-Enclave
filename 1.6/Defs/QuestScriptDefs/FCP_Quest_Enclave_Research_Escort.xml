@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>FCP_Quest_Enclave_Research_Escort</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootMinPoints>150</rootMinPoints>
+        <defaultChallengeRating>2</defaultChallengeRating>
+        <canGiveRoyalFavor>true</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Research Escort</li>
+                <li>questName->Curling's Fieldwork</li>
+                <li>questName->The Doctor's Detail</li>
+                <li>questName->Escorting the Scientist</li>
+                <li>questName->Samples Under Fire</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>requirements->Requirements: escort Dr. Curling to the site and keep him alive while the insurgents are cleared. If he dies, the mission fails even if the site is secured.</li>
+                <li>questDescription->Dr. Curling needs field samples from a site currently held by an armed insurgent cell, and command isn't willing to lose a scientist of his standing to get them. [asker_nameFull] wants outside guns on his detail.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Dr. Curling insists on collecting these samples personally. Insurgents are dug in at the site. Keep him breathing and get his samples back to the lab."\n\n[requirements]</li>
+                <li>questDescription->An insurgent cell has fortified a position Dr. Curling needs access to. [asker_nameFull] is sending him out with an escort - his research matters more than command wants to admit.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] doesn't fully understand what Dr. Curling is after at that site, only that he won't stop asking until someone lets him go get it. Escort him in, clear the insurgents, get him out.\n\n[requirements]</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                    <parms>
+                        <pointsFactorTwoStar>1.3</pointsFactorTwoStar>
+                        <pointsFactorThreeStar>1.7</pointsFactorThreeStar>
+                    </parms>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li>FCP_Faction_Enclave</li>
+                    </factionDefs>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <storeAs>asker</storeAs>
+                    <factionToUse>$askerFaction</factionToUse>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GenerateUniqueCharacterPawn">
+                    <characterDef>FCP_Character_Enclave_Dr_Curling</characterDef>
+                    <addToList>curling</addToList>
+                </li>
+                <li Class="QuestNode_SetAllApparelLocked">
+                    <pawns>$curling</pawns>
+                </li>
+                <li Class="QuestNode_JoinPlayer">
+                    <pawns>$curling</pawns>
+                    <joinPlayer>true</joinPlayer>
+                </li>
+                <li Class="QuestNode_ExtraFaction">
+                    <factionOf>$asker</factionOf>
+                    <pawns>$curling</pawns>
+                    <factionType>HomeFaction</factionType>
+                    <inSignalsRemovePawn>
+                        <li>curling.RanWild</li>
+                    </inSignalsRemovePawn>
+                </li>
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <storeAs>sitePartDefs</storeAs>
+                    <storeFactionAs>siteFaction</storeFactionAs>
+                    <sitePartsTags>
+                        <li>
+                            <tag>FCP_Site_Enclave_Insurgents</tag>
+                        </li>
+                    </sitePartsTags>
+                    <mustBeHostileToFactionOf>$asker</mustBeHostileToFactionOf>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <faction>$siteFaction</faction>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                    <parms>
+                        <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+                    </parms>
+                </li>
+                <li Class="FCP.Core.RadiantQuests.QuestNode_SpawnPawns">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <pawns>$curling</pawns>
+                    <mapParent>$site</mapParent>
+                </li>
+                <li Class="QuestNode_LeaveOnCleanup">
+                    <pawns>$curling</pawns>
+                    <sendStandardLetter>false</sendStandardLetter>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                    <defsToExcludeFromHyperlinks>Human</defsToExcludeFromHyperlinks>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(12,24)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label>Site lost</label>
+                                <text>The insurgents abandoned the position before Dr. Curling's detail arrived, taking or destroying whatever was there. Command is unimpressed.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                                <goodwillChangeAmount>-5</goodwillChangeAmount>
+                                <goodwillChangeFactionOf>$asker</goodwillChangeFactionOf>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_AnyPawnAlive">
+                                <pawns>$curling</pawns>
+                                <node Class="QuestNode_Sequence">
+                                    <nodes>
+                                        <li Class="QuestNode_Letter">
+                                            <letterDef>PositiveEvent</letterDef>
+                                            <label>Samples collected</label>
+                                            <text>The insurgents are dead and Dr. Curling has his samples, already muttering about what he expects to find in them.</text>
+                                        </li>
+                                        <li Class="QuestNode_GiveRewards">
+                                            <parms>
+                                                <allowGoodwill>true</allowGoodwill>
+                                                <allowRoyalFavor>true</allowRoyalFavor>
+                                            </parms>
+                                            <addCampLootReward>true</addCampLootReward>
+                                            <customLetterLabel>Payment from the Enclave</customLetterLabel>
+                                            <customLetterText>Command sends payment for a research escort completed without losing the researcher - rarer than it should be.</customLetterText>
+                                        </li>
+                                        <li Class="QuestNode_End">
+                                            <outcome>Success</outcome>
+                                        </li>
+                                    </nodes>
+                                </node>
+                            </li>
+                            <li Class="QuestNode_Letter">
+                                <label>Curling lost</label>
+                                <letterDef>NegativeEvent</letterDef>
+                                <text>The site is clear, but Dr. Curling didn't survive the insurgents. Whatever he was chasing died with him.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                                <goodwillChangeAmount>-10</goodwillChangeAmount>
+                                <goodwillChangeFactionOf>$asker</goodwillChangeFactionOf>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.Destroyed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label>quest failed: [resolvedQuestName]</label>
+                                <text>The site was abandoned before it could be cleared. Quest [resolvedQuestName] ended.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

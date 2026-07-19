@@ -11,7 +11,6 @@
         <defName>FCP_Unique_Pawnkind_President_Richardson</defName>
         <label>President Richardson</label>
         <defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
-        <factionLeader>true</factionLeader>
         <combatPower>85</combatPower>
         <itemQuality>Excellent</itemQuality>
         <gearHealthRange>0.9~1.0</gearHealthRange>
@@ -79,6 +78,7 @@
         <defName>FCP_Unique_Pawnkind_Colonel_Autumn</defName>
         <label>Colonel Autumn</label>
         <defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
+        <factionLeader>true</factionLeader>
         <combatPower>105</combatPower>
         <itemQuality>Excellent</itemQuality>
         <gearHealthRange>1.0~1.0</gearHealthRange>

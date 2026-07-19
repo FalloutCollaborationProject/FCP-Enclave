@@ -19,10 +19,11 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->An Enclave installation is about to come under fire from an armed insurgent cell. [asker_nameFull] wants reinforcements on site before the attack starts, not after.</li>
-                <li>questDescription->[asker_nameFull]: "Insurgents are massing near one of our installations. Command wants it held, not evacuated. Get there first."</li>
-                <li>questDescription->Intercepted chatter points to an imminent strike on Enclave personnel. [asker_nameFull] wants the position reinforced before the insurgents arrive.</li>
-                <li>questDescription->"Hostiles converging on Enclave-controlled ground. This is not a retreat order." [asker_nameFull] expects the installation defended, whatever it takes.</li>
+                <li>requirements->Requirements: keep at least one Enclave defender alive through the attack. If they're all killed, the installation is lost.</li>
+                <li>questDescription->An Enclave installation is about to come under fire from an armed insurgent cell. [asker_nameFull] wants reinforcements on site before the attack starts, not after.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Insurgents are massing near one of our installations. Command wants it held, not evacuated. Get there first."\n\n[requirements]</li>
+                <li>questDescription->Intercepted chatter points to an imminent strike on Enclave personnel. [asker_nameFull] wants the position reinforced before the insurgents arrive.\n\n[requirements]</li>
+                <li>questDescription->"Hostiles converging on Enclave-controlled ground. This is not a retreat order." [asker_nameFull] expects the installation defended, whatever it takes.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

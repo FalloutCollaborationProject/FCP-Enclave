@@ -19,11 +19,12 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->Signal integrity on one of our listening posts has been dropping for days. [asker_nameFull] traced it to hostiles dug in nearby and wants the sector sterile again.</li>
-                <li>questDescription->[asker_nameFull]: "Hostile contacts within range of a monitoring post. Command wants them gone before it starts affecting reception. Handle it."</li>
-                <li>questDescription->Priority directive: hostile elements detected too close to Enclave infrastructure. [asker_nameFull] expects confirmation the sector's clean, not just quiet.</li>
-                <li>questDescription->"Unauthorized personnel occupying ground near a listening post. This is not a request." That's the whole message from [asker_nameFull], and it's not open to interpretation.</li>
-                <li>questDescription->The Enclave doesn't tolerate squatters near its installations, and [asker_nameFull] isn't in a mood to make exceptions this time.</li>
+                <li>requirements->Requirements: defeat every hostile at the site to sterilize the sector. If they abandon the position before you arrive, there's nothing left to confirm.</li>
+                <li>questDescription->Signal integrity on one of our listening posts has been dropping for days. [asker_nameFull] traced it to hostiles dug in nearby and wants the sector sterile again.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "Hostile contacts within range of a monitoring post. Command wants them gone before it starts affecting reception. Handle it."\n\n[requirements]</li>
+                <li>questDescription->Priority directive: hostile elements detected too close to Enclave infrastructure. [asker_nameFull] expects confirmation the sector's clean, not just quiet.\n\n[requirements]</li>
+                <li>questDescription->"Unauthorized personnel occupying ground near a listening post. This is not a request." That's the whole message from [asker_nameFull], and it's not open to interpretation.\n\n[requirements]</li>
+                <li>questDescription->The Enclave doesn't tolerate squatters near its installations, and [asker_nameFull] isn't in a mood to make exceptions this time.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
