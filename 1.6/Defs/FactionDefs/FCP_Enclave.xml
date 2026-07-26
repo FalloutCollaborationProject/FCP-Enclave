@@ -122,6 +122,7 @@
                     <FCP_Pawnkind_Enclave_Trooper>10</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>8</FCP_Pawnkind_Enclave_Armored_Trooper>
                     <FCP_Pawnkind_Eyebot_Improved MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Eyebot_Improved>
+                    <FCP_Pawnkind_SentryBot_Minigun MayRequire="Rick.FCP.Robotics">3</FCP_Pawnkind_SentryBot_Minigun>
                 </options>
                 <characterDefs>
                     <li>FCP_Character_Enclave_Sergeant_Dornan</li>
@@ -157,6 +158,8 @@
                     <FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Tesla_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>3</FCP_Pawnkind_Enclave_Hellfire_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>2</FCP_Pawnkind_Enclave_Armored_Trooper>
+                    <FCP_Pawnkind_SentryBot_Rocket MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_SentryBot_Rocket>
+                    <FCP_Pawnkind_Mr_Gutsy MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Mr_Gutsy>
                 </options>
                 <characterDefs>
                     <li>FCP_Character_Enclave_President_Richardson</li>
@@ -175,6 +178,8 @@
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_Armored_Trooper>2</FCP_Pawnkind_Enclave_Armored_Trooper>
+                    <FCP_Pawnkind_Eyebot_Improved MayRequire="Rick.FCP.Robotics">3</FCP_Pawnkind_Eyebot_Improved>
+                    <FCP_Pawnkind_Mr_Gutsy MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Mr_Gutsy>
                 </options>
                 <characterDefs>
                     <li>FCP_Character_Enclave_Dr_Curling</li>
@@ -213,6 +218,9 @@
                     <FCP_Pawnkind_Enclave_Trooper>14</FCP_Pawnkind_Enclave_Trooper>
                     <FCP_Pawnkind_Enclave_Power_Armor_Trooper>10</FCP_Pawnkind_Enclave_Power_Armor_Trooper>
                     <FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>5</FCP_Pawnkind_Enclave_MKII_Power_Armor_Trooper>
+                    <FCP_Pawnkind_Eyebot_Improved MayRequire="Rick.FCP.Robotics">3</FCP_Pawnkind_Eyebot_Improved>
+                    <FCP_Pawnkind_Mr_Gutsy MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_Mr_Gutsy>
+                    <FCP_Pawnkind_SentryBot_Minigun MayRequire="Rick.FCP.Robotics">2</FCP_Pawnkind_SentryBot_Minigun>
                 </options>
                 <characterDefs>
                     <li>FCP_Character_Enclave_Dr_Curling</li>
