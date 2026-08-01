@@ -37,7 +37,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>200~300</countRange>
                 </li>
                 <li>
@@ -105,7 +105,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>150~250</countRange>
                 </li>
                 <li>
@@ -141,7 +141,7 @@
     </PawnKindDef>
 
     <!-- Frank Horrigan -->
-    
+
     <!-- <PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Unique_Pawnkind_Frank_Horrigan</defName>
         <label>Frank Horrigan</label>
@@ -179,7 +179,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>200~350</countRange>
                 </li>
                 <li>
@@ -231,7 +231,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>120~200</countRange>
                 </li>
                 <li>
@@ -300,7 +300,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>80~150</countRange>
                 </li>
                 <li>
@@ -369,7 +369,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>80~150</countRange>
                 </li>
                 <li>
@@ -438,7 +438,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>70~130</countRange>
                 </li>
                 <li>
@@ -510,7 +510,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>130~220</countRange>
                 </li>
                 <li>
@@ -582,7 +582,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>110~190</countRange>
                 </li>
                 <li>
@@ -654,7 +654,7 @@
             <skipChance>0.0</skipChance>
             <subOptionsChooseOne>
                 <li>
-                    <thingDef>FCP_Currency_BoS_Scrip</thingDef>
+                    <thingDef>FCP_Currency_Caps</thingDef>
                     <countRange>90~170</countRange>
                 </li>
                 <li>

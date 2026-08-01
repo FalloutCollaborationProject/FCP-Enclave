@@ -323,6 +323,99 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <!-- Clusters and biome configuration -->
+            <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <maxSettlements>4</maxSettlements>
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>BorealForest</li>
+                    <li>TemperateSwamp</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+                <clusterRadius>30</clusterRadius>
+                <namedSettlements>
+                    <!-- Oil Rig -->
+                    <li>
+                        <name>Oil Rig</name>
+                        <oceanPlacement>true</oceanPlacement>
+                        <prefab>FCP_Prefab_OilRig</prefab>
+                        <forcedMapSize>(150,150,0)</forcedMapSize>
+                        <guaranteedCharacters>
+                            <li>FCP_Character_Enclave_President_Richardson</li>
+                            <li>FCP_Character_Enclave_Sergeant_Dornan</li>
+                        </guaranteedCharacters>
+                        <traders>
+                            <li>
+                                <traderName>Dornan's Armory</traderName>
+                                <traderKind>FCP_Trader_OilRig_DornansArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Richardson's Reserve</traderName>
+                                <traderKind>FCP_Trader_OilRig_RichardsonsReserve</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Raven Rock -->
+                    <li>
+                        <name>Raven Rock</name>
+                        <guaranteedCharacters>
+                            <li>FCP_Character_Enclave_Colonel_Autumn</li>
+                            <li>FCP_Character_Enclave_Lt_Col_Vickers</li>
+                            <li>FCP_Character_Enclave_Dr_Curling</li>
+                        </guaranteedCharacters>
+                        <traders>
+                            <li>
+                                <traderName>Autumn's Armory</traderName>
+                                <traderKind>FCP_Trader_RavenRock_AutumnsArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Vickers' Hellfire Depot</traderName>
+                                <traderKind>FCP_Trader_RavenRock_VickersHellfireDepot</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Curling's Laboratory</traderName>
+                                <traderKind>FCP_Trader_RavenRock_CurlingsLaboratory</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Navarro -->
+                    <li>
+                        <name>Navarro</name>
+                        <guaranteedCharacters>
+                            <li>FCP_Character_Enclave_Major_Manderly</li>
+                            <li>FCP_Character_Enclave_Captain_Moreau</li>
+                        </guaranteedCharacters>
+                        <traders>
+                            <li>
+                                <traderName>Manderly's Armory</traderName>
+                                <traderKind>FCP_Trader_Navarro_ManderlysArmory</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Moreau's Hangar</traderName>
+                                <traderKind>FCP_Trader_Navarro_MoreausHangar</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                    <!-- Adams Air Force Base -->
+                    <li>
+                        <name>Adams Air Force Base</name>
+                        <guaranteedCharacters>
+                            <li>FCP_Character_Enclave_Whitley</li>
+                            <li>FCP_Character_Enclave_Dr_Holt</li>
+                        </guaranteedCharacters>
+                        <traders>
+                            <li>
+                                <traderName>Whitley's Hellfire Works</traderName>
+                                <traderKind>FCP_Trader_AdamsAFB_WhitleysHellfireWorks</traderKind>
+                            </li>
+                            <li>
+                                <traderName>Holt's Field Lab</traderName>
+                                <traderKind>FCP_Trader_AdamsAFB_HoltsFieldLab</traderKind>
+                            </li>
+                        </traders>
+                    </li>
+                </namedSettlements>
+            </li>
         </modExtensions>
     </FactionDef>
 
