@@ -288,7 +288,7 @@
                 <countRange>3~6</countRange>
             </li>
 
-            <!--__ Heavy Weapons (Power Armor Infantry) __-->
+            <!--__ Heavy Weapons __-->
 
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
                 <thingDef>FCP_Gun_25MM_Grenade_Launcher</thingDef>

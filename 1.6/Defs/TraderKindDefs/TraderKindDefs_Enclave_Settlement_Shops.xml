@@ -401,7 +401,7 @@
                 <countRange>20~45</countRange>
             </li>
 
-            <!--__ Gas Weapons (Chemical Corps R&D) __-->
+            <!--__ Gas Weapons __-->
 
             <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.ExplosiveWeapons">
                 <thingDefs>
@@ -542,7 +542,7 @@
                 <countRange>3~7</countRange>
             </li>
 
-            <!--__ Resources (Vertibird Ground Crew) __-->
+            <!--__ Resources __-->
 
             <li Class="StockGenerator_SingleDef">
                 <thingDef>Steel</thingDef>
