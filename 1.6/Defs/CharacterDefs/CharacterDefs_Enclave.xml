@@ -14,10 +14,14 @@
         <faction>FCP_Faction_Enclave</faction>
         <roles>
             <li Class="FCP.Core.CharacterRole_FactionLeader">
-                <seniority>950</seniority>
+                <seniority>1000</seniority>
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_President</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Dick</firstName>
@@ -47,10 +51,14 @@
         <faction>FCP_Faction_Enclave</faction>
         <roles>
             <li Class="FCP.Core.CharacterRole_FactionLeader">
-                <seniority>1000</seniority>
+                <seniority>920</seniority>
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_Colonel</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Augustus</firstName>
@@ -73,24 +81,24 @@
 
     <!-- Frank Horrigan -->
 
-    <!-- <FCP.Core.CharacterDef>
+    <FCP.Core.CharacterDef>
         <defName>FCP_Character_Enclave_Frank_Horrigan</defName>
         <pawnKind>FCP_Unique_Pawnkind_Frank_Horrigan</pawnKind>
         <xenotype>Baseliner</xenotype>
         <faction>FCP_Faction_Enclave</faction>
         <roles>
         </roles>
-        <definitions> -->
+        <definitions>
             <!-- Bio -->
-            <!-- <li Class="FCP.Core.CharacterStoryDefinition">
+            <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Frank</firstName>
                 <lastName>Horrigan</lastName>
                 <nickname>Frank Horrigan</nickname>
                 <gender>Male</gender>
                 <age>52</age>
-            </li> -->
+            </li>
             <!-- Appearance -->
-            <!-- <li Class="FCP.Core.CharacterAppearanceDefinition">
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(60, 50, 40)</hairColor>
                 <hairDef>FCP_Hair_Buzz_Cut</hairDef>
                 <beardDef>NoBeard</beardDef>
@@ -99,7 +107,74 @@
                 <bodyTypeDef>Hulk</bodyTypeDef>
             </li>
         </definitions>
-    </FCP.Core.CharacterDef> -->
+    </FCP.Core.CharacterDef>
+
+    <!-- John Henry Eden -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Enclave_President_Eden</defName>
+        <pawnKind>FCP_Unique_Pawnkind_President_Eden</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Enclave</faction>
+        <roles>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>John</firstName>
+                <lastName>Eden</lastName>
+                <nickname>President Eden</nickname>
+                <gender>Male</gender>
+                <age>67</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(190, 190, 190)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(180, 195, 180)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!-- Dr. Schreber -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_Enclave_Dr_Schreber</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Dr_Schreber</pawnKind>
+        <xenotype>Baseliner</xenotype>
+        <faction>FCP_Faction_Enclave</faction>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>675</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_SeniorResearcher</tier>
+            </li>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName />
+                <lastName>Schreber</lastName>
+                <nickname>Dr. Schreber</nickname>
+                <gender>Male</gender>
+                <age>58</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(140, 135, 130)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(200, 175, 150)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
 
     <!-- Sergeant Arch Dornan -->
 
@@ -114,6 +189,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_Sergeant</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Arch</firstName>
@@ -147,6 +226,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_ChiefScientist</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Charles</firstName>
@@ -180,6 +263,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_Researcher</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Anna</firstName>
@@ -246,6 +333,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_LieutenantColonel</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Nathan</firstName>
@@ -279,6 +370,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_Major</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Thomas</firstName>
@@ -312,6 +407,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_Enclave_Captain</tier>
+            </li>
             <!-- Bio -->
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Elizabeth</firstName>

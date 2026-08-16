@@ -120,7 +120,7 @@
         <texture>World/WorldObjects/Caravan</texture>
         <useDynamicDrawer>true</useDynamicDrawer>
         <expandingIcon>true</expandingIcon>
-        <expandingIconTexture>Things/Vehicles/Shuttles</expandingIconTexture>
+        <expandingIconTexture>Things/Vehicles/Shuttles/EnclaveVertibird/Enclave_Vertibird</expandingIconTexture>
         <expandingIconPriority>60</expandingIconPriority>
         <expandMore>true</expandMore>
         <expandingIconDrawSize>1.6</expandingIconDrawSize>

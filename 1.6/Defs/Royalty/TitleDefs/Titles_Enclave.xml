@@ -20,6 +20,33 @@
         <permitPointsAwarded>1</permitPointsAwarded>
     </RoyalTitleDef>
 
+    <!-- Corporal -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Enclave_Corporal</defName>
+        <label>Corporal</label>
+        <description>Privates who have proven reliable enough to be trusted with a fire team. The first rung toward the Enclave's non-commissioned officer corps.</description>
+        <tags>
+            <li>FCP_Title_Enclave</li>
+        </tags>
+        <seniority>150</seniority>
+        <favorCost>4</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Enclave_Power_Armor</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
     <!-- Sergeant -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
@@ -104,6 +131,62 @@
         <permitPointsAwarded>4</permitPointsAwarded>
     </RoyalTitleDef>
 
+    <!-- Major -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Enclave_Major</defName>
+        <label>Major</label>
+        <description>Field-grade officers who coordinate multiple companies and answer directly to a Lieutenant Colonel. Majors handle the logistics that keep a base functioning between engagements.</description>
+        <tags>
+            <li>FCP_Title_Enclave</li>
+        </tags>
+        <seniority>1000</seniority>
+        <favorCost>13</favorCost>
+        <changeHeirQuestPoints>2100</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Enclave_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Lieutenant Colonel -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Enclave_Lieutenant_Colonel</defName>
+        <label>Lieutenant Colonel</label>
+        <description>Second-in-command at a major installation, trusted to run day-to-day operations while the Colonel handles strategy above them.</description>
+        <tags>
+            <li>FCP_Title_Enclave</li>
+        </tags>
+        <seniority>1100</seniority>
+        <favorCost>13</favorCost>
+        <changeHeirQuestPoints>2300</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Enclave_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
     <!-- Colonel -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
@@ -116,6 +199,88 @@
         <seniority>1200</seniority>
         <favorCost>14</favorCost>
         <changeHeirQuestPoints>2500</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Enclave_Apparel</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>5</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Researcher -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Enclave_Researcher</defName>
+        <label>Researcher</label>
+        <description>Enclave scientists assigned to weapons and biological research. Researchers keep the organization's technological edge sharp, working in labs most Enclave soldiers never see the inside of.</description>
+        <tags>
+            <li>FCP_Title_Enclave</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1500</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Senior Researcher -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Enclave_Senior_Researcher</defName>
+        <label>Senior Researcher</label>
+        <description>Senior Researchers lead their own projects and answer directly to the Chief Scientist for what gets funded and what gets shelved.</description>
+        <tags>
+            <li>FCP_Title_Enclave</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>2000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Chief Scientist -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Enclave_Chief_Scientist</defName>
+        <label>Chief Scientist</label>
+        <description>The Chief Scientist runs every lab the Enclave operates, trusted with research that could win or lose the war on its own.</description>
+        <tags>
+            <li>FCP_Title_Enclave</li>
+        </tags>
+        <seniority>1100</seniority>
+        <favorCost>13</favorCost>
+        <changeHeirQuestPoints>2300</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- President -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_Enclave_President</defName>
+        <label>President</label>
+        <description>The President sits at the head of what remains of the old government, the final word on every order given in the Enclave's name.</description>
+        <tags>
+            <li>FCP_Title_Enclave</li>
+        </tags>
+        <seniority>1400</seniority>
+        <favorCost>15</favorCost>
+        <changeHeirQuestPoints>3000</changeHeirQuestPoints>
         <commonality>1</commonality>
         <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
         <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>

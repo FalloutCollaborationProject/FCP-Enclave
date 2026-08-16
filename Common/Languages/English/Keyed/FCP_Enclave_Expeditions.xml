@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Expedition Return Flavor Text __________-->
+
+	<!-- Novice -->
+
+	<FCP_Rank_Expedition_Enclave_Novice_1>{PAWN} swept the perimeter, logged a handful of ghoul sightings, and confirmed the fence line was still holding.</FCP_Rank_Expedition_Enclave_Novice_1>
+	<FCP_Rank_Expedition_Enclave_Novice_2>{PAWN} tracked a raider scouting party back to their camp and reported the coordinates for follow-up.</FCP_Rank_Expedition_Enclave_Novice_2>
+	<FCP_Rank_Expedition_Enclave_Novice_3>{PAWN} pulled a cache of pre-War salvage out of a collapsed bunker before anyone else could find it.</FCP_Rank_Expedition_Enclave_Novice_3>
+	<FCP_Rank_Expedition_Enclave_Novice_4>{PAWN} spent the patrol chasing off looters who'd gotten too close to a sensor station.</FCP_Rank_Expedition_Enclave_Novice_4>
+
+	<!-- Veteran -->
+
+	<FCP_Rank_Expedition_Enclave_Veteran_1>{PAWN} cleared a mutant nest that had been growing too close to a supply route and burned the rest for good measure.</FCP_Rank_Expedition_Enclave_Veteran_1>
+	<FCP_Rank_Expedition_Enclave_Veteran_2>{PAWN} tracked down a cell of wasteland holdouts and brought the operation to a clean end.</FCP_Rank_Expedition_Enclave_Veteran_2>
+	<FCP_Rank_Expedition_Enclave_Veteran_3>{PAWN} spent the mission surveying contested ground, marking it fit for the next installation.</FCP_Rank_Expedition_Enclave_Veteran_3>
+	<FCP_Rank_Expedition_Enclave_Veteran_4>{PAWN} came back with a dented breastplate and a full report on enemy movements.</FCP_Rank_Expedition_Enclave_Veteran_4>
+
+	<!-- Elite -->
+
+	<FCP_Rank_Expedition_Enclave_Elite_1>{PAWN} went in alone where a squad would have tripped every sensor in the sector, and came out clean.</FCP_Rank_Expedition_Enclave_Elite_1>
+	<FCP_Rank_Expedition_Enclave_Elite_2>{PAWN} ran the operation exactly to spec, in, neutralize the threat, out before anyone noticed.</FCP_Rank_Expedition_Enclave_Elite_2>
+	<FCP_Rank_Expedition_Enclave_Elite_3>{PAWN} spent the better part of two weeks off the grid and returned with data the labs have been waiting on for months.</FCP_Rank_Expedition_Enclave_Elite_3>
+	<FCP_Rank_Expedition_Enclave_Elite_4>{PAWN} didn't say much about what happened out there, just filed the report and requested new orders.</FCP_Rank_Expedition_Enclave_Elite_4>
+
+	<!-- Sentinel -->
+
+	<FCP_Rank_Expedition_Enclave_Sentinel_1>{PAWN} pushed past the edge of any territory the Enclave holds, charting ground for the next installation.</FCP_Rank_Expedition_Enclave_Sentinel_1>
+	<FCP_Rank_Expedition_Enclave_Sentinel_2>{PAWN} came back from unclaimed land with a full survey and word of a region ready to fall under Enclave control.</FCP_Rank_Expedition_Enclave_Sentinel_2>
+	<FCP_Rank_Expedition_Enclave_Sentinel_3>{PAWN} spent nearly two weeks beyond contact and returned with intelligence the President will want to hear personally.</FCP_Rank_Expedition_Enclave_Sentinel_3>
+	<FCP_Rank_Expedition_Enclave_Sentinel_4>{PAWN} walked back through the checkpoint carrying proof of what was found at the edge of the map, dust and scorched metal in equal measure.</FCP_Rank_Expedition_Enclave_Sentinel_4>
+
+</LanguageData>

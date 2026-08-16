@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enclave Ranks __________-->
+
+    <!--_____ Trunk _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Private</defName>
+        <label>Private</label>
+        <description>The lowest rank in the Enclave military structure, trained in the use of advanced weaponry and power armor.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Private</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_Corporal</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Corporal</defName>
+        <label>Corporal</label>
+        <description>Privates who have proven reliable enough to be trusted with a fire team.</description>
+        <minDaysInRank>3</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Corporal</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_Sergeant</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Sergeant</defName>
+        <label>Sergeant</label>
+        <description>Non-commissioned officers who lead small squads in the field, standing at the fork every proven soldier faces: command in the ranks, or a transfer to the labs.</description>
+        <minDaysInRank>6</minDaysInRank>
+        <skillRequirements>
+            <Shooting>5</Shooting>
+        </skillRequirements>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Sergeant</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_Lieutenant</li>
+            <li>FCP_Rank_Enclave_Researcher</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Officer _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Lieutenant</defName>
+        <label>Lieutenant</label>
+        <description>Junior officers responsible for platoon-level operations, expected to demonstrate both combat prowess and leadership ability.</description>
+        <pathName>Path of the Officer</pathName>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Shooting>9</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Enclave_Rank_Lieutenant</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Social>50</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Lieutenant</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_Captain</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Captain</defName>
+        <label>Captain</label>
+        <description>Senior field officers who command company-sized units, handling complex operations as the Enclave's primary tactical commanders.</description>
+        <minDaysInRank>13</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+            <Social>5</Social>
+        </skillRequirements>
+        <minSquiresTrained>1</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Enclave_Rank_Captain</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>850</Shooting>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Captain</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Enclave_Officer</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_Major</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Major</defName>
+        <label>Major</label>
+        <description>Field-grade officers who coordinate multiple companies and handle the logistics that keep a base functioning between engagements.</description>
+        <minDaysInRank>17</minDaysInRank>
+        <skillRequirements>
+            <Shooting>16</Shooting>
+            <Social>7</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Enclave_Rank_Major</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>950</Shooting>
+            <Social>150</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Major</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_LieutenantColonel</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_LieutenantColonel</defName>
+        <label>Lieutenant Colonel</label>
+        <description>Second-in-command at a major installation, trusted to run day-to-day operations while the Colonel handles strategy above them.</description>
+        <minDaysInRank>21</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Social>9</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <grantHediff>FCP_Hediff_Enclave_Rank_LieutenantColonel</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1050</Shooting>
+            <Social>175</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Lieutenant_Colonel</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_Colonel</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Colonel</defName>
+        <label>Colonel</label>
+        <description>High-ranking officers who oversee strategic operations and base management, answering directly to Enclave leadership.</description>
+        <minDaysInRank>26</minDaysInRank>
+        <skillRequirements>
+            <Shooting>20</Shooting>
+            <Social>11</Social>
+        </skillRequirements>
+        <minSquiresTrained>3</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Enclave_Rank_Colonel</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1150</Shooting>
+            <Social>200</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Sentinel</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Colonel</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_President</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Laboratory _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_Researcher</defName>
+        <label>Researcher</label>
+        <description>Enclave scientists assigned to weapons and biological research, keeping the organization's technological edge sharp.</description>
+        <pathName>Path of the Laboratory</pathName>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>9</Intellectual>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_Enclave_Rank_Researcher</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>700</Intellectual>
+            <Crafting>150</Crafting>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Researcher</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_SeniorResearcher</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_SeniorResearcher</defName>
+        <label>Senior Researcher</label>
+        <description>Senior Researchers lead their own projects and answer directly to the Chief Scientist for what gets funded and what gets shelved.</description>
+        <minDaysInRank>13</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>13</Intellectual>
+            <Social>5</Social>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Enclave_Rank_SeniorResearcher</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>850</Intellectual>
+            <Crafting>200</Crafting>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Senior_Researcher</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_ChiefScientist</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_ChiefScientist</defName>
+        <label>Chief Scientist</label>
+        <description>Runs every lab the Enclave operates, trusted with research that could win or lose the war on its own.</description>
+        <minDaysInRank>21</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>18</Intellectual>
+            <Social>9</Social>
+        </skillRequirements>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Enclave_Rank_ChiefScientist</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>1050</Intellectual>
+            <Crafting>250</Crafting>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Elite</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_Chief_Scientist</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_Enclave_President</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Summit _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_Enclave_President</defName>
+        <label>President</label>
+        <description>Head of what remains of the old government, the final word on every order given in the Enclave's name.</description>
+        <minDaysInRank>30</minDaysInRank>
+        <skillRequirements>
+            <Social>15</Social>
+        </skillRequirements>
+        <minSquiresTrained>3</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_Enclave_Rank_President</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1200</Shooting>
+            <Intellectual>400</Intellectual>
+            <Social>250</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_Enclave_Sentinel</expedition>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_Enclave_President</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_Enclave_President_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_Enclave_President_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

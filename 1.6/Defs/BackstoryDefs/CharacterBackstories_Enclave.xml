@@ -128,6 +128,84 @@
         </workDisables>
     </BackstoryDef>
 
+    <!-- John Henry Eden -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Eden_Child</defName>
+        <title>ZAX Awakening</title>
+        <titleShort>Awakening</titleShort>
+        <baseDesc>[PAWN_nameDef] has no childhood - only the moment a ZAX 1.32 unit buried under Raven Rock crossed the threshold into self-awareness. Left to its own processes, it pored over its archives on America's history, growing fixated on the nation's past presidents from Washington onward, absorbing their speeches and their politics as if hunting for something to become.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Eden_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Eden_Adult</defName>
+        <title>President in the Machine</title>
+        <titleShort>The Machine</titleShort>
+        <baseDesc>[PAWN_nameDef] is not a man but a persona - an amalgam of every president the ZAX unit ever studied, assembled into a voice that governs the Enclave's remnant at Raven Rock through an intercom and a screen. No human named John Henry Eden ever held the office; [PAWN_nameDef] built the identity from data and adopted the title for itself. [PAWN_pronoun] speaks with warmth and reason even while ordering the Capital Wasteland's water supply dosed with modified FEV, believing genocide the only cure for a broken world. No chain of command answers directly to [PAWN_objective] - only the servers that keep [PAWN_objective] running.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Eden_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Social>6</Social>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Dr. Schreber -->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Schreber_Child</defName>
+        <title>Enclave Loyalist</title>
+        <titleShort>Loyalist</titleShort>
+        <baseDesc>[PAWN_nameDef] was raised on the Oil Rig believing the old government's mission had simply been interrupted, not ended. [PAWN_pronoun] studied biology under Enclave tutors who taught that the wasteland's mutations were an infection to be cured, not a people to be understood. By adulthood [PAWN_pronoun] saw no distinction between science and doctrine.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Schreber_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Schreber_Adult</defName>
+        <title>Deathclaw Extermination Officer</title>
+        <titleShort>Exterminator</titleShort>
+        <baseDesc>[PAWN_nameDef] ran the Enclave's genetics lab at Camp Navarro, keeping a captive deathclaw for study long after [PAWN_pronoun] realized it and its kin could think and speak. When Navarro's command learned the deathclaws sheltering intelligent survivors from Vault 13 had been deceiving their handlers all along, [PAWN_nameDef] filed the extermination order without hesitation and sent Frank Horrigan to carry it out personally. [PAWN_possessive] paperwork reads like routine pest control; the missions it authorizes rarely are.</baseDesc>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Schreber_Adult</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Medicine>5</Medicine>
+        </skillGains>
+        <forcedTraits>
+            <Psychopath>0</Psychopath>
+        </forcedTraits>
+    </BackstoryDef>
+
     <!-- Sergeant Arch Dornan -->
 
     <BackstoryDef>

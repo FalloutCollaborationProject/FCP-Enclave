@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enclave Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_Enclave_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <!--_____ Path of the Officer _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_Lieutenant</defName>
+        <label>Lieutenant training</label>
+        <description>Platoon-level command experience with advanced weaponry and power armor.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_Captain</defName>
+        <label>Captain training</label>
+        <description>Command of a company-sized unit and its tactical operations.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.08</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_Major</defName>
+        <label>Major training</label>
+        <description>Coordination of multiple companies and the logistics that keep a base running.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+                    <SocialImpact>0.1</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_LieutenantColonel</defName>
+        <label>Lieutenant Colonel training</label>
+        <description>Second-in-command experience running a major installation.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                    <SocialImpact>0.12</SocialImpact>
+                    <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_Colonel</defName>
+        <label>Colonel training</label>
+        <description>Strategic command over an entire installation, answering directly to Enclave leadership.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>9</ShootingAccuracyPawn>
+                    <SocialImpact>0.14</SocialImpact>
+                    <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Path of the Laboratory _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_Researcher</defName>
+        <label>Researcher training</label>
+        <description>Weapons and biological research keeping the Enclave's technological edge sharp.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.06</ResearchSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_SeniorResearcher</defName>
+        <label>Senior Researcher training</label>
+        <description>Leadership over independent research projects.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.12</ResearchSpeed>
+                    <SocialImpact>0.05</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_ChiefScientist</defName>
+        <label>Chief Scientist training</label>
+        <description>Runs every lab the Enclave operates.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ResearchSpeed>0.2</ResearchSpeed>
+                    <SocialImpact>0.1</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Summit _____-->
+
+    <HediffDef ParentName="FCP_Hediff_Enclave_RankBase">
+        <defName>FCP_Hediff_Enclave_Rank_President</defName>
+        <label>Presidential authority</label>
+        <description>The final word on every order given in the Enclave's name.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                    <ResearchSpeed>0.12</ResearchSpeed>
+                    <SocialImpact>0.16</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- President Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Enclave_President_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the President's presence</label>
+        <description>The President commands from the field. Nearby Enclave personnel operate with steadier hands.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- President Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_Enclave_President_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>The President has called the Enclave to arms. A surge of speed and discipline answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

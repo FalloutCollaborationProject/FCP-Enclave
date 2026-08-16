@@ -21,7 +21,8 @@
 	<FCP_Enclave_Missions_Desc>Task descriptions</FCP_Enclave_Missions_Desc>
 	<FCP_Enclave_Menu_Missions_Desc>While leaving the HQ you ask around about any potential tasks that need doing.</FCP_Enclave_Menu_Missions_Desc>
 	<FCP_Enclave_Menu_Missions_Select_Quest>Select a Task: </FCP_Enclave_Menu_Missions_Select_Quest>
-	<FCP_Enclave_Menu_Missions_Start_Quest>Start Task ({0})</FCP_Enclave_Menu_Missions_Start_Quest>
+	<FCP_Enclave_Menu_Missions_Start_Quest>Accept Task</FCP_Enclave_Menu_Missions_Start_Quest>
+	<FCP_Enclave_Menu_Missions_Collect_Bounty>Collect Reward</FCP_Enclave_Menu_Missions_Collect_Bounty>
 	<FCP_Cancel>Cancel</FCP_Cancel>
 	<FCP_Enclave_Not_Enough_Money>Not enough money</FCP_Enclave_Not_Enough_Money>
 

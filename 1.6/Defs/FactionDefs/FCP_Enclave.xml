@@ -22,7 +22,7 @@
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>President</leaderTitle>
         <fixedLeaderKinds>
-            <li>FCP_Unique_Pawnkind_Colonel_Autumn</li>
+            <li>FCP_Unique_Pawnkind_President_Richardson</li>
         </fixedLeaderKinds>
         <factionIconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</factionIconPath>
         <techLevel>Industrial</techLevel>
@@ -305,6 +305,14 @@
                         <preceptDef>IdeoRole_Leader</preceptDef>
                         <disableApparelRequirements>true</disableApparelRequirements>
                     </li>
+                    <li>
+                        <preceptDef>FCP_Precept_Role_EnclaveOfficer</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Enclave_Officer</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
                 </roleOverrides>
             </li>
             <!-- Enlistment stuff -->
@@ -313,6 +321,12 @@
                     <li>FCP_Enlistment_Enclave</li>
                 </enlistOptionsDefs>
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
+            <!-- Rank track -->
+            <li Class="FCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>FCP_RankTrack_Enclave</li>
+                </rankTracks>
             </li>
             <!-- Make them unable to use drop pods -->
             <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">

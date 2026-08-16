@@ -15,6 +15,10 @@
             </playerFaction>
             <parts>
 
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
+
                 <!-- Config pages -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
@@ -141,9 +145,10 @@
                 </li>
                 
                 <!-- Game conditions -->
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
-                    <text>Your Enclave team has landed in this remote area to establish a new outpost. With your advanced technology and pure American genetics, you must civilize this wasteland and eliminate the mutant threats that plague the region.\n\nRemember: America's future depends on genetic purity and technological superiority. The Enclave will rise again!</text>
+                    <title>Directive 7</title>
+                    <text>It is the year [FCP_Year]. Your team has set down at the designated coordinates, out of contact with Command and running on a directive that's already a few years stale.\n\nStanding orders: establish the outpost, catalog the local threat, and hold the line until further instruction arrives. Whether that instruction ever comes is somebody else's problem.\n\n"This is a broadcast for all Enclave personnel. The chain of command endures. The mission endures. You represent the last legitimate government of the United States - act like it."\n\n-Recorded Enclave Radio transmission, origin unconfirmed</text>
                     <closeSound>GameStartSting</closeSound>
                 </li>
                 

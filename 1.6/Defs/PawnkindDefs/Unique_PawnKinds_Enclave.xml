@@ -142,7 +142,7 @@
 
     <!-- Frank Horrigan -->
 
-    <!-- <PawnKindDef ParentName="FCP_EnclavekindBase">
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
         <defName>FCP_Unique_Pawnkind_Frank_Horrigan</defName>
         <label>Frank Horrigan</label>
         <defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
@@ -151,8 +151,6 @@
         <gearHealthRange>1.0~1.0</gearHealthRange>
         <apparelRequired>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-            <li>FCP_Apparel_Enclave_Jumpsuit</li>
-            <li>FCP_Apparel_Enclave_Officer_Coat</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Advanced_Power_Armor_MkII</li>
             <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Enclave_Advanced_Power_Armor_MkII_Helmet</li>
         </apparelRequired>
@@ -192,7 +190,108 @@
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
-    </PawnKindDef> -->
+    </PawnKindDef>
+
+    <!-- John Henry Eden -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Unique_Pawnkind_President_Eden</defName>
+        <label>President Eden</label>
+        <defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
+        <combatPower>15</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Officer_Coat</li>
+        </apparelRequired>
+        <weaponMoney>0</weaponMoney>
+        <initialWillRange>4~5</initialWillRange>
+        <initialResistanceRange>10~15</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Eden_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Eden_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>60~120</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Dr. Schreber -->
+
+    <PawnKindDef ParentName="FCP_EnclavekindBase">
+        <defName>FCP_Unique_Pawnkind_Dr_Schreber</defName>
+        <label>Dr. Schreber</label>
+        <defaultFactionDef>FCP_Faction_Enclave</defaultFactionDef>
+        <combatPower>36</combatPower>
+        <itemQuality>Excellent</itemQuality>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_Enclave_Scientist_Outfit</li>
+            <li>FCP_Apparel_Enclave_Scientist_Boots</li>
+            <li>FCP_Apparel_Enclave_Scientist_Glove</li>
+        </apparelRequired>
+        <weaponMoney>1200~1400</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+        </weaponTags>
+        <initialWillRange>5~6</initialWillRange>
+        <initialResistanceRange>20~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Schreber_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Character_Backstory_Schreber_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <inventoryOptions>
+            <skipChance>0.0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>80~140</countRange>
+                </li>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_Stimpak</thingDef>
+                    <countRange>3~5</countRange>
+                </li>
+                <li MayRequire="Rick.FCP.Chems">
+                    <thingDef>FCP_Chem_MedX</thingDef>
+                    <countRange>2~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
 
     <!-- Sergeant Arch Dornan -->
     
