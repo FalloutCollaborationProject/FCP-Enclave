@@ -56,7 +56,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>2~3</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -124,7 +124,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>2~3</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -349,7 +349,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>1~2</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -418,7 +418,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>2~3</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -487,7 +487,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>2~3</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -556,7 +556,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>2~3</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -628,7 +628,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>2~3</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -700,7 +700,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>2~3</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>
@@ -772,7 +772,7 @@
                     <thingDef>FCP_Chem_MedX</thingDef>
                     <countRange>1~2</countRange>
                 </li>
-                <li MayRequire="Rick.FCP.WastelandFood">
+                <li MayRequire="Rick.FCP.PreWarFood">
                     <thingDef>FCP_Food_Cram</thingDef>
                     <countRange>3~5</countRange>
                 </li>

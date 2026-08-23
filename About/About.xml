@@ -18,8 +18,13 @@
         </li>
         <li>
             <packageId>Rick.FCP.PowerArmor</packageId>
-            <displayName>FCP - Power Armors</displayName>
+            <displayName>FCP - Power Armor</displayName>
             <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-PowerArmor</downloadUrl>
+        </li>
+        <li>
+            <packageId>Rick.FCP.EnergyWeapons</packageId>
+            <displayName>FCP - Energy Weapons</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-EnergyWeapons</downloadUrl>
         </li>
     </modDependencies>
     <loadAfter>

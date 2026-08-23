@@ -357,6 +357,7 @@
                         <guaranteedCharacters>
                             <li>FCP_Character_Enclave_President_Richardson</li>
                             <li>FCP_Character_Enclave_Sergeant_Dornan</li>
+                            <li>FCP_Character_Enclave_Frank_Horrigan</li>
                         </guaranteedCharacters>
                         <traders>
                             <li>
@@ -376,6 +377,7 @@
                             <li>FCP_Character_Enclave_Colonel_Autumn</li>
                             <li>FCP_Character_Enclave_Lt_Col_Vickers</li>
                             <li>FCP_Character_Enclave_Dr_Curling</li>
+                            <li>FCP_Character_Enclave_President_Eden</li>
                         </guaranteedCharacters>
                         <traders>
                             <li>
