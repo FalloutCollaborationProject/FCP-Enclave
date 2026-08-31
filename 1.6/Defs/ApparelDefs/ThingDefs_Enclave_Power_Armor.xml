@@ -53,6 +53,7 @@
             </layers>
             <tags>
                 <li>FCP_Enclave_Power_Armor</li>
+                <li>FCP_Enclave_Advanced_Power_Armor</li>
             </tags>
             <defaultOutfitTags>
                 <li>Worker</li>
@@ -132,6 +133,7 @@
             </layers>
             <tags>
                 <li>FCP_Enclave_Advanced_Power_Armor_MkII</li>
+                <li>FCP_Enclave_Power_Armor</li>
             </tags>
             <defaultOutfitTags>
                 <li>Worker</li>
@@ -212,6 +214,7 @@
             </layers>
             <tags>
                 <li>FCP_Enclave_X02_Power_Armor</li>
+                <li>FCP_Enclave_Power_Armor</li>
             </tags>
             <defaultOutfitTags>
                 <li>Worker</li>
@@ -292,6 +295,7 @@
             </layers>
             <tags>
                 <li>FCP_Enclave_X02_Tesla_Power_Armor</li>
+                <li>FCP_Enclave_Power_Armor</li>
             </tags>
             <defaultOutfitTags>
                 <li>Worker</li>
@@ -372,6 +376,7 @@
             </layers>
             <tags>
                 <li>FCP_Enclave_Hellfire_Power_Armor</li>
+                <li>FCP_Enclave_Power_Armor</li>
             </tags>
             <defaultOutfitTags>
                 <li>Worker</li>

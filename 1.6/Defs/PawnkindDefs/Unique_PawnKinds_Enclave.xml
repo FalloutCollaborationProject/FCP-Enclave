@@ -19,7 +19,7 @@
         </apparelRequired>
         <weaponMoney>1800~2400</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>7~8</initialWillRange>
         <initialResistanceRange>30~40</initialResistanceRange>
@@ -87,7 +87,7 @@
         </apparelRequired>
         <weaponMoney>2000~2700</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>7~8</initialWillRange>
         <initialResistanceRange>32~42</initialResistanceRange>
@@ -159,7 +159,7 @@
         </forcedTraits>
         <weaponMoney>3000~4000</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Heavy_Weapon</li>
+            <li>FCP_Enclave_Heavy_Weapon</li>
         </weaponTags>
         <initialWillRange>8~9</initialWillRange>
         <initialResistanceRange>40~50</initialResistanceRange>
@@ -252,7 +252,7 @@
         </apparelRequired>
         <weaponMoney>1200~1400</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>20~30</initialResistanceRange>
@@ -312,7 +312,7 @@
         </forcedTraits>
         <weaponMoney>1900~2500</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>6~7</initialWillRange>
         <initialResistanceRange>30~40</initialResistanceRange>
@@ -381,7 +381,7 @@
         </apparelRequired>
         <weaponMoney>1200~1400</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>20~30</initialResistanceRange>
@@ -450,7 +450,7 @@
         </apparelRequired>
         <weaponMoney>1200~1350</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>18~28</initialResistanceRange>
@@ -519,7 +519,7 @@
         </apparelRequired>
         <weaponMoney>1200~1300</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>4~5</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
@@ -591,7 +591,7 @@
         </forcedTraits>
         <weaponMoney>2200~2900</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>6~7</initialWillRange>
         <initialResistanceRange>30~40</initialResistanceRange>
@@ -663,7 +663,7 @@
         </forcedTraits>
         <weaponMoney>1900~2500</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>26~36</initialResistanceRange>
@@ -735,7 +735,7 @@
         </forcedTraits>
         <weaponMoney>1700~2300</weaponMoney>
         <weaponTags>
-            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Enclave_Weapon</li>
+            <li>FCP_Enclave_Weapon</li>
         </weaponTags>
         <initialWillRange>5~6</initialWillRange>
         <initialResistanceRange>24~34</initialResistanceRange>

@@ -47,7 +47,7 @@
                         <thingDef>FCP_Apparel_Enclave_Combat_Armor</thingDef>
                         <countRange>0~2</countRange>
                     </li>
-                    <li>
+                    <li MayRequire="Rick.FCP.PowerArmor">
                         <thingDef>FCP_Apparel_Enclave_Advanced_Power_Armor</thingDef>
                         <countRange>1</countRange>
                         <weight>0.3</weight>

@@ -228,7 +228,7 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Indentured_Servant</defName>
-        <identifier>FCP_Backstory_Enclave_Indentured Servant</identifier>
+        <identifier>FCP_Backstory_Enclave_Indentured_Servant</identifier>
         <slot>Adulthood</slot>
         <title>Indentured Servant</title>
         <titleShort>Indentured Servant</titleShort>
@@ -285,7 +285,7 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_Enclave_Tesla_Soldier</defName>
-        <identifier>FCP_Backstory_Enclave_Tesla Soldier</identifier>
+        <identifier>FCP_Backstory_Enclave_Tesla_Soldier</identifier>
         <slot>Adulthood</slot>
         <title>Enclave Tesla Soldier</title>
         <titleShort>Enclave Tesla Soldier</titleShort>

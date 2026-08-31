@@ -129,11 +129,6 @@
             </li>
 
             <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
-                <thingDef>FCP_Grenade_Pulse</thingDef>
-                <countRange>3~6</countRange>
-            </li>
-
-            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
                 <thingDef>FCP_Grenade_Flashbang</thingDef>
                 <countRange>4~8</countRange>
             </li>
