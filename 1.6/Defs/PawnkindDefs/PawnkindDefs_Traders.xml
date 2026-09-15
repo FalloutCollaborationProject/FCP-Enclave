@@ -23,7 +23,7 @@
         </apparelTags>
         <weaponMoney>1200~2000</weaponMoney>
         <weaponTags MayRequire="Rick.FCP.BallisticWeapons">
-            <li>FCP_Ballistic_Weapon</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>

@@ -185,6 +185,7 @@
                     <li>FCP_Character_Enclave_Dr_Curling</li>
                     <li>FCP_Character_Enclave_Dr_Holt</li>
                     <li>FCP_Character_Enclave_Whitley</li>
+                    <li>FCP_Character_Enclave_Dr_Schreber</li>
                 </characterDefs>
                 <characterChance>0.20</characterChance>
             </li>
@@ -226,6 +227,7 @@
                     <li>FCP_Character_Enclave_Dr_Curling</li>
                     <li>FCP_Character_Enclave_Dr_Holt</li>
                     <li>FCP_Character_Enclave_Whitley</li>
+                    <li>FCP_Character_Enclave_Dr_Schreber</li>
                 </characterDefs>
                 <characterChance>0.20</characterChance>
             </li>
