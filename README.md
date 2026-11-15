@@ -11,3 +11,10 @@ The Enclave broadcast eyebot holotape is a loop of President Eden's Enclave Radi
 ## Notice
 - Portions of the materials used to create this content/mod are trademarks and/or copyrighted works of Bethesda Softworks LLC. All rights reserved by Bethesda. This content/mod is not official and is not endorsed by Bethesda.
 - Portions of the materials used to create this content/mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This content/mod is not official and is not endorsed by Ludeon.
+
+
+Copyright (c) 2026 Ranger Rick. All Rights Reserved.
+
+No part of this mod (code, assets, textures, XML, or text) may be copied,
+modified, redistributed, or reuploaded without prior written permission
+from the author.
