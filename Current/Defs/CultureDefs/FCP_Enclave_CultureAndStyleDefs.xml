@@ -69,7 +69,6 @@
         <iconPath>World_Icon/Enclave_Icon/FCP_Enclave_World_Icon</iconPath>
         <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
         <thingDefStyles>
-            <!-- Placeholder for Enclave-specific styles. Add detailed style definitions here. -->
         </thingDefStyles>
     </StyleCategoryDef>
 
